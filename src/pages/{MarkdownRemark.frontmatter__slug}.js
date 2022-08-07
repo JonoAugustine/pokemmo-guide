@@ -1,18 +1,29 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Row, Col } from 'react-bootstrap'
 import { Page } from '../components/Page'
 import { PageTitle } from '../components/PageTitle'
 import { SEO } from '../components/SEO'
 
 export default function Template({ data }) {
-    const { frontmatter, html } = data.markdownRemark
+    console.log(data)
+    const { frontmatter, html, tableOfContents } = data.markdownRemark
     return (
         <Page>
             <PageTitle credits={frontmatter.credits}>{frontmatter.title}</PageTitle>
-            <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <Row>
+                <Col md={9}>
+                    <div
+                        className="blog-post-content"
+                        dangerouslySetInnerHTML={{ __html: html }}
+                    />
+                </Col>
+                <Col md={3}>
+                    <div
+                        dangerouslySetInnerHTML={{ __html: tableOfContents }}
+                    />
+                </Col>
+            </Row>
         </Page>
     )
 }
@@ -34,6 +45,7 @@ export const pageQuery = graphql`
                     category
                     tags
                 }
+                tableOfContents
             }
         }
     `

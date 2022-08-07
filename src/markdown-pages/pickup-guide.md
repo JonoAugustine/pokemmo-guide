@@ -10,4 +10,15 @@ category:
     - guide
 ---
 
-## TL/DR
+### How Pickup Works
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+When you kill a Pokemon in the wild you have a small chance to receive a random item which changes dependending on the area you are in. You must have a Pokemon w/ Pickup NOT fainted as your first party member.
+
+### Test 
+<span id="test"></span>
