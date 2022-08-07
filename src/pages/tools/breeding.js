@@ -9,7 +9,7 @@ import { BreedingList } from '../../components/BreedingList'
 const Breeding = () => {
     const form = useRef()
     const [isError, setIsError] = useState(false);
-    const [ivs, setIvs] = useState({})
+    const [ivs, setIvs] = useState(false)
 
     const startBreeding = () => {
         const ivs = (({ ivs2, ivs11, ivs10, ivs6, ivs22 }) => ({ ivs2, ivs11, ivs10, ivs6, ivs22 }))(form.current);
@@ -49,7 +49,9 @@ const Breeding = () => {
                 <FormItemBreeding id="ivs22" defValue="spe" ivCountLabel={'Two'} />
             </Form>
             <Button onClick={startBreeding}>Start breeding</Button>
-            <BreedingList ivs={ivs}></BreedingList>
+            {
+                ivs ? <BreedingList ivs={ivs}></BreedingList> : null
+            }
             <Toast bg="danger" show={isError} onClose={() => setIsError(false)} delay={3000} autohide>
                 <Toast.Body>You can't have the same stats in multiple IVs field.</Toast.Body>
             </Toast>
