@@ -7,7 +7,7 @@ const getSavedValue = (key, initialValue) => {
     return initialValue
 }
 
-function useLocalStorage(key, initialValue) {
+export function useLocalStorage(key, initialValue) {
     const [value, setValue] = useState(() => {
         return getSavedValue(key, initialValue)
     })
@@ -21,5 +21,3 @@ function useLocalStorage(key, initialValue) {
 
     return [value, setValue]
 }
-
-export default useLocalStorage

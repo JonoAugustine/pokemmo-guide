@@ -3,8 +3,8 @@ import { Button, Form, Toast, ToastContainer } from 'react-bootstrap'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
 import { SEO } from '../../components/SEO'
-import { FormItemBreeding } from '../../components/FormItemBreeding'
-import { BreedingList } from '../../components/BreedingList'
+import { FormItemBreeding } from '../../components/Breeding/FormItemBreeding'
+import { BreedingList } from '../../components/Breeding/BreedingList'
 
 const Breeding = () => {
     const form = useRef()
@@ -42,11 +42,11 @@ const Breeding = () => {
         <Page>
             <PageTitle>Breeding simulator</PageTitle>
             <Form ref={form} className="d-flex mb-3" style={{ gap: '1.5em' }}>
-                <FormItemBreeding id="ivs2" defValue='hp' ivCountLabel={'Two'} />
-                <FormItemBreeding id="ivs11" defValue='atk' ivCountLabel={'Eleven'} />
-                <FormItemBreeding id="ivs10" defValue="def" ivCountLabel={'Ten'} />
+                <FormItemBreeding id="ivs2" defValue='atk' ivCountLabel={'Two'} />
+                <FormItemBreeding id="ivs11" defValue='hp' ivCountLabel={'Eleven'} />
+                <FormItemBreeding id="ivs10" defValue="spe" ivCountLabel={'Ten'} />
                 <FormItemBreeding id="ivs6" defValue="spdef" ivCountLabel={'Six'} />
-                <FormItemBreeding id="ivs22" defValue="spe" ivCountLabel={'Two'} />
+                <FormItemBreeding id="ivs22" defValue="def" ivCountLabel={'Two'} />
             </Form>
             <Button onClick={startBreeding}>Start breeding</Button>
             {
