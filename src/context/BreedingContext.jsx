@@ -38,11 +38,8 @@ export function BreedingProvider({ children }) {
         return breds;
     }
 
-    const clear = () => setBreds([])
-
     return (
         <BreedingContext.Provider value={{ breds, setAsBred, removeBred }}>
-            <p onClick={clear}>Clear</p>
             {children}
         </BreedingContext.Provider>
     )

@@ -4,7 +4,7 @@ import { BreedingItem } from './BreedingItem'
 export function BreedingRow({ ivs, row, count }) {
 
     return (
-        <div className='d-flex' style={{ gap: '.5rem' }}>
+        <div className='d-flex' style={{ gap: '.2rem' }}>
             {
                 [...Array(count)].map((_, index, array) => {
                     return <BreedingItem
