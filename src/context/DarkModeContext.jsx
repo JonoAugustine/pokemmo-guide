@@ -1,28 +1,34 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
-const DarkModeContext = createContext({})
+const DarkModeContext = createContext({
+    isDark: false,
+    theme: 'dark',
+    toggleDarkMode: () => null
+})
 
 export function useDarkMode() {
     return useContext(DarkModeContext)
 }
 
 export function DarkModeProvider({ children }) {
-    const [isDark, setIsDark] = useLocalStorage('isDark', false);
-    const [theme, setTheme] = useState(() => getTheme());
 
-    function getTheme() {
+    const [isDark, setIsDark] = useLocalStorage('isDark', false);
+    const [theme, setTheme] = useState('dark');
+
+    const getTheme = useCallback(() => {
         if (isDark) return 'dark'
         return 'light'
-    }
+    }, [isDark]);
 
     useEffect(() => {
-        setTheme(() => getTheme());
+        console.log(getTheme());
+        setTheme(() => getTheme())
     }, [isDark])
 
     const toggleDarkMode = () => {
-        console.log(isDark);
+        console.log(isDark)
         setIsDark(!isDark)
     }
 

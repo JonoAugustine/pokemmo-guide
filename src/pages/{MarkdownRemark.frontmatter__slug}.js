@@ -6,7 +6,6 @@ import { PageTitle } from '../components/PageTitle'
 import { SEO } from '../components/SEO'
 
 export default function Template({ data }) {
-    console.log(data)
     const { frontmatter, html, tableOfContents } = data.markdownRemark
     return (
         <Page>

@@ -1,0 +1,23 @@
+.breedingItem {
+    position: relative;
+}
+
+.breedingRows:nth-last-child(1) .breedingTournamentRow{
+    display: none;
+}
+
+.breedingTournamentRow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    background-color: #ddd;
+}
+
+.breedingTournamentCol{
+    position: absolute;
+    top: 50%;
+    height: 3rem;
+    width: 2px;
+    background-color: #ddd;
+}

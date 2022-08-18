@@ -1,10 +1,15 @@
 import React from 'react'
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { Navbar } from "../components/Navbar";
 import { NavigationMenu } from '../components/NavigationMenu'
 import { graphql, useStaticQuery } from 'gatsby';
 
-const NavigationMenuContext = createContext({})
+const NavigationMenuContext = createContext({
+    posts: [],
+    toggleNav: () => null,
+    pageName: 'Homepage',
+    setPageName: () => null
+})
 
 export function useNavigationMenu() {
     return useContext(NavigationMenuContext)

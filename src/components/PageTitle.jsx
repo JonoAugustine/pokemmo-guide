@@ -2,7 +2,7 @@ import React from 'react'
 
 export function PageTitle({ credits, children }) {
     return (
-        <>
+        <div className='mb-3 mt-2'>
             <h1>{children}</h1>
             {
                 credits
@@ -10,7 +10,7 @@ export function PageTitle({ credits, children }) {
                     : false
             }
 
-        </>
+        </div>
 
     )
 }

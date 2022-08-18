@@ -6,6 +6,7 @@ import { useNavigationMenu } from '../context/NavigationMenuContext'
 import { FiSun, FiMoon } from 'react-icons/fi'
 import { Link } from 'gatsby'
 import logo from '../images/logo.png'
+import { Solrock, Lunatone } from '../assets/icons'
 
 export function Navbar() {
     const { isDark, theme, toggleDarkMode } = useDarkMode()
@@ -20,9 +21,9 @@ export function Navbar() {
                 <Link to="/" className='fs-3 mb-0'>
                     <img style={{ width: '2em' }} src={logo} alt="Logo di PokeMMO Guides - Grazie a Joe Kotlan" />
                 </Link>
-                <Button onClick={toggleDarkMode}>
+                <Button className="p-0" onClick={toggleDarkMode} variant={isDark ? 'light' : 'dark'}>
                     {
-                        isDark ? <FiSun /> : <FiMoon />
+                        <img src={isDark ? Solrock : Lunatone} style={{ height: '2.3rem', width: '2.3rem' }} />
                     }
                 </Button>
             </Container>

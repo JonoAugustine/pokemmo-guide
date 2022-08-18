@@ -1,16 +1,52 @@
 import React from 'react'
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
+import { createContext, useContext } from "react";
 
-const BreedingContext = createContext({})
+const DEFAULT_BREDS = []
+const DEFAULT_BREEDING_CONFIG = {
+    ivsCount: 5,
+    nature: false,
+    isBreeding: false,
+    iv: {}
+}
+const BREEDING_FORM_VALUES = {
+    nature: {
+        iv: {
+            5: [2, 11, 10, 6, 2],
+            4: [6, 5, 3, 1, 0],
+            3: [4, 2, 1, 0, 0],
+            2: [2, 1, 0, 0, 0],
+            1: [1, 0, 0, 0, 0]
+        }
+    },
+    random: {
+        iv: {
+            5: [2, 5, 5, 3, 1],
+            4: [2, 3, 2, 1, 0],
+            3: [2, 1, 1, 0, 0],
+            2: [1, 1, 0, 0, 0]
+        }
+    }
+}
+
+const BreedingContext = createContext({
+    breds: DEFAULT_BREDS,
+    setAsBred: () => null,
+    removeBred: () => null,
+    clearBreeding: () => null,
+    breedingConfig: DEFAULT_BREEDING_CONFIG,
+    setBreedingConfig: () => null,
+    BREEDING_FORM_VALUES
+})
 
 export function useBreeding() {
     return useContext(BreedingContext)
 }
 
 export function BreedingProvider({ children }) {
-    const [breds, setBreds] = useLocalStorage('breds', [])
-    const [stats, setStats] = useLocalStorage('stats', []);
+
+    const [breds, setBreds] = useLocalStorage('breds', DEFAULT_BREDS)
+    const [breedingConfig, setBreedingConfig] = useLocalStorage('breedingConfig', DEFAULT_BREEDING_CONFIG);
 
     const setAsBred = ({ row, col }) => {
         const breds = findTreeBreds({ row, col })
@@ -19,7 +55,9 @@ export function BreedingProvider({ children }) {
 
     const removeBred = ({ row, col }) => {
         const breds = findTreeBreds({ row, col })
-        setBreds(prev => prev.filter(val => breds.includes(val)))
+        setBreds(prev => prev.filter(({ row, col }) => {
+            return !breds.some(bred => bred.row === row && bred.col === col)
+        }))
     }
 
     const findTreeBreds = ({ row, col }) => {
@@ -29,20 +67,20 @@ export function BreedingProvider({ children }) {
         for (let i = row - 1; i > 0; i--) {
             delta = delta * 2
             let ending = (col + 1) * delta
-            console.log(`delta ${delta} ending ${ending}`);
             for (let j = 0; j < delta; j++) {
-                console.log(`row ${i} col ${ending - 1 - j}`)
                 breds.push({ row: i, col: ending - 1 - j });
             }
         }
         return breds;
     }
 
-    const clear = () => setBreds([])
+    const clearBreeding = () => {
+        setBreds(DEFAULT_BREDS)
+        setBreedingConfig(DEFAULT_BREEDING_CONFIG)
+    }
 
     return (
-        <BreedingContext.Provider value={{ breds, setAsBred, removeBred }}>
-            <p onClick={clear}>Clear</p>
+        <BreedingContext.Provider value={{ breds, setAsBred, removeBred, clearBreeding, breedingConfig, setBreedingConfig, BREEDING_FORM_VALUES }}>
             {children}
         </BreedingContext.Provider>
     )
