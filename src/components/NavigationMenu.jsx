@@ -24,6 +24,8 @@ export function NavigationMenu({ show, handleClose }) {
                             .filter(item => item.node.frontmatter.tags.includes('utility-pokemon'))
                             .map(({ node }) => <NavLink onClick={handleClose} key={node.id} to={node.frontmatter.slug}>{node.frontmatter.menuTitle}</NavLink>)
                     }
+                    <Nav.Item className="mt-3 mb-2">Tools</Nav.Item>
+                    <NavLink onClick={handleClose} to="/tools/breeding">Breeding Simulator</NavLink>
                     <Nav.Item className='mt-3 mb-2'>Useful resources</Nav.Item>
                     <NavLink target="_blank" to="https://forums.pokemmo.com/">Official Forum</NavLink>
                     <NavLink target="_blank" to="#">PokeMMO Duders Discord</NavLink>

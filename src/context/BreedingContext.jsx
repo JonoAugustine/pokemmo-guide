@@ -73,7 +73,6 @@ export function BreedingProvider({ children }) {
         }
         return breds;
     }
-
     const clearBreeding = () => {
         setBreds(DEFAULT_BREDS)
         setBreedingConfig(DEFAULT_BREEDING_CONFIG)
