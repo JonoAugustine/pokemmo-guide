@@ -1,11 +1,11 @@
 export const IV_COLORS = {
-    hp: '#F15A5A',
-    atk: '#F0C419',
-    def: '#4EBA6F',
-    spdef: '#2D95BF',
-    spatk: '#955BA5',
-    spe: '#6F80DA',
-    nat: 'rgba(0,0,0,0.1)'
+    hp: '#55B651',
+    atk: '#f72533',
+    def: '#f78025',
+    spdef: '#f7e225',
+    spatk: '#e925f7',
+    spe: '#25e2f7',
+    nat: '#333536'
 }
 
 export const IV_STATS = [
