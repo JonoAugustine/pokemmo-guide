@@ -5,7 +5,7 @@ export const IV_COLORS = {
     spdef: '#f7e225',
     spatk: '#e925f7',
     spe: '#25e2f7',
-    nat: '#333536'
+    nat: '#E0F1F4'
 }
 
 export const IV_STATS = [
