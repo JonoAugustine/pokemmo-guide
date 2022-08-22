@@ -38,7 +38,7 @@ export function BreedingItem({ row, index, maxItems, maxRows }) {
                     height: `${baseSize * row + 1}rem`,
                     borderRadius: '10rem',
                     overflow: 'hidden',
-                    opacity: isBred ? '.3' : '1'
+                    border: isBred ? '3px solid' : 'none'
                 }}>
                 {
                     ivSet.map(item => (
