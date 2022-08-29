@@ -5,6 +5,8 @@ import { Page } from '../components/Page'
 import { PageTitle } from '../components/PageTitle'
 import { SEO } from '../components/SEO'
 
+import * as tocStyle from './guide.module.css'
+
 export default function Template({ data }) {
     const { frontmatter, html, tableOfContents } = data.markdownRemark
     return (
@@ -17,7 +19,8 @@ export default function Template({ data }) {
                         dangerouslySetInnerHTML={{ __html: html }}
                     />
                 </Col>
-                <Col md={3}>
+                <Col md={3} className={tocStyle.toc}>
+                    <h3>Quick links</h3>
                     <div
                         dangerouslySetInnerHTML={{ __html: tableOfContents }}
                     />

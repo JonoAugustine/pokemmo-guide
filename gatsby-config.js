@@ -10,12 +10,18 @@ module.exports = {
             options: {
                 "trackingId": "325984560"
             }
-        }, "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+        },
+        "gatsby-plugin-image",
+        "gatsby-plugin-sitemap",
+        {
             resolve: 'gatsby-plugin-manifest',
             options: {
                 "icon": "src/images/logo.png"
             }
-        }, "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+        },
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+        {
             resolve: 'gatsby-source-filesystem',
             options: {
                 "name": "images",
@@ -37,6 +43,14 @@ module.exports = {
                 path: `${__dirname}/src/markdown-pages`,
             },
         },
-        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                tableOfContents: {
+                    heading: null,
+                    maxDepth: 3
+                }
+            }
+        }
     ]
 };

@@ -7,6 +7,7 @@ import { FormItemBreeding } from '../../components/Breeding/FormItemBreeding'
 import { BreedingList } from '../../components/Breeding/BreedingList'
 import { useBreeding } from '../../context/BreedingContext'
 import { Text } from '../../components/Text'
+import { Information } from '../../components/Information'
 
 const Breeding = () => {
     const form = useRef()
@@ -91,6 +92,12 @@ const Breeding = () => {
     return (
         <Page>
             <PageTitle>Breeding simulator</PageTitle>
+            <Information title="How to use the breeding tool">
+                This tool will help you on making your competitive Pokémon easily. <br />
+                Select how many IVs do you want on your Pokémon and choose if you want the nature or not. The calculator will automatically update the required number of 31s required. <br />
+                For example, if you want a 2x31 you will need 2 Pokémon 1x31. If you want a 3x31 you will need 2 Pokémon with 2x31 (4 1x31). <br /><br />
+                So based on the 1x31 you already have fill the last fields of the calculator. If you want a 5x31 with HP, Atk, Def, Sp.Def and Spe and a nature you'll need 2 1x31 of a specific stat, 11 1x31 of another one, 10 1x31, 6 1x31 and 2 1x31. Fill those fields based on the quantity you have on your boxes. <br />
+            </Information>
             <Form ref={form} className="d-flex mb-3 flex-column" style={{ gap: '.5rem' }}>
                 <div className='d-flex' style={{ gap: '1rem' }}>
                     <div className='d-flex flex-column' style={{ gap: '.3rem' }}>

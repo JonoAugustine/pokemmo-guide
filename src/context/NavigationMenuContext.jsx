@@ -27,7 +27,6 @@ export function NavigationMenuProvider({ children }) {
                     node {
                         id
                         tableOfContents
-                        excerpt(pruneLength: 250)
                         frontmatter {
                             date(formatString: "MMMM DD, YYYY")
                             slug
@@ -35,6 +34,7 @@ export function NavigationMenuProvider({ children }) {
                             category
                             tags
                             menuTitle
+                            excerpt
                         }
                     }
                 }
@@ -42,6 +42,7 @@ export function NavigationMenuProvider({ children }) {
         }
     `)
     const posts = data.allMarkdownRemark.edges;
+    console.log(posts);
 
     return (
         <NavigationMenuContext.Provider value={{ posts, toggleNav, pageName, setPageName }}>
