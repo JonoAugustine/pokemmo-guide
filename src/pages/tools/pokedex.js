@@ -2,12 +2,12 @@ import React from 'react'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
 
-const Shiny = () => {
+const Pokedex = () => {
     return (
         <Page>
-            <PageTitle>Shiny Counter</PageTitle>
+            <PageTitle>Pokedex</PageTitle>
         </Page>
     )
 }
 
-export default Shiny
+export default Pokedex

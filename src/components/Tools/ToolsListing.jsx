@@ -8,11 +8,6 @@ const TOOLS = [
         label: 'Breeding',
         url: '/tools/breeding',
         icon: EggIcon
-    },
-    {
-        label: 'Shiny Counter',
-        url: '/tools/shiny',
-        icon: ShinyIcon
     }
 ]
 

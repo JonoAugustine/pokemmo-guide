@@ -55,7 +55,16 @@ module.exports = {
                 tableOfContents: {
                     heading: null,
                     maxDepth: 3
-                }
+                },
+                plugins: [
+                    {
+                        resolve: "gatsby-remark-external-links",
+                        options: {
+                            target: "_blank",
+                            rel: "nofollow norel"
+                        }
+                    }
+                ]
             }
         }
     ]
