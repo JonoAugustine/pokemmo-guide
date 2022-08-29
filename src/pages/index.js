@@ -4,11 +4,9 @@ import { Page } from '../components/Page'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { SEO } from "../components/SEO"
 import { ToolsListing } from "../components/Tools/ToolsListing"
-import { pokedex } from '../data/pokedex'
 
 const IndexPage = () => {
 
-    console.log(pokedex)
     return (
         <Page>
             <div className="mb-3">
