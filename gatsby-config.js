@@ -6,9 +6,15 @@ module.exports = {
     },
     plugins: [
         {
-            resolve: 'gatsby-plugin-google-analytics',
+            resolve: 'gatsby-plugin-google-gtag',
             options: {
-                "trackingId": "325984560"
+                trackingIds: [
+                    "G-KW8TM1VBRZ"
+                ],
+                gtagConfig: {
+                    anonymize_ip: true,
+                    cookie_expires: 0,
+                },
             }
         },
         "gatsby-plugin-image",
