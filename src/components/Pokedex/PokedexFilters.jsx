@@ -38,6 +38,7 @@ const getAllFilterableValues = () => {
 export const PokedexFilters = ({ onFilters }) => {
     const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [pokedex])
     const [filters, setFilters] = useLocalStorage('dexFilters', DEFAULT_FILTERS)
+    if (!filters) return;
 
     useEffect(() => {
         onFilters(filters)
