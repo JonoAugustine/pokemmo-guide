@@ -28,7 +28,7 @@ export function NavigationMenu({ show, handleClose }) {
                     <NavLink onClick={handleClose} to="/tools/breeding">Breeding Simulator</NavLink>
                     <Nav.Item className='mt-3 mb-2'>Useful resources</Nav.Item>
                     <NavLink target="_blank" to="https://forums.pokemmo.com/">Official Forum</NavLink>
-                    <NavLink target="_blank" to="#">PokeMMO Duders Discord</NavLink>
+                    <NavLink target="_blank" to="https://discord.com/invite/7DnX2g7kTD">PokeMMO Duders Discord</NavLink>
                     <NavLink target="_blank" to="https://www.youtube.com/c/patrouski/videos" >Patrouski Youtube Channel</NavLink>
                 </Nav>
             </Offcanvas.Body>
