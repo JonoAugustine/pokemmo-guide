@@ -1,16 +1,20 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useState } from 'react'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
 import { SEO } from '../../components/SEO'
 import { PokemonList } from '../../components/Pokedex/PokemonList'
 import { graphql } from 'gatsby'
+import { PokedexFilters } from '../../components/Pokedex/PokedexFilters'
 
 const Pokedex = ({ data }) => {
+    const [filters, setFilters] = useState()
     const sprites = data.allFile.edges
+
     return (
         <Page>
             <PageTitle>Pokedex</PageTitle>
-            <PokemonList sprites={sprites} />
+            <PokedexFilters onFilters={(filters) => setFilters(filters)} />
+            <PokemonList sprites={sprites} filters={filters} />
         </Page>
     )
 }
