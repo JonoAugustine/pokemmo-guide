@@ -26,7 +26,7 @@ export const EggGroup = ({ id, children }) => {
     return (
         <div
             className={`px-2 py-1 rounded d-flex align-items-center ${pokedexStyle[id]}`}
-            style={{ backgroundColor: EGG_GROUP_COLORS[id], width: '100px', textAlign: 'center', gap: '.5rem' }}
+            style={{ backgroundColor: EGG_GROUP_COLORS[id], width: 'auto', textAlign: 'center', gap: '.5rem' }}
         >
             <Image src={EggIcon} style={{ height: '1rem' }} />
             {children}
