@@ -30,6 +30,9 @@ export function NavigationMenu({ show, handleClose }) {
                     <NavLink target="_blank" to="https://forums.pokemmo.com/">Official Forum</NavLink>
                     <NavLink target="_blank" to="https://discord.com/invite/7DnX2g7kTD">PokeMMO Duders Discord</NavLink>
                     <NavLink target="_blank" to="https://www.youtube.com/c/patrouski/videos" >Patrouski Youtube Channel</NavLink>
+                    <NavLink target="_blank" to="https://calc.pokemonshowdown.com/?gen=5" >Pokemon Showdown Damage Calculator</NavLink>
+                    <NavLink target="_blank" to="https://calc.pokemonshowdown.com/?gen=5" >Pokemon Showdown Damage Calculator</NavLink>
+                    <NavLink target="_blank" to="https://www.smogon.com/dex/bw/pokemon/" >Smogon Competitive Pokemons</NavLink>
                 </Nav>
             </Offcanvas.Body>
         </Offcanvas>
