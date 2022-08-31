@@ -10,5 +10,6 @@ import UltraBall from './balls/ultraball.png'
 import UltraBallSleep from './balls/ultraballsleep.png'
 import BisBall from './balls/bisball.png'
 import BisBallSleep from './balls/bisballsleep.png'
+import PokedexIcon from './pokedex.png'
 
-export { EggIcon, Solrock, Lunatone, ShinyIcon, PokeBall, PokeBallSleep, MegaBall, MegaBallSleep, UltraBall, UltraBallSleep, BisBall, BisBallSleep }
+export { EggIcon, Solrock, Lunatone, ShinyIcon, PokeBall, PokeBallSleep, MegaBall, MegaBallSleep, UltraBall, UltraBallSleep, BisBall, BisBallSleep, PokedexIcon }

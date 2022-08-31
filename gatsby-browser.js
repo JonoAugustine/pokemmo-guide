@@ -2,12 +2,15 @@ import React from "react"
 import { BreedingProvider } from "./src/context/BreedingContext"
 import { DarkModeProvider } from "./src/context/DarkModeContext"
 import { NavigationMenuProvider } from './src/context/NavigationMenuContext'
+import { PokedexProvider } from "./src/context/PokedexContext"
 
 export const wrapRootElement = ({ element }) => (
     <DarkModeProvider>
         <NavigationMenuProvider>
             <BreedingProvider>
-                {element}
+                <PokedexProvider>
+                    {element}
+                </PokedexProvider>
             </BreedingProvider>
         </NavigationMenuProvider>
     </DarkModeProvider>

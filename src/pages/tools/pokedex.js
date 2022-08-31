@@ -7,18 +7,15 @@ import { graphql } from 'gatsby'
 import { PokedexFilters } from '../../components/Pokedex/PokedexFilters'
 
 const Pokedex = ({ data }) => {
-    const [filters, setFilters] = useState()
-    const sprites = data.allFile.edges
+  const sprites = data.allFile.edges
 
-    console.log(data)
-
-    return (
-        <Page>
-            <PageTitle>Pokedex</PageTitle>
-            <PokedexFilters onFilters={(filters) => setFilters(filters)} />
-            <PokemonList sprites={sprites} filters={filters} />
-        </Page>
-    )
+  return (
+    <Page>
+      <PageTitle>Pokedex</PageTitle>
+      <PokedexFilters />
+      <PokemonList sprites={sprites} />
+    </Page>
+  )
 }
 
 export const query = graphql`

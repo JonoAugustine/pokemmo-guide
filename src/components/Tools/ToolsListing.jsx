@@ -1,13 +1,18 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import { Button, Image } from 'react-bootstrap'
-import { EggIcon, ShinyIcon } from '../../assets/icons'
+import { EggIcon, PokedexIcon, ShinyIcon } from '../../assets/icons'
 
 const TOOLS = [
     {
         label: 'Breeding',
         url: '/tools/breeding',
         icon: EggIcon
+    },
+    {
+        label: 'Pokedex',
+        url: '/tools/pokedex',
+        icon: PokedexIcon
     }
 ]
 
@@ -27,3 +32,4 @@ export const ToolsListing = () => {
         </div>
     )
 }
+

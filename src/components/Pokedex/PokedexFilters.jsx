@@ -1,14 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { Form } from 'react-bootstrap'
+import { usePokedex } from '../../context/PokedexContext'
 import { pokedex } from '../../data/pokedex'
+import { ShowLocationsToggle } from './ShowLocationsToggle'
 
-const DEFAULT_FILTERS = {
-    region: false,
-    route: false,
-    name: '',
-    eggGroup: false,
-    hasHorde: false
-}
 
 const getAllFilterableValues = () => {
     const data = pokedex.reduce((prev, curr) => {
@@ -34,51 +29,53 @@ const getAllFilterableValues = () => {
     }
 }
 
-export const PokedexFilters = ({ onFilters }) => {
+export const PokedexFilters = () => {
     const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [pokedex])
-    const [filters, setFilters] = useState(DEFAULT_FILTERS)
-    useEffect(() => {
-        onFilters(filters)
-    }, [filters])
+    const { filters, setFilters } = usePokedex()
+
+    if (!filters) return;
 
     return (
-        <Form className="mb-5 d-flex" style={{ gap: '1rem' }}>
-            <Form.Group controlId='region'>
-                <Form.Text>
-                    Region
-                </Form.Text>
-                <Form.Select value={filters.region} onChange={({ target }) => setFilters(prev => ({ ...prev, region: target.value !== 'false' ? target.value : false }))}>
-                    <option value={false}>Select a region</option>
-                    {Object.keys(regions).map(region => <option key={region} value={region}>{region}</option>)}
-                </Form.Select>
-            </Form.Group>
-            {
-                typeof filters.region !== "undefined"
-                    ? <Form.Group controlId="routes">
-                        <Form.Text>Routes</Form.Text>
-                        <Form.Select value={filters.route} onChange={({ target }) => setFilters(prev => ({ ...prev, route: target.value !== 'false' ? target.value : false }))}>
-                            <option value={false}>Select a route</option>
-                            {regions[filters.region]?.map(item => <option key={item} value={item}>{item}</option>)}
-                        </Form.Select>
-                    </Form.Group>
-                    : false
-            }
-            <Form.Group>
-                <Form.Text>Egg Group</Form.Text>
-                <Form.Select value={filters.eggGroup} onChange={({ target }) => setFilters(prev => ({ ...prev, eggGroup: target.value !== 'false' ? target.value : false }))}>
-                    <option value={false}>Select an Egg Group</option>
-                    {eggGroups.map(item => <option key={item} value={item}>{item}</option>)}
-                </Form.Select>
-            </Form.Group>
-            <Form.Group>
-                <Form.Text>Show only PKMN which has hordes?</Form.Text>
-                <Form.Check
-                    type='checkbox'
-                    id="hasHorde"
-                    label="Has horde?"
-                    onChange={({ target }) => setFilters(prev => ({ ...prev, hasHorde: target.checked }))}
-                />
-            </Form.Group>
-        </Form>
+        <div className='mb-5'>
+            <Form className="mb-2 d-flex" style={{ gap: '1rem' }}>
+                <Form.Group controlId='region'>
+                    <Form.Text>
+                        Region
+                    </Form.Text>
+                    <Form.Select value={filters.region} onChange={({ target }) => setFilters(prev => ({ ...prev, region: target.value !== 'false' ? target.value : false }))}>
+                        <option value={false}>Select a region</option>
+                        {Object.keys(regions).map(region => <option key={region} value={region}>{region}</option>)}
+                    </Form.Select>
+                </Form.Group>
+                {
+                    typeof filters.region !== "undefined"
+                        ? <Form.Group controlId="routes">
+                            <Form.Text>Routes</Form.Text>
+                            <Form.Select value={filters.route} onChange={({ target }) => setFilters(prev => ({ ...prev, route: target.value !== 'false' ? target.value : false }))}>
+                                <option value={false}>Select a route</option>
+                                {regions[filters.region]?.map(item => <option key={item} value={item}>{item}</option>)}
+                            </Form.Select>
+                        </Form.Group>
+                        : false
+                }
+                <Form.Group>
+                    <Form.Text>Egg Group</Form.Text>
+                    <Form.Select value={filters.eggGroup} onChange={({ target }) => setFilters(prev => ({ ...prev, eggGroup: target.value !== 'false' ? target.value : false }))}>
+                        <option value={false}>Select an Egg Group</option>
+                        {eggGroups.map(item => <option key={item} value={item}>{item}</option>)}
+                    </Form.Select>
+                </Form.Group>
+                <Form.Group>
+                    <Form.Text>Show only PKMN which has hordes?</Form.Text>
+                    <Form.Check
+                        type='checkbox'
+                        id="hasHorde"
+                        label="Has horde?"
+                        onChange={({ target }) => setFilters(prev => ({ ...prev, hasHorde: target.checked }))}
+                    />
+                </Form.Group>
+            </Form>
+            <ShowLocationsToggle title="all locations" show={filters.showLocationsDefault} onClick={() => setFilters(prev => ({ ...prev, showLocationsDefault: !prev.showLocationsDefault }))} />
+        </div>
     )
 }

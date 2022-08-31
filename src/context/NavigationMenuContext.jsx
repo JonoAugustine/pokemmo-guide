@@ -42,7 +42,6 @@ export function NavigationMenuProvider({ children }) {
         }
     `)
     const posts = data.allMarkdownRemark.edges;
-    console.log(posts);
 
     return (
         <NavigationMenuContext.Provider value={{ posts, toggleNav, pageName, setPageName }}>

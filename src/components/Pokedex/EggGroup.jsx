@@ -1,4 +1,6 @@
 import React from 'react'
+import { Image } from 'react-bootstrap'
+import { EggIcon } from '../../assets/icons'
 import * as pokedexStyle from "./pokedex.module.css"
 
 const EGG_GROUP_COLORS = {
@@ -23,8 +25,11 @@ const EGG_GROUP_COLORS = {
 export const EggGroup = ({ id, children }) => {
     return (
         <div
-            className={`px-2 py-1 rounded ${pokedexStyle[id]}`}
-            style={{ backgroundColor: EGG_GROUP_COLORS[id], width: '100px', textAlign: 'center' }}
-        >{children}</div>
+            className={`px-2 py-1 rounded d-flex align-items-center ${pokedexStyle[id]}`}
+            style={{ backgroundColor: EGG_GROUP_COLORS[id], width: '100px', textAlign: 'center', gap: '.5rem' }}
+        >
+            <Image src={EggIcon} style={{ height: '1rem' }} />
+            {children}
+        </div>
     )
 }

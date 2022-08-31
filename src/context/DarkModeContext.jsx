@@ -23,12 +23,10 @@ export function DarkModeProvider({ children }) {
     }, [isDark]);
 
     useEffect(() => {
-        console.log(getTheme());
         setTheme(() => getTheme())
     }, [isDark])
 
     const toggleDarkMode = () => {
-        console.log(isDark)
         setIsDark(!isDark)
     }
 

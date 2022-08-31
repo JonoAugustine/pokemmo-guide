@@ -3,6 +3,7 @@ import { PokemonItem } from './PokemonItem'
 import { pokedex } from '../../data/pokedex'
 import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
+import { usePokedex } from '../../context/PokedexContext';
 
 const POKEMON_PER_PAGE = 50;
 
@@ -32,8 +33,9 @@ const filterPokedex = (pokedex, filters) => {
         })
 }
 
-export const PokemonList = ({ sprites, filters }) => {
+export const PokemonList = ({ sprites }) => {
     const [maxCount, setMaxCount] = useState(POKEMON_PER_PAGE);
+    const { filters } = usePokedex()
     const pokemonList = filterPokedex(pokedex, filters)
 
     const hasMore = maxCount < pokemonList.length
