@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Table } from 'react-bootstrap'
 import { ShowLocationsToggle } from './ShowLocationsToggle'
 import { usePokedex } from '../../context/PokedexContext'
+import { Table } from '../Atoms';
 
 export const PokemonLocations = ({ locations, show, onClose }) => {
     const { filters } = usePokedex();
@@ -11,7 +11,7 @@ export const PokemonLocations = ({ locations, show, onClose }) => {
             <div className='border-top'></div>
             <div className='p-2'>
 
-                <Table hover size="sm" style={{ border: '1px solid transparent' }}>
+                <Table responsive hover size="sm" style={{ border: '1px solid transparent' }}>
                     <thead className='border-bottom' style={{ position: 'sticky', top: 0, background: 'white' }}>
                         <tr>
                             <th>Region</th>

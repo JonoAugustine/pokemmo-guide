@@ -1,6 +1,6 @@
-import React, { useCallback } from 'react'
+import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import Helmet from 'react-helmet';
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { createContext, useContext, useEffect, useState } from "react";
 
 const DarkModeContext = createContext({
     isDark: false,
@@ -24,7 +24,7 @@ export function DarkModeProvider({ children }) {
 
     useEffect(() => {
         setTheme(() => getTheme())
-    }, [isDark])
+    }, [isDark, getTheme])
 
     const toggleDarkMode = () => {
         setIsDark(!isDark)
@@ -32,6 +32,11 @@ export function DarkModeProvider({ children }) {
 
     return (
         <DarkModeContext.Provider value={{ isDark, toggleDarkMode, theme }}>
+            <Helmet
+                bodyAttributes={{
+                    class: theme
+                }}
+            />
             {children}
         </DarkModeContext.Provider>
     )

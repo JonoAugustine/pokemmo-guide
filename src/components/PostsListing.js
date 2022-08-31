@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { Stack } from 'react-bootstrap';
-import { useNavigationMenu } from '../context/NavigationMenuContext'
-import { Post } from '../components/Post'
+import { Post } from '../components/Post';
+import { useNavigationMenu } from '../context/NavigationMenuContext';
 
 export default function PostsListing({ category }) {
     const { posts } = useNavigationMenu();

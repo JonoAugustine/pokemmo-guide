@@ -1,10 +1,11 @@
-import React from "react"
 import { graphql } from "gatsby"
-import { Row, Col } from 'react-bootstrap'
+import React from "react"
+import { Col, Row } from 'react-bootstrap'
 import { Page } from '../components/Page'
 import { PageTitle } from '../components/PageTitle'
-import { SEO } from '../components/SEO'
+import { Seo } from '../components/SEO'
 
+import { Typography } from "../components/Atoms"
 import * as tocStyle from './guide.module.css'
 
 export default function Template({ data }) {
@@ -20,7 +21,7 @@ export default function Template({ data }) {
                     />
                 </Col>
                 <Col md={3} className={tocStyle.toc}>
-                    <h3>Quick links</h3>
+                    <Typography as="h3">Quick links</Typography>
                     <div
                         dangerouslySetInnerHTML={{ __html: tableOfContents }}
                     />
@@ -32,7 +33,7 @@ export default function Template({ data }) {
 
 export function Head({ data }) {
     const { frontmatter } = data.markdownRemark
-    return <SEO title={frontmatter.title}></SEO>
+    return <Seo title={frontmatter.title}></Seo>
 }
 
 export const pageQuery = graphql`

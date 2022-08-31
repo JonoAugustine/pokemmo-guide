@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useMemo } from 'react'
 import { Form } from 'react-bootstrap'
 import { usePokedex } from '../../context/PokedexContext'
 import { pokedex } from '../../data/pokedex'
@@ -29,8 +29,8 @@ const getAllFilterableValues = () => {
     }
 }
 
-export const PokedexFilters = () => {
-    const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [pokedex])
+export const PokedexFilters = ({ onToggleLocations }) => {
+    const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [])
     const { filters, setFilters } = usePokedex()
 
     if (!filters) return;
@@ -75,7 +75,7 @@ export const PokedexFilters = () => {
                     />
                 </Form.Group>
             </Form>
-            <ShowLocationsToggle title="all locations" show={filters.showLocationsDefault} onClick={() => setFilters(prev => ({ ...prev, showLocationsDefault: !prev.showLocationsDefault }))} />
+            <ShowLocationsToggle title="all locations" show={filters.showLocationsDefault} onClick={() => onToggleLocations()} />
         </div>
     )
 }

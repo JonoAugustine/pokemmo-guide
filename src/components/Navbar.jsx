@@ -1,12 +1,12 @@
-import React from 'react'
-import { Button, Container, Navbar as NavbarBs } from 'react-bootstrap'
-import { useDarkMode } from '../context/DarkModeContext'
-import { GiHamburger } from "react-icons/gi"
-import { useNavigationMenu } from '../context/NavigationMenuContext'
-import { FiSun, FiMoon } from 'react-icons/fi'
 import { Link } from 'gatsby'
+import React from 'react'
+import { Container, Image, Navbar as NavbarBs } from 'react-bootstrap'
+import { GiHamburger } from "react-icons/gi"
+import { Lunatone, Solrock } from '../assets/icons'
+import { useDarkMode } from '../context/DarkModeContext'
+import { useNavigationMenu } from '../context/NavigationMenuContext'
 import logo from '../images/logo.png'
-import { Solrock, Lunatone } from '../assets/icons'
+import { Button } from './Atoms'
 
 export function Navbar() {
     const { isDark, theme, toggleDarkMode } = useDarkMode()
@@ -15,7 +15,7 @@ export function Navbar() {
     return (
         <NavbarBs bg={theme} variant={theme} className="shadow-sm mb-3">
             <Container>
-                <Button onClick={toggleNav} variant="outline-primary">
+                <Button onClick={toggleNav} variant="outline-info">
                     <GiHamburger size="1.4em" />
                 </Button>
                 <Link to="/" className='fs-3 mb-0'>
@@ -23,7 +23,7 @@ export function Navbar() {
                 </Link>
                 <Button className="p-0" onClick={toggleDarkMode} variant={isDark ? 'light' : 'dark'}>
                     {
-                        <img src={isDark ? Solrock : Lunatone} style={{ height: '2.3rem', width: '2.3rem' }} />
+                        <Image src={isDark ? Solrock : Lunatone} style={{ height: '2.3rem', width: '2.3rem' }} />
                     }
                 </Button>
             </Container>

@@ -1,12 +1,13 @@
 import React from 'react'
+import { Typography } from './Atoms'
 
 export function PageTitle({ credits, children }) {
     return (
         <div className='mb-3 mt-2'>
-            <h1>{children}</h1>
+            <Typography as="h1">{children}</Typography>
             {
                 credits
-                    ? <p className='text-muted'>Guide made by: {credits}</p>
+                    ? <Typography className='text-muted'>Guide made by: {credits}</Typography>
                     : false
             }
 

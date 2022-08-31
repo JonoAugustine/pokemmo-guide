@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
 import { TbPokeball } from 'react-icons/tb'
+import { Button } from '../Atoms'
 
 export const ShowLocationsToggle = ({ onClick, show, title = "Locations" }) => {
     return (
         <Button
-            variant="outline-primary"
+            variant="outline-info"
             size="sm"
             className="d-flex align-items-center"
             style={{ gap: '.3rem', fontSize: '.8rem' }}

@@ -1,6 +1,6 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import { Nav } from 'react-bootstrap'
-import { Link } from 'gatsby'
 
 export function NavLink({ to, onClick, children, target = '_self' }) {
     return (

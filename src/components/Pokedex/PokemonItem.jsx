@@ -1,36 +1,40 @@
-import { GatsbyImage } from 'gatsby-plugin-image'
-import React, { useEffect, useState } from 'react'
-import { EggGroup } from '../../components/Pokedex/EggGroup'
-import { Button, Stack } from 'react-bootstrap';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import React, { useEffect, useState } from 'react';
+import { Stack } from 'react-bootstrap';
+import { EggGroup } from '../../components/Pokedex/EggGroup';
 import { useCatchRate } from '../../hooks/useCatchRate';
+import { Button, Card, Typography } from '../Atoms';
 import { CatchResults } from './CatchResults';
-import { TbPokeball } from 'react-icons/tb';
 import { PokemonLocations } from './PokemonLocations';
 import { ShowLocationsToggle } from './ShowLocationsToggle';
-import { usePokedex } from '../../context/PokedexContext';
 
-export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRate, hp }) => {
-    const { filters } = usePokedex()
-    const [showLocations, setShowLocations] = useState(filters.showLocationsDefault)
+export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRate, hp, toggleLocationsAll }) => {
+    const [showLocations, setShowLocations] = useState(toggleLocationsAll)
 
     useEffect(() => {
-        setShowLocations(filters.showLocationsDefault)
-    }, [filters])
+        setShowLocations(toggleLocationsAll)
+    }, [toggleLocationsAll])
     const [isLVU, setIsLVU] = useState(0)
     const catchResults = useCatchRate(catchRate, hp);
 
-    const lvu = () => id == 16 ? setIsLVU(prev => prev + 1) : null
+    const lvu = () => parseInt(id) === 16 ? setIsLVU(prev => prev + 1) : null
 
     return (
-        <div className="mb-3 border rounded">
+        <Card className="mb-3 rounded">
             <Stack direction="horizontal" gap={3} className="p-2">
-                <div onClick={() => lvu()}>
-                    <GatsbyImage style={{ maxWidth: '80px' }} image={sprite.node.childImageSharp.gatsbyImageData} alt={name} onClick={() => { lvu() }} />
-                </div>
+                {id === 16
+                    ? <Button
+                        style={{ padding: 0, border: 0 }}
+                        variant="link"
+                        onClick={() => lvu()}
+                    >
+                        <GatsbyImage style={{ maxWidth: '80px' }} image={sprite.node.childImageSharp.gatsbyImageData} alt={name} />
+                    </Button>
+                    : <GatsbyImage style={{ maxWidth: '80px' }} image={sprite.node.childImageSharp.gatsbyImageData} alt={name} />}
                 <Stack gap={1} style={{ justifyContent: 'center' }}>
                     <Stack gap={2}>
                         <Stack gap={4} direction="horizontal" className='align-items-center'>
-                            <h4 className="mb-0">{isLVU > 16 ? '16/07/11 ❤️' : name}</h4>
+                            <Typography as="h4" className="mb-0">{isLVU > 16 ? '16/07/11 ❤️' : name}</Typography>
                             {
                                 locations.length ?
                                     <ShowLocationsToggle
@@ -46,7 +50,7 @@ export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRat
                             }
                         </Stack>
                     </Stack>
-                    <p className='mb-0'>Item held: <b>{held.length ? held.join(', ') : 'None'}</b></p>
+                    <Typography className='mb-0'>Item held: <b>{held.length ? held.join(', ') : 'None'}</b></Typography>
                 </Stack>
             </Stack>
 
@@ -58,6 +62,6 @@ export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRat
                     </>
                     : false
             }
-        </div>
+        </Card>
     )
 }

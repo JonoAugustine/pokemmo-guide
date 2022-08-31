@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const BALLS = [
     {
@@ -48,7 +48,7 @@ export const useCatchRate = (pkmn_rate, max_hp) => {
                 setResults(prev => [...prev, calculateCatchRate(pkmn_rate, max_hp, 1, ball, status)])
             })
         });
-    }, [max_hp, pkmn_rate, BALLS, STATUSES])
+    }, [max_hp, pkmn_rate])
 
     return results;
 }

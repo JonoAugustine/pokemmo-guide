@@ -1,6 +1,7 @@
 import React from 'react'
-import { Alert, Button } from 'react-bootstrap'
+import { Alert } from 'react-bootstrap'
 import { useLocalStorage } from '../hooks/useLocalStorage'
+import { Button } from './Atoms'
 
 export const Information = ({ children, title }) => {
     const [breedingHelp, setBreedingHelp] = useLocalStorage('breedingHelp', false);

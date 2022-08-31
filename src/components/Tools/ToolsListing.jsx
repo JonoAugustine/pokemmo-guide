@@ -1,7 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import { Button, Image } from 'react-bootstrap'
-import { EggIcon, PokedexIcon, ShinyIcon } from '../../assets/icons'
+import { Image } from 'react-bootstrap'
+import { EggIcon, PokedexIcon } from '../../assets/icons'
+import { Button } from '../Atoms'
 
 const TOOLS = [
     {

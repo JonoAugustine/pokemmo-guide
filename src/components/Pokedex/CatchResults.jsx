@@ -1,26 +1,27 @@
 import React, { useState } from 'react'
-import { Button, Stack } from 'react-bootstrap'
+import { Image, Stack } from 'react-bootstrap'
 
-import { PokeBall, PokeBallSleep, MegaBall, MegaBallSleep, UltraBall, UltraBallSleep, BisBall, BisBallSleep } from '../../assets/icons'
 import { TbArrowsRightLeft } from 'react-icons/tb'
+import { BisBall, BisBallSleep, MegaBall, MegaBallSleep, PokeBall, PokeBallSleep, UltraBall, UltraBallSleep } from '../../assets/icons'
+import { Button } from '../Atoms'
 
 
 const ASSETS = {
     pokeball: {
-        sleep: <img src={PokeBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
-        healthy: <img src={PokeBall} style={{ height: "2rem", aspectRatio: '1' }} />
+        sleep: <Image src={PokeBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
+        healthy: <Image src={PokeBall} style={{ height: "2rem", aspectRatio: '1' }} />
     },
     megaball: {
-        sleep: <img src={MegaBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
-        healthy: <img src={MegaBall} style={{ height: "2rem", aspectRatio: '1' }} />
+        sleep: <Image src={MegaBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
+        healthy: <Image src={MegaBall} style={{ height: "2rem", aspectRatio: '1' }} />
     },
     ultraball: {
-        sleep: <img src={UltraBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
-        healthy: <img src={UltraBall} style={{ height: "2rem", aspectRatio: '1' }} />
+        sleep: <Image src={UltraBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
+        healthy: <Image src={UltraBall} style={{ height: "2rem", aspectRatio: '1' }} />
     },
     bisball: {
-        sleep: <img src={BisBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
-        healthy: <img src={BisBall} style={{ height: "2rem", aspectRatio: '1' }} />
+        sleep: <Image src={BisBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
+        healthy: <Image src={BisBall} style={{ height: "2rem", aspectRatio: '1' }} />
     }
 }
 
@@ -40,12 +41,12 @@ export const CatchResults = ({ results }) => {
 
     return (
         <Stack direction="horizontal" gap={2} className="border-top p-2">
-            <div
+            <Button
                 className='d-flex align-items-center justify-content-center shadow rounded-circle bg-primary text-light'
                 style={changeActiveBallStyles}
                 onClick={() => changeActiveBall()}>
                 <TbArrowsRightLeft />
-            </div>
+            </Button>
             {
                 results
                     .filter(({ ball }) => ball === BALLS[activeBall])
@@ -67,4 +68,10 @@ export const CatchResults = ({ results }) => {
     )
 }
 
-const changeActiveBallStyles = { height: '1.5rem', width: '1.5rem', fontSize: '.7rem', cursor: 'pointer' }
+const changeActiveBallStyles = {
+    height: '1.5rem',
+    width: '1.5rem',
+    fontSize: '.7rem',
+    padding: 0,
+    border: 0
+}

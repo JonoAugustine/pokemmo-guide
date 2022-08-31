@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
 export function useIdentify(string) {
     const convertStringToID = (string) => string.replace(' ', '-').toLowerCase()

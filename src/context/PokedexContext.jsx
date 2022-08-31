@@ -1,7 +1,4 @@
-import React, {
-    useState
-} from 'react'
-import { createContext, useContext } from "react";
+import React, { createContext, useContext, useState } from 'react';
 
 
 const DEFAULT_FILTERS = {
@@ -9,8 +6,7 @@ const DEFAULT_FILTERS = {
     route: false,
     name: '',
     eggGroup: false,
-    hasHorde: false,
-    showLocationsDefault: false
+    hasHorde: false
 }
 
 const PokedexContext = createContext()

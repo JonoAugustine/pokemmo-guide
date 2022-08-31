@@ -1,0 +1,22 @@
+body{
+    
+}
+
+body.dark{
+    background-color: #343A40;
+    color: #F8F9FA;
+}
+
+body.dark .offcanvas-body,
+body.dark .offcanvas-header{
+    background-color: #21252A;
+}
+
+body.dark .text-muted{
+    color: rgb(198, 198, 198)!important;
+}
+
+body.dark .form-select{
+    background-color: #6C757D;
+    color: #F8F9FA;
+}

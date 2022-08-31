@@ -33,7 +33,7 @@ const filterPokedex = (pokedex, filters) => {
         })
 }
 
-export const PokemonList = ({ sprites }) => {
+export const PokemonList = ({ sprites, toggleLocationsAll }) => {
     const [maxCount, setMaxCount] = useState(POKEMON_PER_PAGE);
     const { filters } = usePokedex()
     const pokemonList = filterPokedex(pokedex, filters)
@@ -50,9 +50,9 @@ export const PokemonList = ({ sprites }) => {
                 pokemonList
                     .splice(0, maxCount)
                     .map(pokemon => {
-                        const sprite = sprites.find(({ node }) => node.name == pokemon.id)
-                        if (!sprite) return;
-                        return <PokemonItem key={pokemon.name} {...pokemon} sprite={sprite} />
+                        const sprite = sprites.find(({ node }) => parseInt(node.name) === parseInt(pokemon.id))
+                        if (!sprite) return false;
+                        return <PokemonItem toggleLocationsAll={toggleLocationsAll} key={pokemon.name} {...pokemon} sprite={sprite} />
                     })
             }
         </InfiniteScroll>

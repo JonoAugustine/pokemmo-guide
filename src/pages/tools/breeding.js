@@ -1,13 +1,13 @@
 import React, { useRef, useState } from 'react'
-import { Button, ButtonGroup, Card, Form, Toast } from 'react-bootstrap'
+import { ButtonGroup, Form, Toast as ToastBS } from 'react-bootstrap'
+import { Button, Card, Toast, Typography } from '../../components/Atoms'
+import { BreedingList } from '../../components/Breeding/BreedingList'
+import { FormItemBreeding } from '../../components/Breeding/FormItemBreeding'
+import { Information } from '../../components/Information'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
-import { SEO } from '../../components/SEO'
-import { FormItemBreeding } from '../../components/Breeding/FormItemBreeding'
-import { BreedingList } from '../../components/Breeding/BreedingList'
+import { Seo } from '../../components/SEO'
 import { useBreeding } from '../../context/BreedingContext'
-import { Text } from '../../components/Text'
-import { Information } from '../../components/Information'
 
 const Breeding = () => {
     const form = useRef()
@@ -125,6 +125,7 @@ const Breeding = () => {
                             let index = i + 1;
                             return (
                                 <FormItemBreeding
+                                    key={i}
                                     id={`iv${index}`}
                                     defaultValue={
                                         breedingConfig.iv[index] || 'hp'
@@ -138,7 +139,7 @@ const Breeding = () => {
                 </div>
             </Form>
             <Card body className="my-3">
-                For this Pokémon you will spend <Text highlight>{expectedPrice}$</Text> and you may need <Text highlight>{totalPokemonReq}</Text> Pokémons.
+                For this Pokémon you will spend <Typography highlight>{expectedPrice}$</Typography> and you may need <Typography highlight>{totalPokemonReq}</Typography> Pokémons.
             </Card>
             <div className='d-flex' style={{ gap: '1rem' }}>
                 <Button onClick={startBreeding}>Start breeding</Button>
@@ -147,8 +148,8 @@ const Breeding = () => {
             {
                 breedingConfig.isBreeding ? <BreedingList></BreedingList> : null
             }
-            <Toast bg="danger" show={isError} onClose={() => setIsError(false)} delay={3000} autohide>
-                <Toast.Body>You can't have the same stats in multiple IVs field.</Toast.Body>
+            <Toast bg="danger" show={isError} onClose={() => setIsError(false)} delay={3000} autohide style={{ position: 'fixed', bottom: 25, left: 25 }}>
+                <ToastBS.Body>You can't have the same stats in multiple IVs field.</ToastBS.Body>
             </Toast>
         </Page>
     )
@@ -156,4 +157,4 @@ const Breeding = () => {
 
 export default Breeding
 
-export const Head = () => <SEO title="Breeding Simulator"></SEO>
+export const Head = () => <Seo title="Breeding Simulator"></Seo>

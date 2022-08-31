@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useBreeding } from '../../context/BreedingContext'
 import { breedingTable } from '../../data/breedingTable'
 import { IV_COLORS } from '../../data/ivs'
+import { Button } from '../Atoms'
 
 import * as breedingStyle from "./breeding.module.css"
 
@@ -27,18 +28,20 @@ export function BreedingItem({ row, index, maxItems, maxRows }) {
 
     return (
         <div style={{ flexBasis: `${100 / maxItems}%` }} data-item-size={`${(baseSize * row + 1) / 2}rem`} className={breedingStyle.breedingItem}>
-            <div
+            <Button
                 onClick={() => !isBred
                     ? setAsBred({ row: row + 1, col: index })
                     : removeBred({ row: row + 1, col: index })}
                 title={ivSet.join(' ')}
                 className='d-flex mx-auto'
+                variant="link"
                 style={{
                     width: `${baseSize * row + 1}rem`,
                     height: `${baseSize * row + 1}rem`,
                     borderRadius: '10rem',
                     overflow: 'hidden',
-                    border: isBred ? '3px solid' : 'none'
+                    padding: 0,
+                    border: isBred ? '3px solid black' : 'none'
                 }}>
                 {
                     ivSet.map(item => (
@@ -47,7 +50,7 @@ export function BreedingItem({ row, index, maxItems, maxRows }) {
                             style={{ background: IV_COLORS[item], height: "100%", flexGrow: 1 }}></div>
                     ))
                 }
-            </div>
+            </Button>
             {
                 isOdd
                     ? <div

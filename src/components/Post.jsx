@@ -1,18 +1,19 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import { Card as CardBS } from 'react-bootstrap'
+import { Button, Card } from './Atoms'
 
 export function Post({ frontmatter }) {
     return (
         <Card>
-            <Card.Img variant="top" />
-            <Card.Body>
-                <Card.Title>{frontmatter.title}</Card.Title>
-                <Card.Text>
+            <CardBS.Img variant="top" />
+            <CardBS.Body>
+                <CardBS.Title>{frontmatter.title}</CardBS.Title>
+                <CardBS.Text>
                     {frontmatter.excerpt}
-                </Card.Text>
+                </CardBS.Text>
                 <Button as={Link} to={frontmatter.slug}>Read more</Button>
-            </Card.Body>
+            </CardBS.Body>
         </Card>
     )
 }

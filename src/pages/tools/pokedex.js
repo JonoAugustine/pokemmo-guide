@@ -1,19 +1,20 @@
-import React, { useCallback, useState } from 'react'
+import { graphql } from 'gatsby'
+import React, { useState } from 'react'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
-import { SEO } from '../../components/SEO'
-import { PokemonList } from '../../components/Pokedex/PokemonList'
-import { graphql } from 'gatsby'
 import { PokedexFilters } from '../../components/Pokedex/PokedexFilters'
+import { PokemonList } from '../../components/Pokedex/PokemonList'
+import { Seo } from '../../components/SEO'
 
 const Pokedex = ({ data }) => {
   const sprites = data.allFile.edges
+  const [toggleLocationsAll, setToggleLocationsAll] = useState(false)
 
   return (
     <Page>
       <PageTitle>Pokedex</PageTitle>
-      <PokedexFilters />
-      <PokemonList sprites={sprites} />
+      <PokedexFilters onToggleLocations={() => setToggleLocationsAll(prev => !prev)} />
+      <PokemonList toggleLocationsAll={toggleLocationsAll} sprites={sprites} />
     </Page>
   )
 }
@@ -36,6 +37,6 @@ export const query = graphql`
   }
 `
 
-export const Head = () => <SEO title="Pokedex"></SEO>
+export const Head = () => <Seo title="Pokedex"></Seo>
 
 export default Pokedex

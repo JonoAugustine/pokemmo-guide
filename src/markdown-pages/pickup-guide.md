@@ -14,6 +14,7 @@ category:
 #### Credits
 [Bestfriends](https://forums.pokemmo.com/index.php?/profile/69041-bestfriends/) & [Kaynine XL](https://forums.pokemmo.com/index.php?/profile/62908-kayninexl/) on [PokeMMO Forum](https://forums.pokemmo.com/index.php?/topic/106742-money-guide-community-pickup-guide-2nd-edition/)
 ## Quick Note
+<span id="quick-note"></span>
 - The Pokémon with Pickup **(Pickupper)** must be alive and must be the first member of the party. 
 - If your Pickupper already has an item, the item picked up will automatically be moved in your inventory. 
 - The items pool will vary based on current route. 
@@ -21,6 +22,7 @@ category:
 - Use `CTRL` ( `CMD` on Mac ) + F for search a specific item.
 
 ## Best Pickuppers
+<span id="best-pickuppers"></span>
 The best pickuppers are: 
 1. Ambipon (480 total stats no AOE moves)
 2. Linoone (420 total stats w/ AOE)
@@ -131,7 +133,7 @@ The best pickuppers are:
 - Other: Sun Stone, Stick, Sharp Beak
 
 ### Route 13  
- <span id="route-13 "></span>
+ <span id="route-13"></span>
 - Potions: Potion, Super Potion, Hyper Potion
 - Repels: Super Repel, Max Repel
 - Balls: Poke Ball, Great Ball, Ultra Ball
@@ -175,7 +177,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Sakustein and @CrzPapel for your contribution.
 
 ### Route 18  
- <span id="route-18 "></span>
+ <span id="route-18"></span>
 - Potions: Super Potion
 - Repels: Repel, Super Repel
 - Balls: Poke Ball, Great Ball
@@ -184,7 +186,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Rittz and @Genets for your contribution.
 
 ### Route 19 (Surf) 
- <span id="route-19 (surf)"></span>
+ <span id="route-19-surf"></span>
 - Potions: Potion, Super Potion
 - Repels: Super Repel
 - Balls: Poke Ball, Great Ball
@@ -193,7 +195,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Rittz and @Genets for your contribution.
 
 ### Route 20 (Surf) 
- <span id="route-20 (surf)"></span>
+ <span id="route-20-surf"></span>
 - Potions:
 - Repels: Repel, Super Repel
 - Balls: Great Ball
@@ -228,7 +230,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 24  
- <span id="route-24 "></span>
+ <span id="route-24"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls: Poke Ball
@@ -236,7 +238,7 @@ The best pickuppers are:
 - Other: Silverpowder, Miracle Seed
 
 ### Route 24 (Surfing)  
- <span id="route-24 (surfing) "></span>
+ <span id="route-24-surfing"></span>
 - Potions: 
 - Repels: 
 - Balls: 
@@ -267,7 +269,7 @@ The best pickuppers are:
 
 
 ### Pallet Town (Fishing) 
- <span id="pallet-town (fishing)"></span>
+ <span id="pallet-town-fishing"></span>
 - Potions: Super Potion
 - Repels: Repel
 - Balls: Poke Ball, Great Ball
@@ -285,7 +287,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @BlueNose and @Genets for your contribution.
 
 ### Cerulean City (Fishing) 
- <span id="cerulean-city (fishing)"></span>
+ <span id="cerulean-city-fishing"></span>
 - Potions: Super Potion(fishing)
 - Repels: Super Repel(Fishing)
 - Balls: Great Ball(Fishing)
@@ -293,7 +295,7 @@ The best pickuppers are:
 - Other:
 
 ### Celadon City (Surfing) 
- <span id="celadon-city (surfing)"></span>
+ <span id="celadon-city-surfing"></span>
 - Seems like no loot can be found. Thank you @BlueNose for checking.
 
 ### Vermilion City 
@@ -305,7 +307,7 @@ The best pickuppers are:
 - Other: Yellow Shard, Dragon Scale, Red Shard, Big Pearl, Mystic Water, Stardust, Starpiece
 
 ### Fuchsia City  
- <span id="fuchsia-city "></span>
+ <span id="fuchsia-city"></span>
 - Potions:
 - Repels: Repel (surfing), Super Repel(fishing)
 - Balls: Great Ball(fishing)
@@ -323,7 +325,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @BlueNose for your contribution
 
 ### Caves/Forest/Other 
- <span id="caves/forest/other"></span>
+ <span id="cavesforestother"></span>
 
 ### Viridian Forest 
  <span id="viridian-forest"></span>
@@ -335,7 +337,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @StrategyMamber for your contribution.
 
 ### Diglett's Cave 
- <span id="diglett's-cave"></span>
+ <span id="digletts-cave"></span>
 - Potions: Super Potion, Max Potion
 - Repels:
 - Balls: Great Ball
@@ -344,7 +346,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @crov for your contribution.
 
 ### Mt. Moon  
- <span id="mt.-moon "></span>
+ <span id="mt-moon"></span>
 - Potions: Potion, Potion
 - Repels: Repel
 - Balls:
@@ -352,7 +354,7 @@ The best pickuppers are:
 - Other: Tiny Mushroom, Everstone, Moon Stone, Big Mushroom, Hardstone, Escape Rope, Energy Root
 
 ### Cerulean Cave  
- <span id="cerulean-cave "></span>
+ <span id="cerulean-cave"></span>
 - Potions: Super Potion, Great Potion, Hyper Potion
 - Repels: Super Repel
 - Balls: Great Ball
@@ -370,7 +372,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Power Plant  
- <span id="power-plant "></span>
+ <span id="power-plant"></span>
 - Potions: Potion, Super Potion
 - Repels: Repel, Super Repel
 - Balls: Poke Ball, Great Ball
@@ -378,7 +380,7 @@ The best pickuppers are:
 - Other: Magnet, Metal Coat, Light Ball, Thunderstone
 
 ### Lavender tower  
- <span id="lavender-tower "></span>
+ <span id="lavender-tower"></span>
 - Potions: Potion, Super Potion
 - Repels: Repel, Super Repel
 - Balls: Poke Ball, Great Ball
@@ -432,7 +434,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Rittz for your contribution.
 
 ### Mt. Ember (outside) 
- <span id="mt.-ember (outside)"></span>
+ <span id="mt-ember-outside"></span>
 - Potions: Potion, Hyper Potion, Awakening
 - Repels:
 - Balls: Great Ball, Ultra Ball
@@ -441,7 +443,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @Rittz for your contribution.
 
 ### Mt. Ember (Inside) 
- <span id="mt.-ember (inside)"></span>
+ <span id="mt-ember-inside"></span>
 - Potions: Potion, Super Potion, Hyper Potion
 - Repels: Super Repel, Max Repel
 - Balls: Great Ball, Ultra Ball
@@ -513,7 +515,7 @@ The best pickuppers are:
  <span id="five-island"></span>
 
 ### Water Labyrinth  
- <span id="water-labyrinth "></span>
+ <span id="water-labyrinth"></span>
 - Potions: Potion, Hyper Potion
 - Repels: Repel, Super Repel, Max Repel
 - Balls: Poke Ball, Great Ball, Ultra Ball
@@ -531,7 +533,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @CrzPapel for your contribution.
 
 ### Lost Cave  
- <span id="lost-cave "></span>
+ <span id="lost-cave"></span>
 - Potions: Hyper Potion
 - Repels: Max Repel
 - Balls: Ultra Ball
@@ -539,7 +541,7 @@ The best pickuppers are:
 - Other: Sea Incense, Lax Incense, Spell Tag, Silk Scarf
 
 ### Five Isle Meadow  
- <span id="five-isle meadow "></span>
+ <span id="five-isle-meadow"></span>
 - Potions: Super Potion, Hyper Potion
 - Repels: Repel, Max Repel
 - Balls: Ultra Ball
@@ -560,7 +562,7 @@ The best pickuppers are:
  <span id="six-island"></span>
 
 ### Water Path  
- <span id="water-path "></span>
+ <span id="water-path"></span>
 - Potions: Potion, Super Potion, Hyper Potion
 - Repels: Repel, Max Repel
 - Balls: Poke Ball, Great Ball, Ultra Ball
@@ -569,7 +571,7 @@ The best pickuppers are:
 - Documentation Credit: Thank you @RedRunt for your contribution.
 
 ### Ruin Valley  
- <span id="ruin-valley "></span>
+ <span id="ruin-valley"></span>
 - Potions: Potion, Hyper Potion
 - Repels: Repel, Super Repel, Max Repel
 - Balls: Poke Ball, Ultra Ball
@@ -617,7 +619,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
  <span id="seven-island"></span>
 
 ### Trainer Tower  
- <span id="trainer-tower "></span>
+ <span id="trainer-tower"></span>
 - Potions: Super Potion, Hyper Potion
 - Repels: Super Repel, Max Repel
 - Balls: Great Ball, Ultra Ball
@@ -677,7 +679,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @imRioter for your info.
 
 ### Route 103 (Surfing) 
- <span id="route-103 (surfing)"></span>
+ <span id="route-103-surfing-1"></span>
 - Potions: Potion
 - Repels:
 - Balls: Poke Ball
@@ -685,7 +687,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Other: 
 
 ### Route 103 (Surfing) 
- <span id="route-103 (surfing)"></span>
+ <span id="route-103-surfing"></span>
 - Potions: 
 - Repels: Repel, Super Repel
 - Balls: 
@@ -703,7 +705,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Bigpokemonfan and @Genets for your info.
 
 ### Route 104 (Surfing [Ocean]) 
- <span id="route-104 (surfing [ocean])"></span>
+ <span id="route-104-surfing-ocean"></span>
 - Potions: Potion, Super Potion
 - Repels:
 - Balls: Poke Ball, Great Ball
@@ -805,7 +807,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Other:
 
 ### Route 115 (Surfing) 
- <span id="route-115 (surfing)"></span>
+ <span id="route-115-surfing"></span>
 - Potions: 
 - Repels: 
 - Balls: 
@@ -884,7 +886,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 124 (Surfing) 
- <span id="route-124 (surfing)"></span>
+ <span id="route-124-surfing"></span>
 - Potions: Potion, Super Potion
 - Repels: Repel
 - Balls: Poke Ball
@@ -893,7 +895,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 124 (Underwater) 
- <span id="route-124 (underwater)"></span>
+ <span id="route-124-underwater"></span>
 - Potions: Hyper Potion
 - Repels: Max Repel
 - Balls: Ultra Ball
@@ -911,7 +913,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 126 (Surfing) 
- <span id="route-126 (surfing)"></span>
+ <span id="route-126-surfing"></span>
 - Potions: Potion
 - Repels: Super Repel
 - Balls: Poke Ball, Great Ball
@@ -920,7 +922,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets and @RedRunt for your contribution.
 
 ### Route 127 (Surfing) 
- <span id="route-127 (surfing)"></span>
+ <span id="route-127-surfing"></span>
 - Potions: Potion
 - Repels:
 - Balls: Poke Ball, Great Ball
@@ -992,10 +994,10 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Cities 
- <span id="cities"></span>
+ <span id="cities-1"></span>
 
 ### Petalburg City (surfing) 
- <span id="petalburg-city (surfing)"></span>
+ <span id="petalburg-city-surfing"></span>
 - Potions: Super Potion
 - Repels: Repel, Super Repel
 - Balls: Great Ball
@@ -1047,7 +1049,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution
 
 ### Caves/Forest/Other 
- <span id="caves/forest/other"></span>
+ <span id="cavesforestother-1"></span>
 
 ### Petalburg Woods 
  <span id="petalburg-woods"></span>
@@ -1131,7 +1133,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @BlueNose for your info.
 
 ### Mt. Pyre 
- <span id="mt.-pyre"></span>
+ <span id="mt-pyre"></span>
 - Potions: Super Potion and Hyper Potion
 - Repels: Super Repel and Max Repel
 - Balls: Great Ball and Ultra Ball
@@ -1166,7 +1168,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Other: Spell Tag
 
 ### Ever Grande City (Bottom Part) 
- <span id="ever-grande city (bottom part)"></span>
+ <span id="ever-grande-city-bottom-part"></span>
 - Potions: Potion, Super Potion
 - Repels: Repel
 - Balls: Poke Ball, Great Ball
@@ -1175,7 +1177,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @EricRasp for your info.
 
 ### Victory Road 
- <span id="victory-road"></span>
+ <span id="victory-road-1"></span>
 - Potions: Hyper Potion
 - Repels: Super Repel, Max Repel
 - Balls: Great Ball, Ultra Ball
@@ -1205,13 +1207,13 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Other: Energy Root, Energy root, Silk Scarf
 
 ### Altering Cave 
- <span id="altering-cave"></span>
+ <span id="altering-cave-1"></span>
 - Seems like no loot can be found.
 
 ## Unova
 
 ### Route 1 
- <span id="route-1"></span>
+ <span id="route-1-1"></span>
 - Potions: Potion
 - Repels:
 - Balls: Great Ball
@@ -1220,7 +1222,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @EricRasp and @tyfly1 for your contribution.
 
 ### Route 2 
- <span id="route-2"></span>
+ <span id="route-2-1"></span>
 - Potions: Potion
 - Repels:
 - Balls: Great Ball
@@ -1229,7 +1231,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 3 
- <span id="route-3"></span>
+ <span id="route-3-1"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls: 
@@ -1238,7 +1240,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets and @Bigpokemonfan for your contribution.
 
 ### Route 4 
- <span id="route-4"></span>
+ <span id="route-4-1"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls: Great Ball
@@ -1247,7 +1249,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Fixedgamingfor documenting the Antidotes on this Route. Also thank you @Genets for your contribution.
 
 ### Route 5 
- <span id="route-5"></span>
+ <span id="route-5-1"></span>
 - Potions:
 - Repels:
 - Balls: Great Ball, Great Ball
@@ -1256,7 +1258,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 6 
- <span id="route-6"></span>
+ <span id="route-6-1"></span>
 - Potions: Potion
 - Repels:
 - Balls: Great Ball
@@ -1265,7 +1267,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets and @Enzo3345 for your contribution.
 
 ### Route 7 
- <span id="route-7"></span>
+ <span id="route-7-1"></span>
 - Potions:
 - Repels:
 - Balls: Great Ball, Great Ball, Nest Ball
@@ -1274,7 +1276,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Bigpokemonfan for informing me about the Pumpkin Cookie. Also, thank you @Genets and @Ullriredor for your contribution.
 
 ### Route 8 
- <span id="route-8"></span>
+ <span id="route-8-1"></span>
 - Potions: 
 - Repels: Repel, Super Repel
 - Balls: 
@@ -1283,7 +1285,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 9 
- <span id="route-9"></span>
+ <span id="route-9-1"></span>
 - Potions: Super Potion
 - Repels: Repel
 - Balls: Great Ball, Nest Ball
@@ -1292,7 +1294,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 10 
- <span id="route-10"></span>
+ <span id="route-10-1"></span>
 - Potions: Super Potion
 - Repels: Repel, Super Repel
 - Balls: Great Ball, Nest Ball, Repeat Ball
@@ -1301,7 +1303,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @EricRasp, @HankBBQ, and @RedRunt for your contribution.
 
 ### Route 11 
- <span id="route-11"></span>
+ <span id="route-11-1"></span>
 - Potions: Super Potion
 - Repels: 
 - Balls: Great Ball, Heal Ball, Nest Ball
@@ -1309,7 +1311,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Other: Mystic Water, EnergyPowder, Blackglasses, Quick Claw, Rare Candy
 
 ### Route 12 (Rapidash Horde) 
- <span id="route-12 (rapidash horde)"></span>
+ <span id="route-12-rapidash-horde"></span>
 - Potions: Super Potion
 - Repels: Super Repel
 - Balls: Great Ball, Nest Ball
@@ -1318,7 +1320,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @EricRasp, @Nekrye, @RedRunt, and @KingRoses for your contribution.
 
 ### Route 13  
- <span id="route-13 "></span>
+ <span id="route-13-1"></span>
 - Potions: Super Potion
 - Repels: Super Repel
 - Balls: Net Ball, Great Ball
@@ -1327,7 +1329,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Sakustein for your contribution.
 
 ### Route 14 
- <span id="route-14"></span>
+ <span id="route-14-1"></span>
 - Potions: Super Potion
 - Repels: Super Repel
 - Balls: Great Ball, Ultra Ball, Nest Ball
@@ -1336,7 +1338,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Xigbar and @RedRunt for your info.
 
 ### Route 15 
- <span id="route-15"></span>
+ <span id="route-15-1"></span>
 - Potions: Super Potion, EnergyPowder
 - Repels: Repel
 - Balls: Great Ball, Nest Ball
@@ -1346,7 +1348,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @BlueNose and @RedRunt for your info.
 
 ### Route 16 
- <span id="route-16"></span>
+ <span id="route-16-1"></span>
 - Potions:
 - Repels:
 - Balls: Great Ball, Great Ball
@@ -1355,7 +1357,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @RedRunt and @Genets for your contribution.
 
 ### Route 17 
- <span id="route-17"></span>
+ <span id="route-17-1"></span>
 - Potions:
 - Repels: Repel, Repel
 - Balls: Great Ball, Great Ball
@@ -1364,7 +1366,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Route 18  
- <span id="route-18 "></span>
+ <span id="route-18-1"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls: Great Ball
@@ -1376,7 +1378,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
  <span id="cities"></span>
 
 ### Striaton City 
- <span id="striaton city"></span>
+ <span id="striatoncity"></span>
 - Potions: Potion
 - Repels:
 - Balls: Great Ball
@@ -1394,7 +1396,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Icirrus City (Deep Water Horde) 
- <span id="icirrus-city (deep water horde)"></span>
+ <span id="icirrus-city-deep-water-horde"></span>
 - Potions: Super Potion
 - Repels:
 - Balls: Great Ball, Net Ball
@@ -1403,7 +1405,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @mateusvictor for your input.
 
 ### Icirrus City (Grass Horde) 
- <span id="icirrus-city (grass horde)"></span>
+ <span id="icirrus-city-grass-horde"></span>
 - Potions:
 - Repels:
 - Balls:
@@ -1412,7 +1414,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @mateusvictor and @RealMak for your input.
 
 ### Undella Town 
- <span id="undella town"></span>
+ <span id="undellatown"></span>
 - Potions: Super Potion
 - Repels: Repel, Super Repel
 - Balls: Great Ball, Net Ball
@@ -1421,10 +1423,10 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @BlueNose for your info.
 
 ### Caves/Forest/Other 
- <span id="caves/forest/other"></span>
+ <span id="cavesforestother-2"></span>
 
 ### Dreamyard (Normal Grass) 
- <span id="dreamyard-(normal grass)"></span>
+ <span id="dreamyard-normal-grass"></span>
 - Potions: Super Potion
 - Repels: 
 - Balls: 
@@ -1433,7 +1435,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Ullriredor for your info.
 
 ### Dreamyard (Dark Green Grass) 
- <span id="dreamyard-(dark green grass)"></span>
+ <span id="dreamyard-dark-green-grass"></span>
 - Potions: 
 - Repels: Super Repel
 - Balls: Great Ball, Repeat Ball
@@ -1442,7 +1444,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Nekrye for your info.
 
 ### Dreamyard (Liepard Hordes) 
- <span id="dreamyard-(liepard hordes)"></span>
+ <span id="dreamyard-liepard-hordes"></span>
 - Potions: 
 - Repels:
 - Balls: 
@@ -1460,7 +1462,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your info.
 
 ### Pinwheel Forest  
- <span id="pinwheel-forest "></span>
+ <span id="pinwheel-forest"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls:
@@ -1469,7 +1471,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Desert Resort  
- <span id="desert-resort "></span>
+ <span id="desert-resort"></span>
 - Potions: Potion
 - Repels: 
 - Balls: Great Ball
@@ -1487,7 +1489,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Dip and @FourFacedLiar for your info.
 
 ### Lostlorn Forest  
- <span id="lostlorn-forest "></span>
+ <span id="lostlorn-forest"></span>
 - Potions: 
 - Repels: 
 - Balls: Great Ball, Great Ball
@@ -1496,7 +1498,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Minks, @Genets, and @RedRunt for your info.
 
 ### Mistralton Cave  
- <span id="mistralton-cave "></span>
+ <span id="mistralton-cave"></span>
 - Potions: Super Potion
 - Repels: 
 - Balls: Nest Ball
@@ -1541,7 +1543,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Ullriredor, @Bigpokemonfan, and @Minks for informing me about the Cat Cookie.
 
 ### Moor of Icirrus 
- <span id="moor-of icirrus"></span>
+ <span id="moor-of-icirrus"></span>
 - Potions: Potion, Super Potion, Super Potion
 - Repels: 
 - Balls: Great Ball, Nest Ball
@@ -1550,7 +1552,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Challenger's Cave 
- <span id="challenger's-cave"></span>
+ <span id="challengers-cave"></span>
 - Potions: 
 - Repels: 
 - Balls:
@@ -1559,7 +1561,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Genets for your contribution.
 
 ### Victory Road 
- <span id="victory-road"></span>
+ <span id="victory-road-2"></span>
 - Potions: Super Potion
 - Repels: Repel, Super Repel
 - Balls: Great Ball, Nest Ball
@@ -1577,7 +1579,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @CrzPapel for your info.
 
 ### Giant Chasm (Cave) - Dark Grass 
- <span id="giant-chasm (cave) - dark grass"></span>
+ <span id="giant-chasm-cave---dark-grass"></span>
 - Potions: 
 - Repels: Repel, Super Repel
 - Balls: 
@@ -1586,7 +1588,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @Rittz and @RedRunt for your contribution.
 
 ### Giant Chasm (Crater Forest) - Dark Grass 
- <span id="giant-chasm (crater forest) - dark grass"></span>
+ <span id="giant-chasm-crater-forest---dark-grass"></span>
 - Potions: Super Potion
 - Repels: 
 - Balls: Great Ball and Repeat Ball
@@ -1613,7 +1615,7 @@ Documentation Credit: Thank you @CrzPapel for your contribution.
 - Documentation Credit: Thank you @CrzPapel for your contribution.
 
 ### Abundant Shrine (Lake Hordes) 
- <span id="abundant-shrine (lake hordes)"></span>
+ <span id="abundant-shrine-lake-hordes"></span>
 - Potions: Potion
 - Repels: Repel
 - Balls: Great Ball
