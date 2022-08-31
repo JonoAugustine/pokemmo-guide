@@ -10,6 +10,8 @@ const Pokedex = ({ data }) => {
     const [filters, setFilters] = useState()
     const sprites = data.allFile.edges
 
+    console.log(data)
+
     return (
         <Page>
             <PageTitle>Pokedex</PageTitle>
@@ -29,7 +31,7 @@ export const query = graphql`
           id
           name
           childImageSharp {
-            gatsbyImageData(width: 100, placeholder: BLURRED, formats: [AUTO, WEBP])
+            gatsbyImageData(width: 100, placeholder: DOMINANT_COLOR, formats: [AUTO, WEBP])
           }
         }
       }

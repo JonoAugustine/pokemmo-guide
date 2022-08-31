@@ -1,7 +1,6 @@
-import React, { useCallback, useEffect, useMemo } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { Form } from 'react-bootstrap'
 import { pokedex } from '../../data/pokedex'
-import { useLocalStorage } from '../../hooks/useLocalStorage'
 
 const DEFAULT_FILTERS = {
     region: false,
@@ -37,9 +36,7 @@ const getAllFilterableValues = () => {
 
 export const PokedexFilters = ({ onFilters }) => {
     const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [pokedex])
-    const [filters, setFilters] = useLocalStorage('dexFilters', DEFAULT_FILTERS)
-    if (!filters) return;
-
+    const [filters, setFilters] = useState(DEFAULT_FILTERS)
     useEffect(() => {
         onFilters(filters)
     }, [filters])
