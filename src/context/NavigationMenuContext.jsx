@@ -1,4 +1,3 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useContext, useState } from 'react';
 import { Navbar } from "../components/Navbar";
 import { NavigationMenu } from '../components/NavigationMenu';
@@ -51,6 +50,15 @@ const NAVIGATION_MENU_ITEMS = {
     ]
 }
 
+const POSTS = [
+    {
+        title: "Making money with Pickup in PokeMMO",
+        excerpt: "When you defeat a wild Pokémon and you have a Pokémon with pickup in the first slot of the party, you get a small percentage of grab an item from a pool. The pool of items is not random but it's based on the current route.",
+        url: "https://forums.pokemmo.com/index.php?/topic/106742-money-guide-community-pickup-guide-2nd-edition/",
+        category: 'guide'
+    }
+]
+
 export function useNavigationMenu() {
     return useContext(NavigationMenuContext)
 }
@@ -60,31 +68,9 @@ export function NavigationMenuProvider({ children }) {
     const [pageName, setPageName] = useState('Homepage');
 
     const toggleNav = () => setIsOpen(prev => !prev)
-    const data = useStaticQuery(graphql`
-        query {
-            allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-                edges {
-                    node {
-                        id
-                        tableOfContents
-                        frontmatter {
-                            date(formatString: "MMMM DD, YYYY")
-                            slug
-                            title
-                            category
-                            tags
-                            menuTitle
-                            excerpt
-                        }
-                    }
-                }
-            }
-        }
-    `)
-    const posts = data.allMarkdownRemark.edges;
 
     return (
-        <NavigationMenuContext.Provider value={{ posts, toggleNav, pageName, setPageName, NAVIGATION_MENU_ITEMS }}>
+        <NavigationMenuContext.Provider value={{ toggleNav, pageName, setPageName, NAVIGATION_MENU_ITEMS, POSTS }}>
             <NavigationMenu show={isOpen} handleClose={toggleNav} />
             <Navbar />
             {children}
