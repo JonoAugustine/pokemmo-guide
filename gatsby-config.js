@@ -16,6 +16,19 @@ module.exports = {
     plugins: [
         `gatsby-plugin-advanced-sitemap`,
         {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `PokeMMO Guide`,
+                short_name: `PokeMMO Guide`,
+                start_url: `/`,
+                background_color: `#f7f0eb`,
+                theme_color: `#343a40`,
+                display: `standalone`,
+                icon: 'src/images/logo.png',
+                theme_color_in_head: false
+            },
+        },
+        {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
                 resolveEnv: () => NETLIFY_ENV,

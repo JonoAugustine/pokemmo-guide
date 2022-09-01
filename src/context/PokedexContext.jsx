@@ -19,8 +19,10 @@ export function PokedexProvider({ children }) {
 
     const [filters, setFilters] = useState(DEFAULT_FILTERS)
 
+    const resetFilters = () => setFilters(DEFAULT_FILTERS)
+
     return (
-        <PokedexContext.Provider value={{ filters, setFilters }}>
+        <PokedexContext.Provider value={{ filters, setFilters, resetFilters }}>
             {children}
         </PokedexContext.Provider>
     )
