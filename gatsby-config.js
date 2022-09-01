@@ -29,6 +29,15 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-plugin-offline`,
+            options: {
+                precachePages: [
+                    '/tools/*',
+                    '/guides/*'
+                ]
+            }
+        },
+        {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
                 resolveEnv: () => NETLIFY_ENV,
