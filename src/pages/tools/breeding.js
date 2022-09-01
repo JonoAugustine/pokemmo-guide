@@ -119,7 +119,7 @@ const Breeding = () => {
                         />
                     </div>
                 </div>
-                <div className='d-flex' style={{ gap: '1.5rem' }}>
+                <div className='d-flex flex-wrap' style={{ gap: '1.5rem' }}>
                     {
                         breedingIVsRequested.map((count, i) => {
                             let index = i + 1;
