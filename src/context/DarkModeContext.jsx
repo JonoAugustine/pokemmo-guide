@@ -36,7 +36,9 @@ export function DarkModeProvider({ children }) {
                 bodyAttributes={{
                     class: theme
                 }}
-            />
+            >
+                <meta name="theme-color" content={`${theme === 'dark' ? '#212529' : '#f8f9fa'}`} />
+            </Helmet>
             {children}
         </DarkModeContext.Provider>
     )

@@ -2,13 +2,13 @@ import React from 'react'
 import { TbPokeball } from 'react-icons/tb'
 import { Button } from '../Atoms'
 
-export const ShowLocationsToggle = ({ onClick, show, title = "Locations" }) => {
+export const ShowLocationsToggle = ({ onClick, show, title = "Locations", size = "sm" }) => {
     return (
         <Button
             variant="outline-info"
-            size="sm"
+            size={size}
             className="d-flex align-items-center"
-            style={{ gap: '.3rem', fontSize: '.8rem' }}
+            style={{ gap: '.3rem' }}
             onClick={() => onClick()}
         >
             {

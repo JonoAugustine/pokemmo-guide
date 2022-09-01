@@ -17,9 +17,12 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "gatsby": "^4.20.0",
+    "gatsby-plugin-advanced-sitemap": "^2.1.0",
     "gatsby-plugin-google-gtag": "^4.21.0",
     "gatsby-plugin-image": "^2.20.0",
-    "gatsby-plugin-manifest": "^4.20.0",
+    "gatsby-plugin-manifest": "^4.22.0",
+    "gatsby-plugin-offline": "^5.22.0",
+    "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sharp": "^4.20.0",
     "gatsby-plugin-sitemap": "^5.20.0",
     "gatsby-remark-autolink-headers": "^5.20.0",
