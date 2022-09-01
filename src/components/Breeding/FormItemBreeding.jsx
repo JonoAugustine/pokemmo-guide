@@ -4,7 +4,7 @@ import { Typography } from '../Atoms'
 
 export function FormItemBreeding({ id, ivCount, defaultValue, ...props }) {
     return (
-        <Form.Group controlId={id} {...props}>
+        <Form.Group controlId={id} {...props} style={{ flexGrow: 1 }}>
             <Form.Text className="text-muted">
                 <Typography className='fw-bold fs-5 d-inline-block me-2 mb-0'>{ivCount}</Typography>
                 1x31 IV in...
