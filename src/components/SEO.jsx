@@ -11,6 +11,7 @@ export const Seo = ({ title, description, pathname, children }) => {
         <>
             <title>{seo.title}</title>
             <meta name="description" content={seo.description} />
+            <meta name="google-site-verification" content="fpBZiBPol9ot44AVTO6VTrbM9sHeiMayGkxBKjh6xUg" />
             {children}
         </>
     )
