@@ -41,6 +41,12 @@ export const PokedexFilters = ({ onToggleLocations }) => {
             <Form className="mb-2 d-flex" style={{ gap: '1rem' }}>
                 <Form.Group controlId='region'>
                     <Form.Text>
+                        Name
+                    </Form.Text>
+                    <Form.Control value={filters.name} type="text" placeholder="Pokemon Name" onChange={({ target }) => setFilters(prev => ({ ...prev, name: target.value }))} />
+                </Form.Group>
+                <Form.Group controlId='region'>
+                    <Form.Text>
                         Region
                     </Form.Text>
                     <Form.Select value={filters.region} onChange={({ target }) => setFilters(prev => ({ ...prev, region: target.value !== 'false' ? target.value : false }))}>

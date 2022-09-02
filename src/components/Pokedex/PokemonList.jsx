@@ -11,6 +11,9 @@ const filterPokedex = (pokedex, filters) => {
     return pokedex
         .filter(pokemon => {
             if (!filters) return true;
+            if (filters.name) {
+                if (!pokemon.name.toLowerCase().includes(filters.name)) return false;
+            }
             if (filters.region) {
                 if (!pokemon.locations.find(loc => loc.region === filters.region)) return false;
             }
