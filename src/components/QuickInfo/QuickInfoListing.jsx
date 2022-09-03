@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from '../Atoms'
+import { GymEarningMultiplier } from './GymEarningMultiplier'
 import { RegionsLevelCap } from './RegionsLevelCap'
 
 const QUICK_INFO_LISTS = [
@@ -7,6 +8,11 @@ const QUICK_INFO_LISTS = [
         label: 'Regions Level Cap',
         id: 'regions-level-cap',
         component: <RegionsLevelCap />
+    },
+    {
+        label: "Amulet Coins Earnings",
+        id: 'amulet-coins-earnings',
+        component: <GymEarningMultiplier />
     }
 ]
 
