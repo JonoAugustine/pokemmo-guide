@@ -4,7 +4,7 @@ import { pokedex } from '../../data/pokedex'
 import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
-import { Typography } from '../Atoms';
+import { Card, Typography } from '../Atoms';
 
 const POKEMON_PER_PAGE = 50;
 
@@ -66,7 +66,7 @@ export const PokemonList = ({ sprites }) => {
                             if (!sprite) return false;
                             return <PokemonItem key={pokemon.name} {...pokemon} sprite={sprite} />
                         })
-                    : <Typography className="fs-2">No results found...</Typography>
+                    : <Card body>No results found...</Card>
             }
         </InfiniteScroll>
 
