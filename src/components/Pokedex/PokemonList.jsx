@@ -4,6 +4,7 @@ import { pokedex } from '../../data/pokedex'
 import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
+import { Typography } from '../Atoms';
 
 const POKEMON_PER_PAGE = 50;
 
@@ -12,10 +13,16 @@ const filterPokedex = (pokedex, filters) => {
         .filter(pokemon => {
             if (!filters) return true;
             if (filters.name) {
-                if (!pokemon.name.toLowerCase().includes(filters.name)) return false;
+                if (!pokemon.name.toLowerCase().includes(filters.name.toLowerCase().replace(' ', ''))) return false;
             }
             if (filters.region) {
-                if (!pokemon.locations.find(loc => loc.region === filters.region)) return false;
+                if (!pokemon.locations.find(loc => {
+                    if (!filters.hasHorde) return loc.region === filters.region
+
+                    return loc.region === filters.region && loc.rarity === 'horde'
+                })) {
+                    return false;
+                }
             }
             if (filters.route) {
                 if (!pokemon.locations.find(loc => {
@@ -36,10 +43,11 @@ const filterPokedex = (pokedex, filters) => {
         })
 }
 
-export const PokemonList = ({ sprites, toggleLocationsAll }) => {
+export const PokemonList = ({ sprites }) => {
     const [maxCount, setMaxCount] = useState(POKEMON_PER_PAGE);
     const { filters } = usePokedex()
     const pokemonList = filterPokedex(pokedex, filters)
+    console.log(pokemonList);
 
     const hasMore = maxCount < pokemonList.length
 
@@ -50,13 +58,15 @@ export const PokemonList = ({ sprites, toggleLocationsAll }) => {
             loader={<Spinner key={0} animation="grow" />}
         >
             {
-                pokemonList
-                    .splice(0, maxCount)
-                    .map(pokemon => {
-                        const sprite = sprites.find(({ node }) => parseInt(node.name) === parseInt(pokemon.id))
-                        if (!sprite) return false;
-                        return <PokemonItem toggleLocationsAll={toggleLocationsAll} key={pokemon.name} {...pokemon} sprite={sprite} />
-                    })
+                pokemonList.length > 0
+                    ? pokemonList
+                        .splice(0, maxCount)
+                        .map(pokemon => {
+                            const sprite = sprites.find(({ node }) => parseInt(node.name) === parseInt(pokemon.id))
+                            if (!sprite) return false;
+                            return <PokemonItem key={pokemon.name} {...pokemon} sprite={sprite} />
+                        })
+                    : <Typography className="fs-2">No results found...</Typography>
             }
         </InfiniteScroll>
 

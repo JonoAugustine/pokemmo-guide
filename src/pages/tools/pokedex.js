@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { useState } from 'react'
+import React from 'react'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
 import { PokedexFilters } from '../../components/Pokedex/PokedexFilters'
@@ -8,13 +8,12 @@ import { Seo } from '../../components/SEO'
 
 const Pokedex = ({ data }) => {
   const sprites = data.allFile.edges
-  const [toggleLocationsAll, setToggleLocationsAll] = useState(false)
 
   return (
     <Page>
       <PageTitle>Pokedex</PageTitle>
-      <PokedexFilters onToggleLocations={() => setToggleLocationsAll(prev => !prev)} />
-      <PokemonList toggleLocationsAll={toggleLocationsAll} sprites={sprites} />
+      <PokedexFilters />
+      <PokemonList sprites={sprites} />
     </Page>
   )
 }

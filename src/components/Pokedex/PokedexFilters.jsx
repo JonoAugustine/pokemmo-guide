@@ -3,7 +3,7 @@ import { Form } from 'react-bootstrap'
 import { usePokedex } from '../../context/PokedexContext'
 import { pokedex } from '../../data/pokedex'
 import { Button } from '../Atoms'
-import { ShowLocationsToggle } from './ShowLocationsToggle'
+import { ActionToggler } from './ActionToggler'
 
 
 const getAllFilterableValues = () => {
@@ -30,9 +30,9 @@ const getAllFilterableValues = () => {
     }
 }
 
-export const PokedexFilters = ({ onToggleLocations }) => {
+export const PokedexFilters = () => {
     const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [])
-    const { filters, setFilters, resetFilters } = usePokedex()
+    const { filters, setFilters, resetFilters, TABS } = usePokedex()
 
     if (!filters) return;
 
@@ -83,7 +83,11 @@ export const PokedexFilters = ({ onToggleLocations }) => {
                 </Form.Group>
             </Form>
             <div className="d-flex" style={{ gap: '.5rem' }}>
-                <ShowLocationsToggle size="md" title="all locations" show={filters.showLocationsDefault} onClick={() => onToggleLocations()} />
+                <ActionToggler
+                    size="md"
+                    title="all locations"
+                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.LOCATION ? TABS.LOCATION : false }))}
+                />
                 <Button variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
             </div>
         </div>

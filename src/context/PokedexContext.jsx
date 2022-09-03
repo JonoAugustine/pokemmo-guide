@@ -6,7 +6,14 @@ const DEFAULT_FILTERS = {
     route: false,
     name: '',
     eggGroup: false,
-    hasHorde: false
+    hasHorde: false,
+    allLocations: false
+}
+
+const TABS = {
+    LOCATION: 'location',
+    CATCH_RATE: 'catchrate',
+    STATS: 'stats'
 }
 
 const PokedexContext = createContext()
@@ -22,7 +29,7 @@ export function PokedexProvider({ children }) {
     const resetFilters = () => setFilters(DEFAULT_FILTERS)
 
     return (
-        <PokedexContext.Provider value={{ filters, setFilters, resetFilters }}>
+        <PokedexContext.Provider value={{ filters, setFilters, resetFilters, TABS }}>
             {children}
         </PokedexContext.Provider>
     )

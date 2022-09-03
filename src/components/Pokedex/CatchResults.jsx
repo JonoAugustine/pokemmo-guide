@@ -40,7 +40,7 @@ export const CatchResults = ({ results }) => {
     }
 
     return (
-        <Stack direction="horizontal" gap={2} className="border-top p-2">
+        <Stack direction="horizontal" gap={2} className="flex-wrap">
             <Button
                 className='d-flex align-items-center justify-content-center shadow rounded-circle bg-primary text-light'
                 style={changeActiveBallStyles}
@@ -52,7 +52,7 @@ export const CatchResults = ({ results }) => {
                     .filter(({ ball }) => ball === BALLS[activeBall])
                     .map((result, index) => {
                         return (
-                            <div key={index} className='d-flex align-items-center px-2 flex-wrap justify-content-center text-center text-md-start' style={{ gap: '.5rem' }}>
+                            <div key={index} className='d-flex align-items-center px-2 flex-wrap justify-content-center text-start' style={{ gap: '.5rem' }}>
                                 <div className='position-relative'>
                                     {result.status ? ASSETS[result.ball].sleep : ASSETS[result.ball].healthy}
                                 </div>

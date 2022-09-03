@@ -2,20 +2,39 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import React, { useEffect, useState } from 'react';
 import { Stack } from 'react-bootstrap';
 import { EggGroup } from '../../components/Pokedex/EggGroup';
+import { usePokedex } from '../../context/PokedexContext';
 import { useCatchRate } from '../../hooks/useCatchRate';
 import { Button, Card, Typography } from '../Atoms';
 import { CatchResults } from './CatchResults';
+import { PokemonActionBar } from './PokemonActionBar';
 import { PokemonLocations } from './PokemonLocations';
-import { ShowLocationsToggle } from './ShowLocationsToggle';
+import { PokemonBaseStats } from './PokemonBaseStats';
 
-export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRate, hp, toggleLocationsAll }) => {
-    const [showLocations, setShowLocations] = useState(toggleLocationsAll)
+export const PokemonSection = ({ children, show, title }) => {
+    return (
+        <div style={{ maxHeight: show ? 300 : 0, overflow: 'scroll', transition: '.3s' }}>
+            <div className="border-top"></div>
+            <div className='p-2'>
+                <Typography className="pt-2" as="h3">{title}</Typography>
+                {children}
+            </div>
+        </div>
+    )
+}
+
+export const PokemonItem = (pokemon) => {
+    const { id, name, held, group, locations, sprite, catchRate, stats } = pokemon;
+    const { filters, TABS } = usePokedex()
+    const [activeTab, setActiveTab] = useState(filters.allLocations)
+
+    const toggleTab = tabId => setActiveTab(prev => prev !== tabId ? tabId : '')
+
 
     useEffect(() => {
-        setShowLocations(toggleLocationsAll)
-    }, [toggleLocationsAll])
+        setActiveTab(filters.activeTab)
+    }, [filters])
     const [isLVU, setIsLVU] = useState(0)
-    const catchResults = useCatchRate(catchRate, hp);
+    const catchResults = useCatchRate(catchRate, stats.hp);
 
     const lvu = () => parseInt(id) === 16 ? setIsLVU(prev => prev + 1) : null
 
@@ -35,14 +54,11 @@ export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRat
                     <Stack gap={2}>
                         <Stack gap={4} direction="horizontal" className='align-items-center'>
                             <Typography as="h4" className="mb-0">{isLVU > 16 ? '16/07/11 ❤️' : name}</Typography>
-                            {
-                                locations.length ?
-                                    <ShowLocationsToggle
-                                        onClick={() => setShowLocations(prev => !prev)}
-                                        show={showLocations}
-                                    />
-                                    : false
-                            }
+                            <PokemonActionBar
+                                onClick={tabId => toggleTab(tabId)}
+                                active={activeTab}
+                                {...pokemon}
+                            />
                         </Stack>
                         <Stack direction="horizontal" gap={2}>
                             {
@@ -53,14 +69,28 @@ export const PokemonItem = ({ id, name, held, group, locations, sprite, catchRat
                     <Typography className='mb-0'>Item held: <b>{held.length ? held.join(', ') : 'None'}</b></Typography>
                 </Stack>
             </Stack>
-
             {
                 locations.length
                     ? <>
-                        <PokemonLocations locations={locations} show={showLocations} onClose={() => setShowLocations(prev => !prev)} />
-                        <CatchResults results={catchResults} />
+                        <PokemonSection show={activeTab === TABS.LOCATION ? true : false} title="Locations">
+                            <PokemonLocations
+                                locations={locations}
+                            />
+                        </PokemonSection>
+                        <PokemonSection show={activeTab === TABS.CATCH_RATE ? true : false} title="Catch rate">
+                            <CatchResults
+                                results={catchResults}
+                            />
+                        </PokemonSection>
                     </>
                     : false
+            }
+            {
+                <PokemonSection
+                    show={activeTab === TABS.STATS ? true : false}
+                    title="Base Stats">
+                    <PokemonBaseStats {...stats} />
+                </PokemonSection>
             }
         </Card>
     )

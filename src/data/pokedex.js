@@ -17,7 +17,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 49,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 2,
@@ -29,7 +36,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 63,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 60
+        }
     },
     {
         "id": 3,
@@ -41,7 +55,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 83,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 80
+        }
     },
     {
         "id": 4,
@@ -61,7 +82,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 39
+        "stats": {
+            "hp": 39,
+            "atk": 52,
+            "def": 43,
+            "spatk": 60,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 5,
@@ -73,7 +101,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 58
+        "stats": {
+            "hp": 58,
+            "atk": 64,
+            "def": 58,
+            "spatk": 80,
+            "spdef": 65,
+            "spe": 80
+        }
     },
     {
         "id": 6,
@@ -85,7 +120,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 78
+        "stats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spatk": 109,
+            "spdef": 85,
+            "spe": 100
+        }
     },
     {
         "id": 7,
@@ -105,7 +147,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 44
+        "stats": {
+            "hp": 44,
+            "atk": 48,
+            "def": 65,
+            "spatk": 50,
+            "spdef": 64,
+            "spe": 43
+        }
     },
     {
         "id": 8,
@@ -117,7 +166,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 59
+        "stats": {
+            "hp": 59,
+            "atk": 63,
+            "def": 80,
+            "spatk": 65,
+            "spdef": 80,
+            "spe": 58
+        }
     },
     {
         "id": 9,
@@ -129,7 +185,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 79
+        "stats": {
+            "hp": 79,
+            "atk": 83,
+            "def": 100,
+            "spatk": 85,
+            "spdef": 105,
+            "spe": 78
+        }
     },
     {
         "id": 10,
@@ -176,7 +239,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 35,
+            "spatk": 20,
+            "spdef": 20,
+            "spe": 45
+        }
     },
     {
         "id": 11,
@@ -230,7 +300,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 20,
+            "def": 55,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 30
+        }
     },
     {
         "id": 12,
@@ -286,7 +363,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 50,
+            "spatk": 90,
+            "spdef": 80,
+            "spe": 70
+        }
     },
     {
         "id": 13,
@@ -333,7 +417,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 35,
+            "def": 30,
+            "spatk": 20,
+            "spdef": 20,
+            "spe": 50
+        }
     },
     {
         "id": 14,
@@ -387,7 +478,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 25,
+            "def": 50,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 35
+        }
     },
     {
         "id": 15,
@@ -429,7 +527,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 40,
+            "spatk": 45,
+            "spdef": 80,
+            "spe": 75
+        }
     },
     {
         "id": 16,
@@ -637,7 +742,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 40,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 56
+        }
     },
     {
         "id": 17,
@@ -810,7 +922,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 63
+        "stats": {
+            "hp": 63,
+            "atk": 60,
+            "def": 55,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 71
+        }
     },
     {
         "id": 18,
@@ -821,7 +940,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 83
+        "stats": {
+            "hp": 83,
+            "atk": 80,
+            "def": 75,
+            "spatk": 70,
+            "spdef": 70,
+            "spe": 101
+        }
     },
     {
         "id": 19,
@@ -996,7 +1122,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 56,
+            "def": 35,
+            "spatk": 25,
+            "spdef": 35,
+            "spe": 72
+        }
     },
     {
         "id": 20,
@@ -1144,7 +1277,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 127,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 81,
+            "def": 60,
+            "spatk": 50,
+            "spdef": 70,
+            "spe": 97
+        }
     },
     {
         "id": 21,
@@ -1347,7 +1487,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 60,
+            "def": 30,
+            "spatk": 31,
+            "spdef": 31,
+            "spe": 70
+        }
     },
     {
         "id": 22,
@@ -1669,7 +1816,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 65,
+            "spatk": 61,
+            "spdef": 61,
+            "spe": 100
+        }
     },
     {
         "id": 23,
@@ -1731,7 +1885,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 60,
+            "def": 44,
+            "spatk": 40,
+            "spdef": 54,
+            "spe": 55
+        }
     },
     {
         "id": 24,
@@ -1768,7 +1929,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 95,
+            "def": 69,
+            "spatk": 65,
+            "spdef": 79,
+            "spe": 80
+        }
     },
     {
         "id": 25,
@@ -1840,7 +2008,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 55,
+            "def": 40,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 90
+        }
     },
     {
         "id": 26,
@@ -1854,7 +2029,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 55,
+            "spatk": 90,
+            "spdef": 80,
+            "spe": 110
+        }
     },
     {
         "id": 27,
@@ -1960,7 +2142,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 85,
+            "spatk": 20,
+            "spdef": 30,
+            "spe": 40
+        }
     },
     {
         "id": 28,
@@ -2011,7 +2200,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 110,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 65
+        }
     },
     {
         "id": 29,
@@ -2066,7 +2262,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 47,
+            "def": 52,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 41
+        }
     },
     {
         "id": 30,
@@ -2149,7 +2352,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 62,
+            "def": 67,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 56
+        }
     },
     {
         "id": 31,
@@ -2161,7 +2371,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 92,
+            "def": 87,
+            "spatk": 75,
+            "spdef": 85,
+            "spe": 76
+        }
     },
     {
         "id": 32,
@@ -2216,7 +2433,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 46
+        "stats": {
+            "hp": 46,
+            "atk": 57,
+            "def": 40,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 50
+        }
     },
     {
         "id": 33,
@@ -2299,7 +2523,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 61
+        "stats": {
+            "hp": 61,
+            "atk": 72,
+            "def": 57,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 65
+        }
     },
     {
         "id": 34,
@@ -2311,7 +2542,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 81
+        "stats": {
+            "hp": 81,
+            "atk": 102,
+            "def": 77,
+            "spatk": 85,
+            "spdef": 75,
+            "spe": 85
+        }
     },
     {
         "id": 35,
@@ -2389,7 +2627,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 150,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 45,
+            "def": 48,
+            "spatk": 60,
+            "spdef": 65,
+            "spe": 35
+        }
     },
     {
         "id": 36,
@@ -2418,7 +2663,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 70,
+            "def": 73,
+            "spatk": 95,
+            "spdef": 90,
+            "spe": 60
+        }
     },
     {
         "id": 37,
@@ -2531,7 +2783,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 38
+        "stats": {
+            "hp": 38,
+            "atk": 41,
+            "def": 40,
+            "spatk": 50,
+            "spdef": 65,
+            "spe": 65
+        }
     },
     {
         "id": 38,
@@ -2553,7 +2812,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 73
+        "stats": {
+            "hp": 73,
+            "atk": 76,
+            "def": 75,
+            "spatk": 81,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 39,
@@ -2666,7 +2932,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 170,
-        "hp": 115
+        "stats": {
+            "hp": 115,
+            "atk": 45,
+            "def": 20,
+            "spatk": 45,
+            "spdef": 25,
+            "spe": 20
+        }
     },
     {
         "id": 40,
@@ -2685,7 +2958,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 50,
-        "hp": 140
+        "stats": {
+            "hp": 140,
+            "atk": 70,
+            "def": 45,
+            "spatk": 85,
+            "spdef": 50,
+            "spe": 45
+        }
     },
     {
         "id": 41,
@@ -3166,7 +3446,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spatk": 30,
+            "spdef": 40,
+            "spe": 55
+        }
     },
     {
         "id": 42,
@@ -3612,7 +3899,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 70,
+            "spatk": 65,
+            "spdef": 75,
+            "spe": 90
+        }
     },
     {
         "id": 43,
@@ -3829,7 +4123,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 50,
+            "def": 55,
+            "spatk": 75,
+            "spdef": 65,
+            "spe": 30
+        }
     },
     {
         "id": 44,
@@ -3976,7 +4277,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 70,
+            "spatk": 85,
+            "spdef": 75,
+            "spe": 40
+        }
     },
     {
         "id": 45,
@@ -3989,7 +4297,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 85,
+            "spatk": 110,
+            "spdef": 90,
+            "spe": 50
+        }
     },
     {
         "id": 46,
@@ -4026,7 +4341,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 70,
+            "def": 55,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 25
+        }
     },
     {
         "id": 47,
@@ -4063,7 +4385,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 95,
+            "def": 80,
+            "spatk": 60,
+            "spdef": 80,
+            "spe": 30
+        }
     },
     {
         "id": 48,
@@ -4166,7 +4495,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 55,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 55,
+            "spe": 45
+        }
     },
     {
         "id": 49,
@@ -4237,7 +4573,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 65,
+            "def": 60,
+            "spatk": 90,
+            "spdef": 75,
+            "spe": 90
+        }
     },
     {
         "id": 50,
@@ -4273,7 +4616,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 10
+        "stats": {
+            "hp": 10,
+            "atk": 55,
+            "def": 25,
+            "spatk": 35,
+            "spdef": 45,
+            "spe": 95
+        }
     },
     {
         "id": 51,
@@ -4309,7 +4659,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 50,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 100,
+            "def": 50,
+            "spatk": 50,
+            "spdef": 70,
+            "spe": 120
+        }
     },
     {
         "id": 52,
@@ -4457,7 +4814,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 90
+        }
     },
     {
         "id": 53,
@@ -4562,7 +4926,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 70,
+            "def": 60,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 115
+        }
     },
     {
         "id": 54,
@@ -5464,7 +5835,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 52,
+            "def": 48,
+            "spatk": 65,
+            "spdef": 50,
+            "spe": 55
+        }
     },
     {
         "id": 55,
@@ -5848,7 +6226,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 78,
+            "spatk": 95,
+            "spdef": 80,
+            "spe": 85
+        }
     },
     {
         "id": 56,
@@ -5946,7 +6331,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 80,
+            "def": 35,
+            "spatk": 35,
+            "spdef": 45,
+            "spe": 70
+        }
     },
     {
         "id": 57,
@@ -5988,7 +6380,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 105,
+            "def": 60,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 95
+        }
     },
     {
         "id": 58,
@@ -6058,7 +6457,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 70,
+            "def": 45,
+            "spatk": 70,
+            "spdef": 50,
+            "spe": 60
+        }
     },
     {
         "id": 59,
@@ -6071,7 +6477,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 110,
+            "def": 80,
+            "spatk": 100,
+            "spdef": 80,
+            "spe": 95
+        }
     },
     {
         "id": 60,
@@ -6384,7 +6797,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 40,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 90
+        }
     },
     {
         "id": 61,
@@ -6622,7 +7042,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 65,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 90
+        }
     },
     {
         "id": 62,
@@ -6664,7 +7091,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 95,
+            "def": 95,
+            "spatk": 70,
+            "spdef": 90,
+            "spe": 70
+        }
     },
     {
         "id": 63,
@@ -6748,7 +7182,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 25
+        "stats": {
+            "hp": 25,
+            "atk": 20,
+            "def": 15,
+            "spatk": 105,
+            "spdef": 55,
+            "spe": 90
+        }
     },
     {
         "id": 64,
@@ -6811,7 +7252,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 100,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 35,
+            "def": 30,
+            "spatk": 120,
+            "spdef": 70,
+            "spe": 105
+        }
     },
     {
         "id": 65,
@@ -6824,7 +7272,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 50,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 50,
+            "def": 45,
+            "spatk": 135,
+            "spdef": 95,
+            "spe": 120
+        }
     },
     {
         "id": 66,
@@ -6950,7 +7405,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 50,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 35
+        }
     },
     {
         "id": 67,
@@ -7174,7 +7636,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spatk": 50,
+            "spdef": 60,
+            "spe": 45
+        }
     },
     {
         "id": 68,
@@ -7187,7 +7656,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 80,
+            "spatk": 65,
+            "spdef": 85,
+            "spe": 55
+        }
     },
     {
         "id": 69,
@@ -7348,7 +7824,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 35,
+            "spatk": 70,
+            "spdef": 30,
+            "spe": 40
+        }
     },
     {
         "id": 70,
@@ -7446,7 +7929,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 50,
+            "spatk": 85,
+            "spdef": 45,
+            "spe": 55
+        }
     },
     {
         "id": 71,
@@ -7459,7 +7949,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spatk": 100,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 72,
@@ -8908,7 +9405,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 35,
+            "spatk": 50,
+            "spdef": 100,
+            "spe": 70
+        }
     },
     {
         "id": 73,
@@ -9629,7 +10133,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 65,
+            "spatk": 80,
+            "spdef": 120,
+            "spe": 100
+        }
     },
     {
         "id": 74,
@@ -10022,7 +10533,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 80,
+            "def": 100,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 20
+        }
     },
     {
         "id": 75,
@@ -10359,7 +10877,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 95,
+            "def": 115,
+            "spatk": 45,
+            "spdef": 45,
+            "spe": 35
+        }
     },
     {
         "id": 76,
@@ -10451,7 +10976,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 120,
+            "def": 130,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 77,
@@ -10577,7 +11109,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 55,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 90
+        }
     },
     {
         "id": 78,
@@ -10633,7 +11172,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 100,
+            "def": 70,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 105
+        }
     },
     {
         "id": 79,
@@ -11202,7 +11748,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 65,
+            "def": 65,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 15
+        }
     },
     {
         "id": 80,
@@ -11330,7 +11883,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 75,
+            "def": 110,
+            "spatk": 100,
+            "spdef": 80,
+            "spe": 30
+        }
     },
     {
         "id": 81,
@@ -11422,7 +11982,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 25
+        "stats": {
+            "hp": 25,
+            "atk": 35,
+            "def": 70,
+            "spatk": 95,
+            "spdef": 55,
+            "spe": 45
+        }
     },
     {
         "id": 82,
@@ -11465,7 +12032,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 60,
+            "def": 95,
+            "spatk": 120,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 83,
@@ -11494,7 +12068,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 52
+        "stats": {
+            "hp": 52,
+            "atk": 90,
+            "def": 55,
+            "spatk": 58,
+            "spdef": 62,
+            "spe": 60
+        }
     },
     {
         "id": 84,
@@ -11557,7 +12138,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 85,
+            "def": 45,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 75
+        }
     },
     {
         "id": 85,
@@ -11585,7 +12173,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 110,
+            "def": 70,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 110
+        }
     },
     {
         "id": 86,
@@ -11705,7 +12300,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 45,
+            "def": 55,
+            "spatk": 45,
+            "spdef": 70,
+            "spe": 45
+        }
     },
     {
         "id": 87,
@@ -11854,7 +12456,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 70,
+            "def": 80,
+            "spatk": 70,
+            "spdef": 95,
+            "spe": 70
+        }
     },
     {
         "id": 88,
@@ -11953,7 +12562,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 25
+        }
     },
     {
         "id": 89,
@@ -11990,7 +12606,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 105,
+            "def": 75,
+            "spatk": 65,
+            "spdef": 100,
+            "spe": 50
+        }
     },
     {
         "id": 90,
@@ -12173,7 +12796,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 65,
+            "def": 100,
+            "spatk": 45,
+            "spdef": 25,
+            "spe": 40
+        }
     },
     {
         "id": 91,
@@ -12209,7 +12839,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 95,
+            "def": 180,
+            "spatk": 85,
+            "spdef": 45,
+            "spe": 70
+        }
     },
     {
         "id": 92,
@@ -12291,7 +12928,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 35,
+            "def": 30,
+            "spatk": 100,
+            "spdef": 35,
+            "spe": 80
+        }
     },
     {
         "id": 93,
@@ -12347,7 +12991,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 50,
+            "def": 45,
+            "spatk": 115,
+            "spdef": 55,
+            "spe": 95
+        }
     },
     {
         "id": 94,
@@ -12360,7 +13011,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 60,
+            "spatk": 130,
+            "spdef": 75,
+            "spe": 110
+        }
     },
     {
         "id": 95,
@@ -12488,7 +13146,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 45,
+            "def": 160,
+            "spatk": 30,
+            "spdef": 45,
+            "spe": 70
+        }
     },
     {
         "id": 96,
@@ -12535,7 +13200,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 48,
+            "def": 45,
+            "spatk": 43,
+            "spdef": 90,
+            "spe": 42
+        }
     },
     {
         "id": 97,
@@ -12561,7 +13233,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 73,
+            "def": 70,
+            "spatk": 73,
+            "spdef": 115,
+            "spe": 67
+        }
     },
     {
         "id": 98,
@@ -13105,7 +13784,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 105,
+            "def": 90,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 50
+        }
     },
     {
         "id": 99,
@@ -13341,7 +14027,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 130,
+            "def": 115,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 75
+        }
     },
     {
         "id": 100,
@@ -13395,7 +14088,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 50,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 100
+        }
     },
     {
         "id": 101,
@@ -13421,7 +14121,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 70,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 150
+        }
     },
     {
         "id": 102,
@@ -13461,7 +14168,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 80,
+            "spatk": 60,
+            "spdef": 45,
+            "spe": 40
+        }
     },
     {
         "id": 103,
@@ -13472,7 +14186,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 95,
+            "def": 85,
+            "spatk": 125,
+            "spdef": 75,
+            "spe": 55
+        }
     },
     {
         "id": 104,
@@ -13522,7 +14243,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 95,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 35
+        }
     },
     {
         "id": 105,
@@ -13607,7 +14335,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 110,
+            "spatk": 50,
+            "spdef": 80,
+            "spe": 45
+        }
     },
     {
         "id": 106,
@@ -13626,7 +14361,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 120,
+            "def": 53,
+            "spatk": 35,
+            "spdef": 110,
+            "spe": 87
+        }
     },
     {
         "id": 107,
@@ -13645,7 +14387,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 105,
+            "def": 79,
+            "spatk": 35,
+            "spdef": 110,
+            "spe": 76
+        }
     },
     {
         "id": 108,
@@ -13701,7 +14450,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 55,
+            "def": 75,
+            "spatk": 60,
+            "spdef": 75,
+            "spe": 30
+        }
     },
     {
         "id": 109,
@@ -13757,7 +14513,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 65,
+            "def": 95,
+            "spatk": 60,
+            "spdef": 45,
+            "spe": 35
+        }
     },
     {
         "id": 110,
@@ -13806,7 +14569,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 120,
+            "spatk": 85,
+            "spdef": 70,
+            "spe": 60
+        }
     },
     {
         "id": 111,
@@ -13898,7 +14668,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 85,
+            "def": 95,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 25
+        }
     },
     {
         "id": 112,
@@ -13983,7 +14760,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 130,
+            "def": 120,
+            "spatk": 45,
+            "spdef": 45,
+            "spe": 40
+        }
     },
     {
         "id": 113,
@@ -14006,7 +14790,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 250
+        "stats": {
+            "hp": 250,
+            "atk": 5,
+            "def": 5,
+            "spatk": 35,
+            "spdef": 105,
+            "spe": 50
+        }
     },
     {
         "id": 114,
@@ -14095,7 +14886,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 55,
+            "def": 115,
+            "spatk": 100,
+            "spdef": 40,
+            "spe": 60
+        }
     },
     {
         "id": 115,
@@ -14114,7 +14912,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 95,
+            "def": 80,
+            "spatk": 40,
+            "spdef": 80,
+            "spe": 90
+        }
     },
     {
         "id": 116,
@@ -14626,7 +15431,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 40,
+            "def": 70,
+            "spatk": 70,
+            "spdef": 25,
+            "spe": 60
+        }
     },
     {
         "id": 117,
@@ -14893,7 +15705,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 65,
+            "def": 95,
+            "spatk": 95,
+            "spdef": 45,
+            "spe": 85
+        }
     },
     {
         "id": 118,
@@ -15565,7 +16384,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 67,
+            "def": 60,
+            "spatk": 35,
+            "spdef": 50,
+            "spe": 63
+        }
     },
     {
         "id": 119,
@@ -15831,7 +16657,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 92,
+            "def": 65,
+            "spatk": 65,
+            "spdef": 80,
+            "spe": 68
+        }
     },
     {
         "id": 120,
@@ -15986,7 +16819,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 55,
+            "spatk": 70,
+            "spdef": 55,
+            "spe": 85
+        }
     },
     {
         "id": 121,
@@ -16000,7 +16840,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 60,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 75,
+            "def": 85,
+            "spatk": 100,
+            "spdef": 85,
+            "spe": 115
+        }
     },
     {
         "id": 122,
@@ -16054,7 +16901,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 65,
+            "spatk": 100,
+            "spdef": 120,
+            "spe": 90
+        }
     },
     {
         "id": 123,
@@ -16094,7 +16948,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 80,
+            "spatk": 55,
+            "spdef": 80,
+            "spe": 105
+        }
     },
     {
         "id": 124,
@@ -16143,7 +17004,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 50,
+            "def": 35,
+            "spatk": 115,
+            "spdef": 95,
+            "spe": 95
+        }
     },
     {
         "id": 125,
@@ -16178,7 +17046,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 83,
+            "def": 57,
+            "spatk": 95,
+            "spdef": 85,
+            "spe": 105
+        }
     },
     {
         "id": 126,
@@ -16221,7 +17096,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 57,
+            "spatk": 100,
+            "spdef": 85,
+            "spe": 93
+        }
     },
     {
         "id": 127,
@@ -16268,7 +17150,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 125,
+            "def": 100,
+            "spatk": 55,
+            "spdef": 70,
+            "spe": 85
+        }
     },
     {
         "id": 128,
@@ -16287,7 +17176,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 95,
+            "spatk": 40,
+            "spdef": 70,
+            "spe": 110
+        }
     },
     {
         "id": 129,
@@ -18274,7 +19170,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 10,
+            "def": 55,
+            "spatk": 15,
+            "spdef": 20,
+            "spe": 80
+        }
     },
     {
         "id": 130,
@@ -18889,7 +19792,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 125,
+            "def": 79,
+            "spatk": 60,
+            "spdef": 100,
+            "spe": 81
+        }
     },
     {
         "id": 131,
@@ -18946,7 +19856,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 130
+        "stats": {
+            "hp": 130,
+            "atk": 85,
+            "def": 80,
+            "spatk": 85,
+            "spdef": 95,
+            "spe": 60
+        }
     },
     {
         "id": 132,
@@ -19045,7 +19962,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 35,
-        "hp": 48
+        "stats": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spatk": 48,
+            "spdef": 48,
+            "spe": 48
+        }
     },
     {
         "id": 133,
@@ -19064,7 +19988,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 55,
+            "def": 50,
+            "spatk": 45,
+            "spdef": 65,
+            "spe": 55
+        }
     },
     {
         "id": 134,
@@ -19075,7 +20006,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 130
+        "stats": {
+            "hp": 130,
+            "atk": 65,
+            "def": 60,
+            "spatk": 110,
+            "spdef": 95,
+            "spe": 65
+        }
     },
     {
         "id": 135,
@@ -19086,7 +20024,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spatk": 110,
+            "spdef": 95,
+            "spe": 130
+        }
     },
     {
         "id": 136,
@@ -19097,7 +20042,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 130,
+            "def": 60,
+            "spatk": 95,
+            "spdef": 110,
+            "spe": 65
+        }
     },
     {
         "id": 137,
@@ -19108,7 +20060,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 60,
+            "def": 70,
+            "spatk": 85,
+            "spdef": 75,
+            "spe": 40
+        }
     },
     {
         "id": 138,
@@ -19120,7 +20079,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 40,
+            "def": 100,
+            "spatk": 90,
+            "spdef": 55,
+            "spe": 35
+        }
     },
     {
         "id": 139,
@@ -19132,7 +20098,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 125,
+            "spatk": 115,
+            "spdef": 70,
+            "spe": 55
+        }
     },
     {
         "id": 140,
@@ -19144,7 +20117,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 80,
+            "def": 90,
+            "spatk": 55,
+            "spdef": 45,
+            "spe": 55
+        }
     },
     {
         "id": 141,
@@ -19156,7 +20136,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 115,
+            "def": 105,
+            "spatk": 65,
+            "spdef": 70,
+            "spe": 80
+        }
     },
     {
         "id": 142,
@@ -19167,7 +20154,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spatk": 60,
+            "spdef": 75,
+            "spe": 130
+        }
     },
     {
         "id": 143,
@@ -19203,7 +20197,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 160
+        "stats": {
+            "hp": 160,
+            "atk": 110,
+            "def": 65,
+            "spatk": 65,
+            "spdef": 110,
+            "spe": 30
+        }
     },
     {
         "id": 144,
@@ -19214,7 +20215,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 100,
+            "spatk": 95,
+            "spdef": 125,
+            "spe": 85
+        }
     },
     {
         "id": 145,
@@ -19225,7 +20233,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 90,
+            "def": 85,
+            "spatk": 125,
+            "spdef": 90,
+            "spe": 100
+        }
     },
     {
         "id": 146,
@@ -19236,7 +20251,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 100,
+            "def": 90,
+            "spatk": 125,
+            "spdef": 85,
+            "spe": 90
+        }
     },
     {
         "id": 147,
@@ -19279,7 +20301,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 41
+        "stats": {
+            "hp": 41,
+            "atk": 64,
+            "def": 45,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 50
+        }
     },
     {
         "id": 148,
@@ -19323,7 +20352,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 61
+        "stats": {
+            "hp": 61,
+            "atk": 84,
+            "def": 65,
+            "spatk": 70,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 149,
@@ -19346,7 +20382,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 134,
+            "def": 95,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 80
+        }
     },
     {
         "id": 150,
@@ -19357,7 +20400,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 106
+        "stats": {
+            "hp": 106,
+            "atk": 110,
+            "def": 90,
+            "spatk": 154,
+            "spdef": 90,
+            "spe": 130
+        }
     },
     {
         "id": 151,
@@ -19368,7 +20418,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 152,
@@ -19388,7 +20445,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 65,
+            "spatk": 49,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 153,
@@ -19400,7 +20464,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 80,
+            "spatk": 63,
+            "spdef": 80,
+            "spe": 60
+        }
     },
     {
         "id": 154,
@@ -19412,7 +20483,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 100,
+            "spatk": 83,
+            "spdef": 100,
+            "spe": 80
+        }
     },
     {
         "id": 155,
@@ -19431,7 +20509,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 39
+        "stats": {
+            "hp": 39,
+            "atk": 52,
+            "def": 43,
+            "spatk": 60,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 156,
@@ -19442,7 +20527,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 58
+        "stats": {
+            "hp": 58,
+            "atk": 64,
+            "def": 58,
+            "spatk": 80,
+            "spdef": 65,
+            "spe": 80
+        }
     },
     {
         "id": 157,
@@ -19453,7 +20545,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 78
+        "stats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spatk": 109,
+            "spdef": 85,
+            "spe": 100
+        }
     },
     {
         "id": 158,
@@ -19473,7 +20572,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 64,
+            "spatk": 44,
+            "spdef": 48,
+            "spe": 43
+        }
     },
     {
         "id": 159,
@@ -19485,7 +20591,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 80,
+            "spatk": 59,
+            "spdef": 63,
+            "spe": 58
+        }
     },
     {
         "id": 160,
@@ -19497,7 +20610,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 100,
+            "spatk": 79,
+            "spdef": 83,
+            "spe": 78
+        }
     },
     {
         "id": 161,
@@ -19560,7 +20680,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 46,
+            "def": 34,
+            "spatk": 35,
+            "spdef": 45,
+            "spe": 20
+        }
     },
     {
         "id": 162,
@@ -19595,7 +20722,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 76,
+            "def": 64,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 90
+        }
     },
     {
         "id": 163,
@@ -19712,7 +20846,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 30,
+            "def": 30,
+            "spatk": 36,
+            "spdef": 56,
+            "spe": 50
+        }
     },
     {
         "id": 164,
@@ -19913,7 +21054,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 50,
+            "def": 50,
+            "spatk": 86,
+            "spdef": 96,
+            "spe": 70
+        }
     },
     {
         "id": 165,
@@ -19946,7 +21094,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 20,
+            "def": 30,
+            "spatk": 40,
+            "spdef": 80,
+            "spe": 55
+        }
     },
     {
         "id": 166,
@@ -19979,7 +21134,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 35,
+            "def": 50,
+            "spatk": 55,
+            "spdef": 110,
+            "spe": 85
+        }
     },
     {
         "id": 167,
@@ -20012,7 +21174,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 60,
+            "def": 40,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 30
+        }
     },
     {
         "id": 168,
@@ -20059,7 +21228,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 70,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 40
+        }
     },
     {
         "id": 169,
@@ -20085,7 +21261,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 90,
+            "def": 80,
+            "spatk": 70,
+            "spdef": 80,
+            "spe": 130
+        }
     },
     {
         "id": 170,
@@ -20226,7 +21409,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 38,
+            "def": 38,
+            "spatk": 56,
+            "spdef": 56,
+            "spe": 67
+        }
     },
     {
         "id": 171,
@@ -20311,7 +21501,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 125
+        "stats": {
+            "hp": 125,
+            "atk": 58,
+            "def": 58,
+            "spatk": 76,
+            "spdef": 76,
+            "spe": 67
+        }
     },
     {
         "id": 172,
@@ -20324,7 +21521,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 190,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 40,
+            "def": 15,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 60
+        }
     },
     {
         "id": 173,
@@ -20338,7 +21542,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 150,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 25,
+            "def": 28,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 15
+        }
     },
     {
         "id": 174,
@@ -20351,7 +21562,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 170,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 30,
+            "def": 15,
+            "spatk": 40,
+            "spdef": 20,
+            "spe": 15
+        }
     },
     {
         "id": 175,
@@ -20372,7 +21590,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 20,
+            "def": 65,
+            "spatk": 40,
+            "spdef": 65,
+            "spe": 20
+        }
     },
     {
         "id": 176,
@@ -20386,7 +21611,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 40,
+            "def": 85,
+            "spatk": 80,
+            "spdef": 105,
+            "spe": 40
+        }
     },
     {
         "id": 177,
@@ -20412,7 +21644,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 45,
+            "spatk": 70,
+            "spdef": 45,
+            "spe": 70
+        }
     },
     {
         "id": 178,
@@ -20438,7 +21677,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 75,
+            "def": 70,
+            "spatk": 95,
+            "spdef": 70,
+            "spe": 95
+        }
     },
     {
         "id": 179,
@@ -20472,7 +21718,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 40,
+            "def": 40,
+            "spatk": 65,
+            "spdef": 45,
+            "spe": 35
+        }
     },
     {
         "id": 180,
@@ -20484,7 +21737,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 120,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 55,
+            "def": 55,
+            "spatk": 80,
+            "spdef": 60,
+            "spe": 45
+        }
     },
     {
         "id": 181,
@@ -20496,7 +21756,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 75,
+            "def": 85,
+            "spatk": 115,
+            "spdef": 90,
+            "spe": 55
+        }
     },
     {
         "id": 182,
@@ -20509,7 +21776,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 95,
+            "spatk": 90,
+            "spdef": 100,
+            "spe": 50
+        }
     },
     {
         "id": 183,
@@ -20732,7 +22006,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 20,
+            "def": 50,
+            "spatk": 20,
+            "spdef": 50,
+            "spe": 40
+        }
     },
     {
         "id": 184,
@@ -20829,7 +22110,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 50,
+            "def": 80,
+            "spatk": 60,
+            "spdef": 80,
+            "spe": 50
+        }
     },
     {
         "id": 185,
@@ -20876,7 +22164,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 65,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 115,
+            "spatk": 30,
+            "spdef": 65,
+            "spe": 30
+        }
     },
     {
         "id": 186,
@@ -20904,7 +22199,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 75,
+            "def": 75,
+            "spatk": 90,
+            "spdef": 100,
+            "spe": 70
+        }
     },
     {
         "id": 187,
@@ -21029,7 +22331,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 35,
+            "def": 40,
+            "spatk": 35,
+            "spdef": 55,
+            "spe": 50
+        }
     },
     {
         "id": 188,
@@ -21070,7 +22379,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 45,
+            "def": 50,
+            "spatk": 45,
+            "spdef": 65,
+            "spe": 80
+        }
     },
     {
         "id": 189,
@@ -21082,7 +22398,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 55,
+            "def": 70,
+            "spatk": 55,
+            "spdef": 95,
+            "spe": 110
+        }
     },
     {
         "id": 190,
@@ -21122,7 +22445,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 70,
+            "def": 55,
+            "spatk": 40,
+            "spdef": 55,
+            "spe": 85
+        }
     },
     {
         "id": 191,
@@ -21165,7 +22495,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 30,
+            "def": 30,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 30
+        }
     },
     {
         "id": 192,
@@ -21186,7 +22523,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 55,
+            "spatk": 105,
+            "spdef": 85,
+            "spe": 30
+        }
     },
     {
         "id": 193,
@@ -21221,7 +22565,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 45,
+            "spatk": 75,
+            "spdef": 45,
+            "spe": 95
+        }
     },
     {
         "id": 194,
@@ -21325,7 +22676,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 45,
+            "def": 45,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 15
+        }
     },
     {
         "id": 195,
@@ -21429,7 +22787,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 85,
+            "def": 85,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 35
+        }
     },
     {
         "id": 196,
@@ -21440,7 +22805,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spatk": 130,
+            "spdef": 95,
+            "spe": 110
+        }
     },
     {
         "id": 197,
@@ -21451,7 +22823,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 65,
+            "def": 110,
+            "spatk": 60,
+            "spdef": 130,
+            "spe": 65
+        }
     },
     {
         "id": 198,
@@ -21549,7 +22928,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 42,
+            "spatk": 85,
+            "spdef": 42,
+            "spe": 91
+        }
     },
     {
         "id": 199,
@@ -21571,7 +22957,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 70,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 75,
+            "def": 80,
+            "spatk": 100,
+            "spdef": 110,
+            "spe": 30
+        }
     },
     {
         "id": 200,
@@ -21635,7 +23028,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spatk": 85,
+            "spdef": 85,
+            "spe": 85
+        }
     },
     {
         "id": 201,
@@ -21703,7 +23103,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 48
+        "stats": {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spatk": 72,
+            "spdef": 48,
+            "spe": 48
+        }
     },
     {
         "id": 202,
@@ -21743,7 +23150,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 190
+        "stats": {
+            "hp": 190,
+            "atk": 33,
+            "def": 58,
+            "spatk": 33,
+            "spdef": 58,
+            "spe": 33
+        }
     },
     {
         "id": 203,
@@ -21792,7 +23206,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 65,
+            "spatk": 90,
+            "spdef": 65,
+            "spe": 85
+        }
     },
     {
         "id": 204,
@@ -21825,7 +23246,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 90,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 15
+        }
     },
     {
         "id": 205,
@@ -21836,7 +23264,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 90,
+            "def": 140,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 40
+        }
     },
     {
         "id": 206,
@@ -21883,7 +23318,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 70,
+            "def": 70,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 207,
@@ -21960,7 +23402,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 75,
+            "def": 105,
+            "spatk": 35,
+            "spdef": 65,
+            "spe": 85
+        }
     },
     {
         "id": 208,
@@ -21974,7 +23423,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 25,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 85,
+            "def": 200,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 30
+        }
     },
     {
         "id": 209,
@@ -22036,7 +23492,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 30
+        }
     },
     {
         "id": 210,
@@ -22048,7 +23511,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 75,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 75,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 45
+        }
     },
     {
         "id": 211,
@@ -22174,7 +23644,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 85,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 85
+        }
     },
     {
         "id": 212,
@@ -22185,7 +23662,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 25,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 130,
+            "def": 100,
+            "spatk": 55,
+            "spdef": 80,
+            "spe": 65
+        }
     },
     {
         "id": 213,
@@ -22207,7 +23691,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 10,
+            "def": 230,
+            "spatk": 10,
+            "spdef": 230,
+            "spe": 5
+        }
     },
     {
         "id": 214,
@@ -22254,7 +23745,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 125,
+            "def": 75,
+            "spatk": 40,
+            "spdef": 95,
+            "spe": 85
+        }
     },
     {
         "id": 215,
@@ -22417,7 +23915,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 95,
+            "def": 55,
+            "spatk": 35,
+            "spdef": 75,
+            "spe": 115
+        }
     },
     {
         "id": 216,
@@ -22452,7 +23957,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 50,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 40
+        }
     },
     {
         "id": 217,
@@ -22487,7 +23999,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 75,
+            "spatk": 75,
+            "spdef": 75,
+            "spe": 55
+        }
     },
     {
         "id": 218,
@@ -22562,7 +24081,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 40,
+            "spatk": 70,
+            "spdef": 40,
+            "spe": 20
+        }
     },
     {
         "id": 219,
@@ -22616,7 +24142,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 120,
+            "spatk": 90,
+            "spdef": 80,
+            "spe": 30
+        }
     },
     {
         "id": 220,
@@ -22686,7 +24219,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 40,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 50
+        }
     },
     {
         "id": 221,
@@ -22778,7 +24318,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 80,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 50
+        }
     },
     {
         "id": 222,
@@ -22864,7 +24411,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 55,
+            "def": 95,
+            "spatk": 65,
+            "spdef": 95,
+            "spe": 35
+        }
     },
     {
         "id": 223,
@@ -23052,7 +24606,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 65,
+            "def": 35,
+            "spatk": 65,
+            "spdef": 35,
+            "spe": 65
+        }
     },
     {
         "id": 224,
@@ -23163,7 +24724,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 105,
+            "def": 75,
+            "spatk": 105,
+            "spdef": 75,
+            "spe": 45
+        }
     },
     {
         "id": 225,
@@ -23218,7 +24786,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 55,
+            "def": 45,
+            "spatk": 65,
+            "spdef": 45,
+            "spe": 75
+        }
     },
     {
         "id": 226,
@@ -23314,7 +24889,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 40,
+            "def": 70,
+            "spatk": 80,
+            "spdef": 140,
+            "spe": 70
+        }
     },
     {
         "id": 227,
@@ -23357,7 +24939,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 140,
+            "spatk": 40,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 228,
@@ -23425,7 +25014,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 30,
+            "spatk": 80,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 229,
@@ -23436,7 +25032,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 90,
+            "def": 50,
+            "spatk": 110,
+            "spdef": 80,
+            "spe": 95
+        }
     },
     {
         "id": 230,
@@ -23472,7 +25075,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 95,
+            "spatk": 95,
+            "spdef": 95,
+            "spe": 85
+        }
     },
     {
         "id": 231,
@@ -23514,7 +25124,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 60,
+            "def": 60,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 40
+        }
     },
     {
         "id": 232,
@@ -23556,7 +25173,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 120,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 50
+        }
     },
     {
         "id": 233,
@@ -23569,7 +25193,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 80,
+            "def": 90,
+            "spatk": 105,
+            "spdef": 95,
+            "spe": 60
+        }
     },
     {
         "id": 234,
@@ -23630,7 +25261,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 73
+        "stats": {
+            "hp": 73,
+            "atk": 95,
+            "def": 62,
+            "spatk": 85,
+            "spdef": 65,
+            "spe": 85
+        }
     },
     {
         "id": 235,
@@ -23670,7 +25308,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 20,
+            "def": 35,
+            "spatk": 20,
+            "spdef": 45,
+            "spe": 75
+        }
     },
     {
         "id": 236,
@@ -23681,7 +25326,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 75,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 35,
+            "def": 35,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 35
+        }
     },
     {
         "id": 237,
@@ -23692,7 +25344,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 95,
+            "def": 95,
+            "spatk": 35,
+            "spdef": 110,
+            "spe": 70
+        }
     },
     {
         "id": 238,
@@ -23705,7 +25364,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 15,
+            "spatk": 85,
+            "spdef": 65,
+            "spe": 65
+        }
     },
     {
         "id": 239,
@@ -23726,7 +25392,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 63,
+            "def": 37,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 95
+        }
     },
     {
         "id": 240,
@@ -23740,7 +25413,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 75,
+            "def": 37,
+            "spatk": 70,
+            "spdef": 55,
+            "spe": 83
+        }
     },
     {
         "id": 241,
@@ -23761,7 +25441,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 80,
+            "def": 105,
+            "spatk": 40,
+            "spdef": 70,
+            "spe": 100
+        }
     },
     {
         "id": 242,
@@ -23775,7 +25462,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 255
+        "stats": {
+            "hp": 255,
+            "atk": 10,
+            "def": 10,
+            "spatk": 75,
+            "spdef": 135,
+            "spe": 55
+        }
     },
     {
         "id": 243,
@@ -23786,7 +25480,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 75,
+            "spatk": 115,
+            "spdef": 100,
+            "spe": 115
+        }
     },
     {
         "id": 244,
@@ -23797,7 +25498,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 115
+        "stats": {
+            "hp": 115,
+            "atk": 115,
+            "def": 85,
+            "spatk": 90,
+            "spdef": 75,
+            "spe": 100
+        }
     },
     {
         "id": 245,
@@ -23808,7 +25516,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 75,
+            "def": 115,
+            "spatk": 90,
+            "spdef": 115,
+            "spe": 85
+        }
     },
     {
         "id": 246,
@@ -23836,7 +25551,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 64,
+            "def": 50,
+            "spatk": 45,
+            "spdef": 50,
+            "spe": 41
+        }
     },
     {
         "id": 247,
@@ -23871,7 +25593,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 84,
+            "def": 70,
+            "spatk": 65,
+            "spdef": 70,
+            "spe": 51
+        }
     },
     {
         "id": 248,
@@ -23892,7 +25621,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 134,
+            "def": 110,
+            "spatk": 95,
+            "spdef": 100,
+            "spe": 61
+        }
     },
     {
         "id": 249,
@@ -23903,7 +25639,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 106
+        "stats": {
+            "hp": 106,
+            "atk": 90,
+            "def": 130,
+            "spatk": 90,
+            "spdef": 154,
+            "spe": 110
+        }
     },
     {
         "id": 250,
@@ -23916,7 +25659,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 3,
-        "hp": 106
+        "stats": {
+            "hp": 106,
+            "atk": 130,
+            "def": 90,
+            "spatk": 110,
+            "spdef": 154,
+            "spe": 90
+        }
     },
     {
         "id": 251,
@@ -23927,7 +25677,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 252,
@@ -23947,7 +25704,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 70
+        }
     },
     {
         "id": 253,
@@ -23959,7 +25723,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 45,
+            "spatk": 85,
+            "spdef": 65,
+            "spe": 95
+        }
     },
     {
         "id": 254,
@@ -23971,7 +25742,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 65,
+            "spatk": 105,
+            "spdef": 85,
+            "spe": 120
+        }
     },
     {
         "id": 255,
@@ -23990,7 +25768,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 40,
+            "spatk": 70,
+            "spdef": 50,
+            "spe": 45
+        }
     },
     {
         "id": 256,
@@ -24001,7 +25786,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 60,
+            "spatk": 85,
+            "spdef": 60,
+            "spe": 55
+        }
     },
     {
         "id": 257,
@@ -24012,7 +25804,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 120,
+            "def": 70,
+            "spatk": 110,
+            "spdef": 70,
+            "spe": 80
+        }
     },
     {
         "id": 258,
@@ -24032,7 +25831,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 50,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 40
+        }
     },
     {
         "id": 259,
@@ -24044,7 +25850,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 70,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 50
+        }
     },
     {
         "id": 260,
@@ -24056,7 +25869,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 110,
+            "def": 90,
+            "spatk": 85,
+            "spdef": 90,
+            "spe": 60
+        }
     },
     {
         "id": 261,
@@ -24161,7 +25981,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 55,
+            "def": 35,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 35
+        }
     },
     {
         "id": 262,
@@ -24210,7 +26037,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 127,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 70,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 70
+        }
     },
     {
         "id": 263,
@@ -24331,7 +26165,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 38
+        "stats": {
+            "hp": 38,
+            "atk": 30,
+            "def": 41,
+            "spatk": 30,
+            "spdef": 41,
+            "spe": 60
+        }
     },
     {
         "id": 264,
@@ -24403,7 +26244,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 78
+        "stats": {
+            "hp": 78,
+            "atk": 70,
+            "def": 61,
+            "spatk": 50,
+            "spdef": 61,
+            "spe": 100
+        }
     },
     {
         "id": 265,
@@ -24481,7 +26329,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 45,
+            "def": 35,
+            "spatk": 20,
+            "spdef": 30,
+            "spe": 20
+        }
     },
     {
         "id": 266,
@@ -24521,7 +26376,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 35,
+            "def": 55,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 15
+        }
     },
     {
         "id": 267,
@@ -24578,7 +26440,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 50,
+            "spatk": 100,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 268,
@@ -24618,7 +26487,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 35,
+            "def": 55,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 15
+        }
     },
     {
         "id": 269,
@@ -24675,7 +26551,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 70,
+            "spatk": 50,
+            "spdef": 90,
+            "spe": 65
+        }
     },
     {
         "id": 270,
@@ -24760,7 +26643,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 30,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 30
+        }
     },
     {
         "id": 271,
@@ -24831,7 +26721,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 50,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 50
+        }
     },
     {
         "id": 272,
@@ -24845,7 +26742,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 70,
+            "spatk": 90,
+            "spdef": 100,
+            "spe": 70
+        }
     },
     {
         "id": 273,
@@ -24895,7 +26799,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 50,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 30
+        }
     },
     {
         "id": 274,
@@ -24917,7 +26828,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 40,
+            "spatk": 60,
+            "spdef": 40,
+            "spe": 60
+        }
     },
     {
         "id": 275,
@@ -24931,7 +26849,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 100,
+            "def": 60,
+            "spatk": 90,
+            "spdef": 60,
+            "spe": 80
+        }
     },
     {
         "id": 276,
@@ -24987,7 +26912,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 30,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 85
+        }
     },
     {
         "id": 277,
@@ -25085,7 +27017,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 60,
+            "spatk": 75,
+            "spdef": 50,
+            "spe": 125
+        }
     },
     {
         "id": 278,
@@ -25808,7 +27747,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 30,
+            "spatk": 55,
+            "spdef": 30,
+            "spe": 85
+        }
     },
     {
         "id": 279,
@@ -26532,7 +28478,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 100,
+            "spatk": 95,
+            "spdef": 70,
+            "spe": 65
+        }
     },
     {
         "id": 280,
@@ -26583,7 +28536,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 28
+        "stats": {
+            "hp": 28,
+            "atk": 25,
+            "def": 25,
+            "spatk": 45,
+            "spdef": 35,
+            "spe": 40
+        }
     },
     {
         "id": 281,
@@ -26606,7 +28566,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 38
+        "stats": {
+            "hp": 38,
+            "atk": 35,
+            "def": 35,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 50
+        }
     },
     {
         "id": 282,
@@ -26620,7 +28587,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 68
+        "stats": {
+            "hp": 68,
+            "atk": 65,
+            "def": 65,
+            "spatk": 125,
+            "spdef": 115,
+            "spe": 80
+        }
     },
     {
         "id": 283,
@@ -26747,7 +28721,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 32,
+            "spatk": 50,
+            "spdef": 52,
+            "spe": 65
+        }
     },
     {
         "id": 284,
@@ -26818,7 +28799,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 62,
+            "spatk": 100,
+            "spdef": 82,
+            "spe": 80
+        }
     },
     {
         "id": 285,
@@ -26843,7 +28831,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 60,
+            "spatk": 40,
+            "spdef": 60,
+            "spe": 35
+        }
     },
     {
         "id": 286,
@@ -26860,7 +28855,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 130,
+            "def": 80,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 70
+        }
     },
     {
         "id": 287,
@@ -26893,7 +28895,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 30
+        }
     },
     {
         "id": 288,
@@ -26904,7 +28913,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 120,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 90
+        }
     },
     {
         "id": 289,
@@ -26915,7 +28931,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 150
+        "stats": {
+            "hp": 150,
+            "atk": 160,
+            "def": 100,
+            "spatk": 95,
+            "spdef": 65,
+            "spe": 100
+        }
     },
     {
         "id": 290,
@@ -26936,7 +28959,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 31
+        "stats": {
+            "hp": 31,
+            "atk": 45,
+            "def": 90,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 40
+        }
     },
     {
         "id": 291,
@@ -26947,7 +28977,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 120,
-        "hp": 61
+        "stats": {
+            "hp": 61,
+            "atk": 90,
+            "def": 45,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 160
+        }
     },
     {
         "id": 292,
@@ -26958,7 +28995,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 1
+        "stats": {
+            "hp": 1,
+            "atk": 90,
+            "def": 45,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 40
+        }
     },
     {
         "id": 293,
@@ -27008,7 +29052,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 64
+        "stats": {
+            "hp": 64,
+            "atk": 51,
+            "def": 23,
+            "spatk": 51,
+            "spdef": 23,
+            "spe": 28
+        }
     },
     {
         "id": 294,
@@ -27051,7 +29102,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 84
+        "stats": {
+            "hp": 84,
+            "atk": 71,
+            "def": 43,
+            "spatk": 71,
+            "spdef": 43,
+            "spe": 48
+        }
     },
     {
         "id": 295,
@@ -27065,7 +29123,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 104
+        "stats": {
+            "hp": 104,
+            "atk": 91,
+            "def": 63,
+            "spatk": 91,
+            "spdef": 73,
+            "spe": 68
+        }
     },
     {
         "id": 296,
@@ -27100,7 +29165,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 72
+        "stats": {
+            "hp": 72,
+            "atk": 60,
+            "def": 30,
+            "spatk": 20,
+            "spdef": 30,
+            "spe": 25
+        }
     },
     {
         "id": 297,
@@ -27128,7 +29200,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 144
+        "stats": {
+            "hp": 144,
+            "atk": 120,
+            "def": 60,
+            "spatk": 40,
+            "spdef": 60,
+            "spe": 50
+        }
     },
     {
         "id": 298,
@@ -27139,7 +29218,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 150,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 20,
+            "def": 40,
+            "spatk": 20,
+            "spdef": 40,
+            "spe": 20
+        }
     },
     {
         "id": 299,
@@ -27211,7 +29297,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 135,
+            "spatk": 45,
+            "spdef": 90,
+            "spe": 30
+        }
     },
     {
         "id": 300,
@@ -27233,7 +29326,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 45,
+            "def": 45,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 50
+        }
     },
     {
         "id": 301,
@@ -27247,7 +29347,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 60,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 65,
+            "def": 65,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 90
+        }
     },
     {
         "id": 302,
@@ -27331,7 +29438,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 75,
+            "spatk": 65,
+            "spdef": 65,
+            "spe": 50
+        }
     },
     {
         "id": 303,
@@ -27417,7 +29531,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 85,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 50
+        }
     },
     {
         "id": 304,
@@ -27466,7 +29587,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 100,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 30
+        }
     },
     {
         "id": 305,
@@ -27494,7 +29622,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 140,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 40
+        }
     },
     {
         "id": 306,
@@ -27515,7 +29650,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 180,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 50
+        }
     },
     {
         "id": 307,
@@ -27646,7 +29788,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 40,
+            "def": 55,
+            "spatk": 40,
+            "spdef": 55,
+            "spe": 60
+        }
     },
     {
         "id": 308,
@@ -27735,7 +29884,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 75,
+            "spatk": 60,
+            "spdef": 75,
+            "spe": 80
+        }
     },
     {
         "id": 309,
@@ -27775,7 +29931,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 40,
+            "spatk": 65,
+            "spdef": 40,
+            "spe": 65
+        }
     },
     {
         "id": 310,
@@ -27794,7 +29957,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 75,
+            "def": 60,
+            "spatk": 105,
+            "spdef": 60,
+            "spe": 105
+        }
     },
     {
         "id": 311,
@@ -27815,7 +29985,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 40,
+            "spatk": 85,
+            "spdef": 75,
+            "spe": 95
+        }
     },
     {
         "id": 312,
@@ -27836,7 +30013,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 50,
+            "spatk": 75,
+            "spdef": 85,
+            "spe": 95
+        }
     },
     {
         "id": 313,
@@ -27872,7 +30056,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 150,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 73,
+            "def": 75,
+            "spatk": 47,
+            "spdef": 85,
+            "spe": 85
+        }
     },
     {
         "id": 314,
@@ -27908,7 +30099,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 150,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 47,
+            "def": 75,
+            "spatk": 73,
+            "spdef": 85,
+            "spe": 85
+        }
     },
     {
         "id": 315,
@@ -28037,7 +30235,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 150,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 60,
+            "def": 45,
+            "spatk": 100,
+            "spdef": 80,
+            "spe": 65
+        }
     },
     {
         "id": 316,
@@ -28059,7 +30264,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 43,
+            "def": 53,
+            "spatk": 43,
+            "spdef": 53,
+            "spe": 40
+        }
     },
     {
         "id": 317,
@@ -28073,7 +30285,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 73,
+            "def": 83,
+            "spatk": 73,
+            "spdef": 83,
+            "spe": 55
+        }
     },
     {
         "id": 318,
@@ -28136,7 +30355,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 90,
+            "def": 20,
+            "spatk": 65,
+            "spdef": 20,
+            "spe": 65
+        }
     },
     {
         "id": 319,
@@ -28283,7 +30509,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 120,
+            "def": 40,
+            "spatk": 95,
+            "spdef": 40,
+            "spe": 95
+        }
     },
     {
         "id": 320,
@@ -28765,7 +30998,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 125,
-        "hp": 130
+        "stats": {
+            "hp": 130,
+            "atk": 70,
+            "def": 35,
+            "spatk": 70,
+            "spdef": 35,
+            "spe": 60
+        }
     },
     {
         "id": 321,
@@ -28813,7 +31053,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 170
+        "stats": {
+            "hp": 170,
+            "atk": 90,
+            "def": 45,
+            "spatk": 90,
+            "spdef": 45,
+            "spe": 60
+        }
     },
     {
         "id": 322,
@@ -28876,7 +31123,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 40,
+            "spatk": 65,
+            "spdef": 45,
+            "spe": 35
+        }
     },
     {
         "id": 323,
@@ -28932,7 +31186,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 150,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 70,
+            "spatk": 105,
+            "spdef": 75,
+            "spe": 40
+        }
     },
     {
         "id": 324,
@@ -28975,7 +31236,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 140,
+            "spatk": 85,
+            "spdef": 70,
+            "spe": 20
+        }
     },
     {
         "id": 325,
@@ -29004,7 +31272,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 25,
+            "def": 35,
+            "spatk": 70,
+            "spdef": 80,
+            "spe": 60
+        }
     },
     {
         "id": 326,
@@ -29026,7 +31301,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 45,
+            "def": 65,
+            "spatk": 90,
+            "spdef": 110,
+            "spe": 80
+        }
     },
     {
         "id": 327,
@@ -29069,7 +31351,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 60
+        }
     },
     {
         "id": 328,
@@ -29112,7 +31401,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 100,
+            "def": 45,
+            "spatk": 45,
+            "spdef": 45,
+            "spe": 10
+        }
     },
     {
         "id": 329,
@@ -29139,7 +31435,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 50,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 70
+        }
     },
     {
         "id": 330,
@@ -29151,7 +31454,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 80,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 100
+        }
     },
     {
         "id": 331,
@@ -29202,7 +31512,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 40,
+            "spatk": 85,
+            "spdef": 40,
+            "spe": 35
+        }
     },
     {
         "id": 332,
@@ -29225,7 +31542,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 115,
+            "def": 60,
+            "spatk": 115,
+            "spdef": 60,
+            "spe": 55
+        }
     },
     {
         "id": 333,
@@ -29308,7 +31632,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 40,
+            "def": 60,
+            "spatk": 40,
+            "spdef": 75,
+            "spe": 50
+        }
     },
     {
         "id": 334,
@@ -29384,7 +31715,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 70,
+            "def": 90,
+            "spatk": 70,
+            "spdef": 105,
+            "spe": 80
+        }
     },
     {
         "id": 335,
@@ -29441,7 +31779,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 73
+        "stats": {
+            "hp": 73,
+            "atk": 115,
+            "def": 60,
+            "spatk": 60,
+            "spdef": 60,
+            "spe": 90
+        }
     },
     {
         "id": 336,
@@ -29500,7 +31845,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 73
+        "stats": {
+            "hp": 73,
+            "atk": 100,
+            "def": 60,
+            "spatk": 100,
+            "spdef": 60,
+            "spe": 65
+        }
     },
     {
         "id": 337,
@@ -29600,7 +31952,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 55,
+            "def": 65,
+            "spatk": 95,
+            "spdef": 85,
+            "spe": 70
+        }
     },
     {
         "id": 338,
@@ -29700,7 +32059,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 95,
+            "def": 85,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 70
+        }
     },
     {
         "id": 339,
@@ -29929,7 +32295,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 48,
+            "def": 43,
+            "spatk": 46,
+            "spdef": 41,
+            "spe": 60
+        }
     },
     {
         "id": 340,
@@ -30081,7 +32454,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 78,
+            "def": 73,
+            "spatk": 76,
+            "spdef": 71,
+            "spe": 60
+        }
     },
     {
         "id": 341,
@@ -30157,7 +32537,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 205,
-        "hp": 43
+        "stats": {
+            "hp": 43,
+            "atk": 80,
+            "def": 65,
+            "spatk": 50,
+            "spdef": 35,
+            "spe": 35
+        }
     },
     {
         "id": 342,
@@ -30184,7 +32571,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 155,
-        "hp": 63
+        "stats": {
+            "hp": 63,
+            "atk": 120,
+            "def": 85,
+            "spatk": 90,
+            "spdef": 55,
+            "spe": 55
+        }
     },
     {
         "id": 343,
@@ -30212,7 +32606,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 55,
+            "spatk": 40,
+            "spdef": 70,
+            "spe": 55
+        }
     },
     {
         "id": 344,
@@ -30254,7 +32655,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 105,
+            "spatk": 70,
+            "spdef": 120,
+            "spe": 75
+        }
     },
     {
         "id": 345,
@@ -30267,7 +32675,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 66
+        "stats": {
+            "hp": 66,
+            "atk": 41,
+            "def": 77,
+            "spatk": 61,
+            "spdef": 87,
+            "spe": 23
+        }
     },
     {
         "id": 346,
@@ -30280,7 +32695,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 86
+        "stats": {
+            "hp": 86,
+            "atk": 81,
+            "def": 97,
+            "spatk": 81,
+            "spdef": 107,
+            "spe": 43
+        }
     },
     {
         "id": 347,
@@ -30291,7 +32713,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 95,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 75
+        }
     },
     {
         "id": 348,
@@ -30302,7 +32731,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 100,
+            "spatk": 70,
+            "spdef": 80,
+            "spe": 45
+        }
     },
     {
         "id": 349,
@@ -30329,7 +32765,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 15,
+            "def": 20,
+            "spatk": 10,
+            "spdef": 55,
+            "spe": 80
+        }
     },
     {
         "id": 350,
@@ -30341,7 +32784,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 60,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 60,
+            "def": 79,
+            "spatk": 100,
+            "spdef": 125,
+            "spe": 81
+        }
     },
     {
         "id": 351,
@@ -30363,7 +32813,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 70,
+            "spatk": 70,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 351,
@@ -30413,7 +32870,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 70,
+            "spatk": 70,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 353,
@@ -30476,7 +32940,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 44
+        "stats": {
+            "hp": 44,
+            "atk": 75,
+            "def": 35,
+            "spatk": 63,
+            "spdef": 33,
+            "spe": 45
+        }
     },
     {
         "id": 354,
@@ -30546,7 +33017,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 64
+        "stats": {
+            "hp": 64,
+            "atk": 115,
+            "def": 65,
+            "spatk": 83,
+            "spdef": 63,
+            "spe": 65
+        }
     },
     {
         "id": 355,
@@ -30639,7 +33117,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 40,
+            "def": 90,
+            "spatk": 30,
+            "spdef": 90,
+            "spe": 25
+        }
     },
     {
         "id": 356,
@@ -30683,7 +33168,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 70,
+            "def": 130,
+            "spatk": 60,
+            "spdef": 130,
+            "spe": 25
+        }
     },
     {
         "id": 357,
@@ -30731,7 +33223,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 99
+        "stats": {
+            "hp": 99,
+            "atk": 68,
+            "def": 83,
+            "spatk": 72,
+            "spdef": 87,
+            "spe": 51
+        }
     },
     {
         "id": 358,
@@ -30824,7 +33323,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 50,
+            "def": 80,
+            "spatk": 95,
+            "spdef": 90,
+            "spe": 65
+        }
     },
     {
         "id": 359,
@@ -30908,7 +33414,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 130,
+            "def": 60,
+            "spatk": 75,
+            "spdef": 60,
+            "spe": 75
+        }
     },
     {
         "id": 360,
@@ -30919,7 +33432,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 125,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 23,
+            "def": 48,
+            "spatk": 23,
+            "spdef": 48,
+            "spe": 23
+        }
     },
     {
         "id": 361,
@@ -31089,7 +33609,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 50,
+            "spatk": 50,
+            "spdef": 50,
+            "spe": 50
+        }
     },
     {
         "id": 362,
@@ -31104,7 +33631,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 80
+        }
     },
     {
         "id": 363,
@@ -31180,7 +33714,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 40,
+            "def": 50,
+            "spatk": 55,
+            "spdef": 50,
+            "spe": 25
+        }
     },
     {
         "id": 364,
@@ -31256,7 +33797,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 60,
+            "def": 70,
+            "spatk": 75,
+            "spdef": 70,
+            "spe": 45
+        }
     },
     {
         "id": 365,
@@ -31268,7 +33816,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 80,
+            "def": 90,
+            "spatk": 95,
+            "spdef": 90,
+            "spe": 65
+        }
     },
     {
         "id": 366,
@@ -31319,7 +33874,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 64,
+            "def": 85,
+            "spatk": 74,
+            "spdef": 55,
+            "spe": 32
+        }
     },
     {
         "id": 367,
@@ -31340,7 +33902,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 104,
+            "def": 105,
+            "spatk": 94,
+            "spdef": 75,
+            "spe": 52
+        }
     },
     {
         "id": 368,
@@ -31361,7 +33930,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 84,
+            "def": 105,
+            "spatk": 114,
+            "spdef": 75,
+            "spe": 52
+        }
     },
     {
         "id": 369,
@@ -31398,7 +33974,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 90,
+            "def": 130,
+            "spatk": 45,
+            "spdef": 65,
+            "spe": 55
+        }
     },
     {
         "id": 370,
@@ -31538,7 +34121,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 43
+        "stats": {
+            "hp": 43,
+            "atk": 30,
+            "def": 55,
+            "spatk": 40,
+            "spdef": 65,
+            "spe": 97
+        }
     },
     {
         "id": 371,
@@ -31574,7 +34164,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 75,
+            "def": 60,
+            "spatk": 40,
+            "spdef": 30,
+            "spe": 50
+        }
     },
     {
         "id": 372,
@@ -31588,7 +34185,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 100,
+            "spatk": 60,
+            "spdef": 50,
+            "spe": 50
+        }
     },
     {
         "id": 373,
@@ -31602,7 +34206,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 135,
+            "def": 80,
+            "spatk": 110,
+            "spdef": 80,
+            "spe": 100
+        }
     },
     {
         "id": 374,
@@ -31623,7 +34234,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 3,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 80,
+            "spatk": 35,
+            "spdef": 60,
+            "spe": 30
+        }
     },
     {
         "id": 375,
@@ -31651,7 +34269,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 3,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 75,
+            "def": 100,
+            "spatk": 55,
+            "spdef": 80,
+            "spe": 50
+        }
     },
     {
         "id": 376,
@@ -31664,7 +34289,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 135,
+            "def": 130,
+            "spatk": 95,
+            "spdef": 90,
+            "spe": 70
+        }
     },
     {
         "id": 377,
@@ -31675,7 +34307,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 200,
+            "spatk": 50,
+            "spdef": 100,
+            "spe": 50
+        }
     },
     {
         "id": 378,
@@ -31686,7 +34325,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 50,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 200,
+            "spe": 50
+        }
     },
     {
         "id": 379,
@@ -31697,7 +34343,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 75,
+            "def": 150,
+            "spatk": 75,
+            "spdef": 150,
+            "spe": 50
+        }
     },
     {
         "id": 380,
@@ -31708,7 +34361,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 90,
+            "spatk": 110,
+            "spdef": 130,
+            "spe": 110
+        }
     },
     {
         "id": 381,
@@ -31719,7 +34379,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 90,
+            "def": 80,
+            "spatk": 130,
+            "spdef": 110,
+            "spe": 110
+        }
     },
     {
         "id": 382,
@@ -31730,7 +34397,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 90,
+            "spatk": 150,
+            "spdef": 140,
+            "spe": 90
+        }
     },
     {
         "id": 383,
@@ -31741,7 +34415,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 150,
+            "def": 140,
+            "spatk": 100,
+            "spdef": 90,
+            "spe": 90
+        }
     },
     {
         "id": 384,
@@ -31752,7 +34433,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 150,
+            "def": 90,
+            "spatk": 150,
+            "spdef": 90,
+            "spe": 95
+        }
     },
     {
         "id": 385,
@@ -31765,7 +34453,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 386,
@@ -31776,11 +34471,18 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 150,
+            "def": 50,
+            "spatk": 150,
+            "spdef": 50,
+            "spe": 150
+        }
     },
     {
         "id": 386,
-        "name": "Deoxys - Attack Forme",
+        "name": "Deoxys - atk Forme",
         "group": [
             "cannot breed"
         ],
@@ -31795,7 +34497,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 3,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 150,
+            "def": 50,
+            "spatk": 150,
+            "spdef": 50,
+            "spe": 150
+        }
     },
     {
         "id": 388,
@@ -31807,7 +34516,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 89,
+            "def": 85,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 36
+        }
     },
     {
         "id": 389,
@@ -31819,7 +34535,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 109,
+            "def": 105,
+            "spatk": 75,
+            "spdef": 85,
+            "spe": 56
+        }
     },
     {
         "id": 390,
@@ -31839,7 +34562,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 44
+        "stats": {
+            "hp": 44,
+            "atk": 58,
+            "def": 44,
+            "spatk": 58,
+            "spdef": 44,
+            "spe": 61
+        }
     },
     {
         "id": 391,
@@ -31851,7 +34581,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 64
+        "stats": {
+            "hp": 64,
+            "atk": 78,
+            "def": 52,
+            "spatk": 78,
+            "spdef": 52,
+            "spe": 81
+        }
     },
     {
         "id": 392,
@@ -31863,7 +34600,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 76
+        "stats": {
+            "hp": 76,
+            "atk": 104,
+            "def": 71,
+            "spatk": 104,
+            "spdef": 71,
+            "spe": 108
+        }
     },
     {
         "id": 393,
@@ -31883,7 +34627,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 53
+        "stats": {
+            "hp": 53,
+            "atk": 51,
+            "def": 53,
+            "spatk": 61,
+            "spdef": 56,
+            "spe": 40
+        }
     },
     {
         "id": 394,
@@ -31895,7 +34646,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 64
+        "stats": {
+            "hp": 64,
+            "atk": 66,
+            "def": 68,
+            "spatk": 81,
+            "spdef": 76,
+            "spe": 50
+        }
     },
     {
         "id": 395,
@@ -31907,7 +34665,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 84
+        "stats": {
+            "hp": 84,
+            "atk": 86,
+            "def": 88,
+            "spatk": 111,
+            "spdef": 101,
+            "spe": 60
+        }
     },
     {
         "id": 396,
@@ -32026,7 +34791,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 30,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 60
+        }
     },
     {
         "id": 397,
@@ -32173,7 +34945,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 75,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 80
+        }
     },
     {
         "id": 398,
@@ -32186,7 +34965,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 120,
+            "def": 70,
+            "spatk": 50,
+            "spdef": 60,
+            "spe": 100
+        }
     },
     {
         "id": 399,
@@ -32311,7 +35097,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 59
+        "stats": {
+            "hp": 59,
+            "atk": 45,
+            "def": 40,
+            "spatk": 35,
+            "spdef": 40,
+            "spe": 31
+        }
     },
     {
         "id": 400,
@@ -32473,7 +35266,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 127,
-        "hp": 79
+        "stats": {
+            "hp": 79,
+            "atk": 85,
+            "def": 60,
+            "spatk": 55,
+            "spdef": 60,
+            "spe": 71
+        }
     },
     {
         "id": 401,
@@ -32550,7 +35350,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 37
+        "stats": {
+            "hp": 37,
+            "atk": 25,
+            "def": 41,
+            "spatk": 25,
+            "spdef": 41,
+            "spe": 25
+        }
     },
     {
         "id": 402,
@@ -32641,7 +35448,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 77
+        "stats": {
+            "hp": 77,
+            "atk": 85,
+            "def": 51,
+            "spatk": 55,
+            "spdef": 51,
+            "spe": 65
+        }
     },
     {
         "id": 403,
@@ -32716,7 +35530,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 235,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 65,
+            "def": 34,
+            "spatk": 40,
+            "spdef": 34,
+            "spe": 45
+        }
     },
     {
         "id": 404,
@@ -32749,7 +35570,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 49,
+            "spatk": 60,
+            "spdef": 49,
+            "spe": 60
+        }
     },
     {
         "id": 405,
@@ -32760,7 +35588,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 120,
+            "def": 79,
+            "spatk": 95,
+            "spdef": 79,
+            "spe": 70
+        }
     },
     {
         "id": 406,
@@ -32831,7 +35666,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 35,
+            "spatk": 50,
+            "spdef": 70,
+            "spe": 55
+        }
     },
     {
         "id": 407,
@@ -32855,7 +35697,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 65,
+            "spatk": 125,
+            "spdef": 105,
+            "spe": 90
+        }
     },
     {
         "id": 408,
@@ -32866,7 +35715,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 67
+        "stats": {
+            "hp": 67,
+            "atk": 125,
+            "def": 40,
+            "spatk": 30,
+            "spdef": 30,
+            "spe": 58
+        }
     },
     {
         "id": 409,
@@ -32877,7 +35733,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 97
+        "stats": {
+            "hp": 97,
+            "atk": 165,
+            "def": 60,
+            "spatk": 65,
+            "spdef": 50,
+            "spe": 58
+        }
     },
     {
         "id": 410,
@@ -32888,7 +35751,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 42,
+            "def": 118,
+            "spatk": 42,
+            "spdef": 88,
+            "spe": 30
+        }
     },
     {
         "id": 411,
@@ -32899,7 +35769,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 52,
+            "def": 168,
+            "spatk": 47,
+            "spdef": 138,
+            "spe": 30
+        }
     },
     {
         "id": 412,
@@ -32918,7 +35795,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 29,
+            "def": 45,
+            "spatk": 29,
+            "spdef": 45,
+            "spe": 36
+        }
     },
     {
         "id": 413,
@@ -32931,7 +35815,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 59,
+            "def": 85,
+            "spatk": 79,
+            "spdef": 105,
+            "spe": 36
+        }
     },
     {
         "id": 413,
@@ -32944,7 +35835,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 59,
+            "def": 85,
+            "spatk": 79,
+            "spdef": 105,
+            "spe": 36
+        }
     },
     {
         "id": 415,
@@ -32979,7 +35877,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 30,
+            "def": 42,
+            "spatk": 30,
+            "spdef": 42,
+            "spe": 70
+        }
     },
     {
         "id": 416,
@@ -33000,7 +35905,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 102,
+            "spatk": 80,
+            "spdef": 102,
+            "spe": 40
+        }
     },
     {
         "id": 417,
@@ -33048,7 +35960,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 70,
+            "spatk": 45,
+            "spdef": 90,
+            "spe": 95
+        }
     },
     {
         "id": 418,
@@ -33147,7 +36066,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 65,
+            "def": 35,
+            "spatk": 60,
+            "spdef": 30,
+            "spe": 85
+        }
     },
     {
         "id": 419,
@@ -33302,7 +36228,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 55,
+            "spatk": 85,
+            "spdef": 50,
+            "spe": 115
+        }
     },
     {
         "id": 420,
@@ -33324,7 +36257,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 35,
+            "def": 45,
+            "spatk": 62,
+            "spdef": 53,
+            "spe": 35
+        }
     },
     {
         "id": 421,
@@ -33338,7 +36278,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 70,
+            "spatk": 87,
+            "spdef": 78,
+            "spe": 85
+        }
     },
     {
         "id": 422,
@@ -33526,7 +36473,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 76
+        "stats": {
+            "hp": 76,
+            "atk": 48,
+            "def": 48,
+            "spatk": 57,
+            "spdef": 62,
+            "spe": 34
+        }
     },
     {
         "id": 423,
@@ -33658,7 +36612,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 111
+        "stats": {
+            "hp": 111,
+            "atk": 83,
+            "def": 68,
+            "spatk": 92,
+            "spdef": 82,
+            "spe": 39
+        }
     },
     {
         "id": 424,
@@ -33669,7 +36630,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 66,
+            "spatk": 60,
+            "spdef": 66,
+            "spe": 115
+        }
     },
     {
         "id": 425,
@@ -33695,7 +36663,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 125,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 50,
+            "def": 34,
+            "spatk": 60,
+            "spdef": 44,
+            "spe": 70
+        }
     },
     {
         "id": 426,
@@ -33765,7 +36740,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 150
+        "stats": {
+            "hp": 150,
+            "atk": 80,
+            "def": 44,
+            "spatk": 90,
+            "spdef": 54,
+            "spe": 80
+        }
     },
     {
         "id": 427,
@@ -33795,7 +36777,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 66,
+            "def": 44,
+            "spatk": 44,
+            "spdef": 56,
+            "spe": 85
+        }
     },
     {
         "id": 428,
@@ -33810,7 +36799,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 76,
+            "def": 84,
+            "spatk": 54,
+            "spdef": 96,
+            "spe": 105
+        }
     },
     {
         "id": 429,
@@ -33831,7 +36827,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spatk": 105,
+            "spdef": 105,
+            "spe": 105
+        }
     },
     {
         "id": 430,
@@ -33864,7 +36867,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 125,
+            "def": 52,
+            "spatk": 105,
+            "spdef": 52,
+            "spe": 71
+        }
     },
     {
         "id": 431,
@@ -33892,7 +36902,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 49
+        "stats": {
+            "hp": 49,
+            "atk": 55,
+            "def": 42,
+            "spatk": 42,
+            "spdef": 37,
+            "spe": 85
+        }
     },
     {
         "id": 432,
@@ -33934,7 +36951,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 71
+        "stats": {
+            "hp": 71,
+            "atk": 82,
+            "def": 64,
+            "spatk": 64,
+            "spdef": 59,
+            "spe": 112
+        }
     },
     {
         "id": 433,
@@ -33949,7 +36973,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 120,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 50,
+            "spatk": 65,
+            "spdef": 50,
+            "spe": 45
+        }
     },
     {
         "id": 434,
@@ -34012,7 +37043,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 225,
-        "hp": 63
+        "stats": {
+            "hp": 63,
+            "atk": 63,
+            "def": 47,
+            "spatk": 41,
+            "spdef": 41,
+            "spe": 74
+        }
     },
     {
         "id": 435,
@@ -34040,7 +37078,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 103
+        "stats": {
+            "hp": 103,
+            "atk": 93,
+            "def": 67,
+            "spatk": 71,
+            "spdef": 61,
+            "spe": 84
+        }
     },
     {
         "id": 436,
@@ -34103,7 +37148,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 57
+        "stats": {
+            "hp": 57,
+            "atk": 24,
+            "def": 86,
+            "spatk": 24,
+            "spdef": 86,
+            "spe": 23
+        }
     },
     {
         "id": 437,
@@ -34166,7 +37218,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 67
+        "stats": {
+            "hp": 67,
+            "atk": 89,
+            "def": 116,
+            "spatk": 79,
+            "spdef": 116,
+            "spe": 33
+        }
     },
     {
         "id": 438,
@@ -34177,7 +37236,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 80,
+            "def": 95,
+            "spatk": 10,
+            "spdef": 45,
+            "spe": 10
+        }
     },
     {
         "id": 439,
@@ -34188,7 +37254,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 145,
-        "hp": 20
+        "stats": {
+            "hp": 20,
+            "atk": 25,
+            "def": 45,
+            "spatk": 70,
+            "spdef": 90,
+            "spe": 60
+        }
     },
     {
         "id": 440,
@@ -34202,7 +37275,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 130,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 5,
+            "def": 5,
+            "spatk": 15,
+            "spdef": 65,
+            "spe": 30
+        }
     },
     {
         "id": 441,
@@ -34251,7 +37331,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 76
+        "stats": {
+            "hp": 76,
+            "atk": 65,
+            "def": 45,
+            "spatk": 92,
+            "spdef": 42,
+            "spe": 91
+        }
     },
     {
         "id": 442,
@@ -34272,7 +37359,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 100,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 92,
+            "def": 108,
+            "spatk": 92,
+            "spdef": 108,
+            "spe": 35
+        }
     },
     {
         "id": 443,
@@ -34301,7 +37395,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 58
+        "stats": {
+            "hp": 58,
+            "atk": 70,
+            "def": 45,
+            "spatk": 40,
+            "spdef": 45,
+            "spe": 42
+        }
     },
     {
         "id": 444,
@@ -34330,7 +37431,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 68
+        "stats": {
+            "hp": 68,
+            "atk": 90,
+            "def": 65,
+            "spatk": 50,
+            "spdef": 55,
+            "spe": 82
+        }
     },
     {
         "id": 445,
@@ -34344,7 +37452,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 108
+        "stats": {
+            "hp": 108,
+            "atk": 130,
+            "def": 95,
+            "spatk": 80,
+            "spdef": 85,
+            "spe": 102
+        }
     },
     {
         "id": 446,
@@ -34365,7 +37480,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 50,
-        "hp": 135
+        "stats": {
+            "hp": 135,
+            "atk": 85,
+            "def": 40,
+            "spatk": 40,
+            "spdef": 85,
+            "spe": 5
+        }
     },
     {
         "id": 447,
@@ -34405,7 +37527,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 70,
+            "def": 40,
+            "spatk": 35,
+            "spdef": 40,
+            "spe": 60
+        }
     },
     {
         "id": 448,
@@ -34432,7 +37561,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 70,
+            "spatk": 115,
+            "spdef": 70,
+            "spe": 90
+        }
     },
     {
         "id": 449,
@@ -34467,7 +37603,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 140,
-        "hp": 68
+        "stats": {
+            "hp": 68,
+            "atk": 72,
+            "def": 78,
+            "spatk": 38,
+            "spdef": 42,
+            "spe": 32
+        }
     },
     {
         "id": 450,
@@ -34488,7 +37631,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 108
+        "stats": {
+            "hp": 108,
+            "atk": 112,
+            "def": 118,
+            "spatk": 68,
+            "spdef": 72,
+            "spe": 47
+        }
     },
     {
         "id": 451,
@@ -34510,7 +37660,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 90,
+            "spatk": 30,
+            "spdef": 55,
+            "spe": 65
+        }
     },
     {
         "id": 452,
@@ -34524,7 +37681,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 110,
+            "spatk": 60,
+            "spdef": 75,
+            "spe": 95
+        }
     },
     {
         "id": 453,
@@ -34552,7 +37716,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 140,
-        "hp": 48
+        "stats": {
+            "hp": 48,
+            "atk": 61,
+            "def": 40,
+            "spatk": 61,
+            "spdef": 40,
+            "spe": 50
+        }
     },
     {
         "id": 454,
@@ -34565,7 +37736,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 83
+        "stats": {
+            "hp": 83,
+            "atk": 106,
+            "def": 65,
+            "spatk": 86,
+            "spdef": 65,
+            "spe": 85
+        }
     },
     {
         "id": 455,
@@ -34584,7 +37762,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 74
+        "stats": {
+            "hp": 74,
+            "atk": 100,
+            "def": 72,
+            "spatk": 90,
+            "spdef": 72,
+            "spe": 46
+        }
     },
     {
         "id": 456,
@@ -34682,7 +37867,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 49
+        "stats": {
+            "hp": 49,
+            "atk": 49,
+            "def": 56,
+            "spatk": 49,
+            "spdef": 61,
+            "spe": 66
+        }
     },
     {
         "id": 457,
@@ -34801,7 +37993,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 69
+        "stats": {
+            "hp": 69,
+            "atk": 69,
+            "def": 76,
+            "spatk": 69,
+            "spdef": 86,
+            "spe": 91
+        }
     },
     {
         "id": 458,
@@ -34812,7 +38011,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 25,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 20,
+            "def": 50,
+            "spatk": 60,
+            "spdef": 120,
+            "spe": 50
+        }
     },
     {
         "id": 459,
@@ -34933,7 +38139,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 50,
+            "spatk": 62,
+            "spdef": 60,
+            "spe": 40
+        }
     },
     {
         "id": 460,
@@ -34984,7 +38197,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 92,
+            "def": 75,
+            "spatk": 92,
+            "spdef": 85,
+            "spe": 60
+        }
     },
     {
         "id": 461,
@@ -35014,7 +38234,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 120,
+            "def": 65,
+            "spatk": 45,
+            "spdef": 85,
+            "spe": 125
+        }
     },
     {
         "id": 462,
@@ -35028,7 +38255,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 115,
+            "spatk": 130,
+            "spdef": 90,
+            "spe": 60
+        }
     },
     {
         "id": 463,
@@ -35041,7 +38275,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 85,
+            "def": 95,
+            "spatk": 80,
+            "spdef": 95,
+            "spe": 50
+        }
     },
     {
         "id": 464,
@@ -35055,7 +38296,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 115
+        "stats": {
+            "hp": 115,
+            "atk": 140,
+            "def": 130,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 40
+        }
     },
     {
         "id": 465,
@@ -35081,7 +38329,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 125,
+            "spatk": 110,
+            "spdef": 50,
+            "spe": 50
+        }
     },
     {
         "id": 466,
@@ -35094,7 +38349,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 123,
+            "def": 67,
+            "spatk": 95,
+            "spdef": 85,
+            "spe": 95
+        }
     },
     {
         "id": 467,
@@ -35108,7 +38370,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 67,
+            "spatk": 125,
+            "spdef": 95,
+            "spe": 83
+        }
     },
     {
         "id": 468,
@@ -35120,7 +38389,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 30,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 50,
+            "def": 95,
+            "spatk": 120,
+            "spdef": 115,
+            "spe": 80
+        }
     },
     {
         "id": 469,
@@ -35133,7 +38409,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 86
+        "stats": {
+            "hp": 86,
+            "atk": 76,
+            "def": 86,
+            "spatk": 116,
+            "spdef": 56,
+            "spe": 95
+        }
     },
     {
         "id": 470,
@@ -35144,7 +38427,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 110,
+            "def": 130,
+            "spatk": 60,
+            "spdef": 65,
+            "spe": 95
+        }
     },
     {
         "id": 471,
@@ -35155,7 +38445,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 60,
+            "def": 110,
+            "spatk": 130,
+            "spdef": 95,
+            "spe": 65
+        }
     },
     {
         "id": 472,
@@ -35204,7 +38501,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 30,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 125,
+            "spatk": 45,
+            "spdef": 75,
+            "spe": 95
+        }
     },
     {
         "id": 473,
@@ -35240,7 +38544,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 50,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 130,
+            "def": 80,
+            "spatk": 70,
+            "spdef": 60,
+            "spe": 80
+        }
     },
     {
         "id": 474,
@@ -35253,7 +38564,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 30,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 80,
+            "def": 70,
+            "spatk": 135,
+            "spdef": 75,
+            "spe": 90
+        }
     },
     {
         "id": 475,
@@ -35267,7 +38585,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 68
+        "stats": {
+            "hp": 68,
+            "atk": 125,
+            "def": 65,
+            "spatk": 65,
+            "spdef": 115,
+            "spe": 80
+        }
     },
     {
         "id": 476,
@@ -35290,7 +38615,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 55,
+            "def": 145,
+            "spatk": 75,
+            "spdef": 150,
+            "spe": 40
+        }
     },
     {
         "id": 477,
@@ -35305,7 +38637,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 100,
+            "def": 135,
+            "spatk": 65,
+            "spdef": 135,
+            "spe": 45
+        }
     },
     {
         "id": 478,
@@ -35319,7 +38658,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 70,
+            "spatk": 80,
+            "spdef": 70,
+            "spe": 110
+        }
     },
     {
         "id": 479,
@@ -35338,7 +38684,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 77,
+            "spatk": 95,
+            "spdef": 77,
+            "spe": 91
+        }
     },
     {
         "id": 479,
@@ -35349,7 +38702,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 77,
+            "spatk": 95,
+            "spdef": 77,
+            "spe": 91
+        }
     },
     {
         "id": 481,
@@ -35360,7 +38720,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 105,
+            "spatk": 105,
+            "spdef": 105,
+            "spe": 80
+        }
     },
     {
         "id": 482,
@@ -35371,7 +38738,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 70,
+            "spatk": 125,
+            "spdef": 70,
+            "spe": 115
+        }
     },
     {
         "id": 483,
@@ -35382,7 +38756,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 120,
+            "def": 120,
+            "spatk": 150,
+            "spdef": 100,
+            "spe": 90
+        }
     },
     {
         "id": 484,
@@ -35393,7 +38774,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 100,
+            "spatk": 150,
+            "spdef": 120,
+            "spe": 100
+        }
     },
     {
         "id": 485,
@@ -35404,7 +38792,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 90,
+            "def": 106,
+            "spatk": 130,
+            "spdef": 106,
+            "spe": 77
+        }
     },
     {
         "id": 486,
@@ -35415,7 +38810,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 160,
+            "def": 110,
+            "spatk": 80,
+            "spdef": 110,
+            "spe": 100
+        }
     },
     {
         "id": 487,
@@ -35426,7 +38828,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 150
+        "stats": {
+            "hp": 150,
+            "atk": 100,
+            "def": 120,
+            "spatk": 100,
+            "spdef": 120,
+            "spe": 90
+        }
     },
     {
         "id": 487,
@@ -35437,7 +38846,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 150
+        "stats": {
+            "hp": 150,
+            "atk": 100,
+            "def": 120,
+            "spatk": 100,
+            "spdef": 120,
+            "spe": 90
+        }
     },
     {
         "id": 489,
@@ -35448,7 +38864,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 30,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spatk": 80,
+            "spdef": 80,
+            "spe": 80
+        }
     },
     {
         "id": 490,
@@ -35459,7 +38882,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 491,
@@ -35470,7 +38900,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 90,
+            "spatk": 135,
+            "spdef": 90,
+            "spe": 125
+        }
     },
     {
         "id": 492,
@@ -35481,7 +38918,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 492,
@@ -35492,7 +38936,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 494,
@@ -35503,7 +38954,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spatk": 100,
+            "spdef": 100,
+            "spe": 100
+        }
     },
     {
         "id": 495,
@@ -35523,7 +38981,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 45,
+            "def": 55,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 63
+        }
     },
     {
         "id": 496,
@@ -35535,7 +39000,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 75,
+            "spatk": 60,
+            "spdef": 75,
+            "spe": 83
+        }
     },
     {
         "id": 497,
@@ -35547,7 +39019,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 95,
+            "spatk": 75,
+            "spdef": 95,
+            "spe": 113
+        }
     },
     {
         "id": 498,
@@ -35566,7 +39045,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 63,
+            "def": 45,
+            "spatk": 45,
+            "spdef": 45,
+            "spe": 45
+        }
     },
     {
         "id": 499,
@@ -35577,7 +39063,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 90
+        "stats": {
+            "hp": 90,
+            "atk": 93,
+            "def": 55,
+            "spatk": 70,
+            "spdef": 55,
+            "spe": 55
+        }
     },
     {
         "id": 500,
@@ -35588,7 +39081,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 123,
+            "def": 65,
+            "spatk": 100,
+            "spdef": 65,
+            "spe": 65
+        }
     },
     {
         "id": 501,
@@ -35607,7 +39107,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 55,
+            "def": 45,
+            "spatk": 63,
+            "spdef": 45,
+            "spe": 45
+        }
     },
     {
         "id": 502,
@@ -35618,7 +39125,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 60,
+            "spatk": 83,
+            "spdef": 60,
+            "spe": 60
+        }
     },
     {
         "id": 503,
@@ -35629,7 +39143,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 100,
+            "def": 85,
+            "spatk": 108,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 504,
@@ -35676,7 +39197,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 55,
+            "def": 39,
+            "spatk": 35,
+            "spdef": 39,
+            "spe": 42
+        }
     },
     {
         "id": 505,
@@ -35758,7 +39286,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 69,
+            "spatk": 60,
+            "spdef": 69,
+            "spe": 77
+        }
     },
     {
         "id": 506,
@@ -35798,7 +39333,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 45,
+            "spatk": 25,
+            "spdef": 45,
+            "spe": 55
+        }
     },
     {
         "id": 507,
@@ -35880,7 +39422,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 65,
+            "spatk": 35,
+            "spdef": 65,
+            "spe": 60
+        }
     },
     {
         "id": 508,
@@ -35899,7 +39448,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 110,
+            "def": 90,
+            "spatk": 45,
+            "spdef": 90,
+            "spe": 80
+        }
     },
     {
         "id": 509,
@@ -35953,7 +39509,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 41
+        "stats": {
+            "hp": 41,
+            "atk": 50,
+            "def": 37,
+            "spatk": 50,
+            "spdef": 37,
+            "spe": 66
+        }
     },
     {
         "id": 510,
@@ -36028,7 +39591,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 64
+        "stats": {
+            "hp": 64,
+            "atk": 88,
+            "def": 50,
+            "spatk": 88,
+            "spdef": 50,
+            "spe": 106
+        }
     },
     {
         "id": 511,
@@ -36071,7 +39641,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 53,
+            "def": 48,
+            "spatk": 53,
+            "spdef": 48,
+            "spe": 64
+        }
     },
     {
         "id": 512,
@@ -36100,7 +39677,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 98,
+            "def": 63,
+            "spatk": 98,
+            "spdef": 63,
+            "spe": 101
+        }
     },
     {
         "id": 513,
@@ -36143,7 +39727,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 53,
+            "def": 48,
+            "spatk": 53,
+            "spdef": 48,
+            "spe": 64
+        }
     },
     {
         "id": 514,
@@ -36172,7 +39763,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 98,
+            "def": 63,
+            "spatk": 98,
+            "spdef": 63,
+            "spe": 101
+        }
     },
     {
         "id": 515,
@@ -36215,7 +39813,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 53,
+            "def": 48,
+            "spatk": 53,
+            "spdef": 48,
+            "spe": 64
+        }
     },
     {
         "id": 516,
@@ -36244,7 +39849,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 98,
+            "def": 63,
+            "spatk": 98,
+            "spdef": 63,
+            "spe": 101
+        }
     },
     {
         "id": 517,
@@ -36270,7 +39882,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 76
+        "stats": {
+            "hp": 76,
+            "atk": 25,
+            "def": 45,
+            "spatk": 67,
+            "spdef": 55,
+            "spe": 24
+        }
     },
     {
         "id": 518,
@@ -36289,7 +39908,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 116
+        "stats": {
+            "hp": 116,
+            "atk": 55,
+            "def": 85,
+            "spatk": 107,
+            "spdef": 95,
+            "spe": 29
+        }
     },
     {
         "id": 519,
@@ -36350,7 +39976,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 55,
+            "def": 50,
+            "spatk": 36,
+            "spdef": 30,
+            "spe": 43
+        }
     },
     {
         "id": 520,
@@ -36453,7 +40086,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 62
+        "stats": {
+            "hp": 62,
+            "atk": 77,
+            "def": 62,
+            "spatk": 50,
+            "spdef": 42,
+            "spe": 65
+        }
     },
     {
         "id": 521,
@@ -36486,7 +40126,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 115,
+            "def": 80,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 93
+        }
     },
     {
         "id": 522,
@@ -36521,7 +40168,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 32,
+            "spatk": 50,
+            "spdef": 32,
+            "spe": 76
+        }
     },
     {
         "id": 523,
@@ -36556,7 +40210,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 63,
+            "spatk": 80,
+            "spdef": 63,
+            "spe": 116
+        }
     },
     {
         "id": 524,
@@ -36613,7 +40274,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 75,
+            "def": 85,
+            "spatk": 25,
+            "spdef": 25,
+            "spe": 15
+        }
     },
     {
         "id": 525,
@@ -36796,7 +40464,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 105,
+            "def": 105,
+            "spatk": 50,
+            "spdef": 40,
+            "spe": 20
+        }
     },
     {
         "id": 526,
@@ -36853,7 +40528,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 135,
+            "def": 130,
+            "spatk": 60,
+            "spdef": 80,
+            "spe": 25
+        }
     },
     {
         "id": 527,
@@ -36971,7 +40653,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 45,
+            "def": 43,
+            "spatk": 55,
+            "spdef": 43,
+            "spe": 72
+        }
     },
     {
         "id": 528,
@@ -36991,7 +40680,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 67
+        "stats": {
+            "hp": 67,
+            "atk": 57,
+            "def": 55,
+            "spatk": 77,
+            "spdef": 55,
+            "spe": 114
+        }
     },
     {
         "id": 529,
@@ -37040,7 +40736,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 40,
+            "spatk": 30,
+            "spdef": 45,
+            "spe": 68
+        }
     },
     {
         "id": 530,
@@ -37110,7 +40813,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 135,
+            "def": 60,
+            "spatk": 50,
+            "spdef": 65,
+            "spe": 88
+        }
     },
     {
         "id": 531,
@@ -37215,7 +40925,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 103
+        "stats": {
+            "hp": 103,
+            "atk": 60,
+            "def": 86,
+            "spatk": 60,
+            "spdef": 86,
+            "spe": 50
+        }
     },
     {
         "id": 532,
@@ -37283,7 +41000,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 55,
+            "spatk": 25,
+            "spdef": 35,
+            "spe": 35
+        }
     },
     {
         "id": 533,
@@ -37323,7 +41047,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 85,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 40
+        }
     },
     {
         "id": 534,
@@ -37334,7 +41065,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 140,
+            "def": 95,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 535,
@@ -37377,7 +41115,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 40,
+            "spatk": 50,
+            "spdef": 40,
+            "spe": 64
+        }
     },
     {
         "id": 536,
@@ -37427,7 +41172,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 65,
+            "def": 55,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 69
+        }
     },
     {
         "id": 537,
@@ -37463,7 +41215,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 95,
+            "def": 75,
+            "spatk": 85,
+            "spdef": 75,
+            "spe": 74
+        }
     },
     {
         "id": 538,
@@ -37576,7 +41335,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 120
+        "stats": {
+            "hp": 120,
+            "atk": 100,
+            "def": 85,
+            "spatk": 30,
+            "spdef": 85,
+            "spe": 45
+        }
     },
     {
         "id": 539,
@@ -37682,7 +41448,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 75,
+            "spatk": 30,
+            "spdef": 75,
+            "spe": 85
+        }
     },
     {
         "id": 540,
@@ -37710,7 +41483,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 53,
+            "def": 70,
+            "spatk": 40,
+            "spdef": 60,
+            "spe": 42
+        }
     },
     {
         "id": 541,
@@ -37766,7 +41546,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 63,
+            "def": 90,
+            "spatk": 50,
+            "spdef": 80,
+            "spe": 42
+        }
     },
     {
         "id": 542,
@@ -37794,7 +41581,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 103,
+            "def": 80,
+            "spatk": 70,
+            "spdef": 80,
+            "spe": 92
+        }
     },
     {
         "id": 543,
@@ -37844,7 +41638,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 30
+        "stats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 59,
+            "spatk": 30,
+            "spdef": 39,
+            "spe": 57
+        }
     },
     {
         "id": 544,
@@ -37873,7 +41674,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 99,
+            "spatk": 40,
+            "spdef": 79,
+            "spe": 47
+        }
     },
     {
         "id": 545,
@@ -37887,7 +41695,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 100,
+            "def": 89,
+            "spatk": 55,
+            "spdef": 69,
+            "spe": 112
+        }
     },
     {
         "id": 546,
@@ -37958,7 +41773,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 27,
+            "def": 60,
+            "spatk": 37,
+            "spdef": 50,
+            "spe": 66
+        }
     },
     {
         "id": 547,
@@ -37994,7 +41816,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 67,
+            "def": 85,
+            "spatk": 77,
+            "spdef": 75,
+            "spe": 116
+        }
     },
     {
         "id": 548,
@@ -38064,7 +41893,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 35,
+            "def": 50,
+            "spatk": 70,
+            "spdef": 50,
+            "spe": 30
+        }
     },
     {
         "id": 549,
@@ -38099,7 +41935,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 75,
+            "spatk": 110,
+            "spdef": 75,
+            "spe": 90
+        }
     },
     {
         "id": 550,
@@ -38624,7 +42467,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 92,
+            "def": 65,
+            "spatk": 80,
+            "spdef": 55,
+            "spe": 98
+        }
     },
     {
         "id": 550,
@@ -38673,7 +42523,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 92,
+            "def": 65,
+            "spatk": 80,
+            "spdef": 55,
+            "spe": 98
+        }
     },
     {
         "id": 552,
@@ -38701,7 +42558,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 82,
+            "def": 45,
+            "spatk": 45,
+            "spdef": 45,
+            "spe": 74
+        }
     },
     {
         "id": 553,
@@ -38714,7 +42578,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 117,
+            "def": 80,
+            "spatk": 65,
+            "spdef": 70,
+            "spe": 92
+        }
     },
     {
         "id": 554,
@@ -38756,7 +42627,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 45,
+            "spatk": 15,
+            "spdef": 45,
+            "spe": 50
+        }
     },
     {
         "id": 555,
@@ -38769,7 +42647,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 60,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 140,
+            "def": 55,
+            "spatk": 30,
+            "spdef": 55,
+            "spe": 95
+        }
     },
     {
         "id": 555,
@@ -38795,7 +42680,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 105
+        "stats": {
+            "hp": 105,
+            "atk": 140,
+            "def": 55,
+            "spatk": 30,
+            "spdef": 55,
+            "spe": 95
+        }
     },
     {
         "id": 557,
@@ -38846,7 +42738,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 85,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 55
+        }
     },
     {
         "id": 558,
@@ -38911,7 +42810,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 105,
+            "def": 125,
+            "spatk": 65,
+            "spdef": 75,
+            "spe": 45
+        }
     },
     {
         "id": 559,
@@ -38982,7 +42888,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 70,
+            "spatk": 35,
+            "spdef": 70,
+            "spe": 48
+        }
     },
     {
         "id": 560,
@@ -39004,7 +42917,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 115,
+            "spatk": 45,
+            "spdef": 115,
+            "spe": 58
+        }
     },
     {
         "id": 561,
@@ -39044,7 +42964,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 72
+        "stats": {
+            "hp": 72,
+            "atk": 58,
+            "def": 80,
+            "spatk": 103,
+            "spdef": 80,
+            "spe": 97
+        }
     },
     {
         "id": 562,
@@ -39073,7 +43000,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 38
+        "stats": {
+            "hp": 38,
+            "atk": 30,
+            "def": 85,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 30
+        }
     },
     {
         "id": 563,
@@ -39102,7 +43036,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 58
+        "stats": {
+            "hp": 58,
+            "atk": 50,
+            "def": 145,
+            "spatk": 95,
+            "spdef": 105,
+            "spe": 30
+        }
     },
     {
         "id": 564,
@@ -39114,7 +43055,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 54
+        "stats": {
+            "hp": 54,
+            "atk": 78,
+            "def": 103,
+            "spatk": 53,
+            "spdef": 45,
+            "spe": 22
+        }
     },
     {
         "id": 565,
@@ -39126,7 +43074,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 74
+        "stats": {
+            "hp": 74,
+            "atk": 108,
+            "def": 133,
+            "spatk": 83,
+            "spdef": 65,
+            "spe": 32
+        }
     },
     {
         "id": 566,
@@ -39138,7 +43093,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 112,
+            "def": 45,
+            "spatk": 74,
+            "spdef": 45,
+            "spe": 70
+        }
     },
     {
         "id": 567,
@@ -39150,7 +43112,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 140,
+            "def": 65,
+            "spatk": 112,
+            "spdef": 65,
+            "spe": 110
+        }
     },
     {
         "id": 568,
@@ -39201,7 +43170,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 62,
+            "spatk": 40,
+            "spdef": 62,
+            "spe": 65
+        }
     },
     {
         "id": 569,
@@ -39232,7 +43208,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 95,
+            "def": 82,
+            "spatk": 60,
+            "spdef": 82,
+            "spe": 75
+        }
     },
     {
         "id": 570,
@@ -39251,7 +43234,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 65,
+            "def": 40,
+            "spatk": 80,
+            "spdef": 40,
+            "spe": 65
+        }
     },
     {
         "id": 571,
@@ -39262,7 +43252,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 105,
+            "def": 60,
+            "spatk": 120,
+            "spdef": 60,
+            "spe": 105
+        }
     },
     {
         "id": 572,
@@ -39361,7 +43358,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 50,
+            "def": 40,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 75
+        }
     },
     {
         "id": 573,
@@ -39403,7 +43407,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 60,
+            "spatk": 65,
+            "spdef": 60,
+            "spe": 115
+        }
     },
     {
         "id": 574,
@@ -39452,7 +43463,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 50,
+            "spatk": 55,
+            "spdef": 65,
+            "spe": 45
+        }
     },
     {
         "id": 575,
@@ -39488,7 +43506,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 100,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 70,
+            "spatk": 75,
+            "spdef": 85,
+            "spe": 55
+        }
     },
     {
         "id": 576,
@@ -39502,7 +43527,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 50,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 55,
+            "def": 95,
+            "spatk": 95,
+            "spdef": 110,
+            "spe": 65
+        }
     },
     {
         "id": 577,
@@ -39551,7 +43583,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 40,
+            "spatk": 105,
+            "spdef": 50,
+            "spe": 20
+        }
     },
     {
         "id": 578,
@@ -39586,7 +43625,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 100,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 40,
+            "def": 50,
+            "spatk": 125,
+            "spdef": 60,
+            "spe": 30
+        }
     },
     {
         "id": 579,
@@ -39599,7 +43645,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 50,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 65,
+            "def": 75,
+            "spatk": 125,
+            "spdef": 85,
+            "spe": 30
+        }
     },
     {
         "id": 580,
@@ -39661,7 +43714,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 62
+        "stats": {
+            "hp": 62,
+            "atk": 44,
+            "def": 50,
+            "spatk": 44,
+            "spdef": 50,
+            "spe": 55
+        }
     },
     {
         "id": 581,
@@ -39723,7 +43783,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 87,
+            "def": 63,
+            "spatk": 87,
+            "spdef": 63,
+            "spe": 98
+        }
     },
     {
         "id": 582,
@@ -39808,7 +43875,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 36
+        "stats": {
+            "hp": 36,
+            "atk": 50,
+            "def": 50,
+            "spatk": 65,
+            "spdef": 60,
+            "spe": 44
+        }
     },
     {
         "id": 583,
@@ -39837,7 +43911,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 51
+        "stats": {
+            "hp": 51,
+            "atk": 65,
+            "def": 65,
+            "spatk": 80,
+            "spdef": 75,
+            "spe": 59
+        }
     },
     {
         "id": 584,
@@ -39851,7 +43932,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 45,
-        "hp": 71
+        "stats": {
+            "hp": 71,
+            "atk": 95,
+            "def": 85,
+            "spatk": 110,
+            "spdef": 95,
+            "spe": 79
+        }
     },
     {
         "id": 585,
@@ -39912,7 +44000,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 50,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 75
+        }
     },
     {
         "id": 586,
@@ -39945,7 +44040,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 95
+        }
     },
     {
         "id": 587,
@@ -40071,7 +44173,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 75,
+            "def": 60,
+            "spatk": 75,
+            "spdef": 60,
+            "spe": 103
+        }
     },
     {
         "id": 588,
@@ -40118,7 +44227,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 45,
+            "spatk": 40,
+            "spdef": 45,
+            "spe": 60
+        }
     },
     {
         "id": 589,
@@ -40144,7 +44260,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 135,
+            "def": 105,
+            "spatk": 60,
+            "spdef": 105,
+            "spe": 20
+        }
     },
     {
         "id": 590,
@@ -40208,7 +44331,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 69
+        "stats": {
+            "hp": 69,
+            "atk": 55,
+            "def": 45,
+            "spatk": 55,
+            "spdef": 55,
+            "spe": 15
+        }
     },
     {
         "id": 591,
@@ -40258,7 +44388,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 114
+        "stats": {
+            "hp": 114,
+            "atk": 85,
+            "def": 70,
+            "spatk": 85,
+            "spdef": 80,
+            "spe": 30
+        }
     },
     {
         "id": 592,
@@ -40340,7 +44477,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 40,
+            "def": 50,
+            "spatk": 65,
+            "spdef": 85,
+            "spe": 40
+        }
     },
     {
         "id": 593,
@@ -40394,7 +44538,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 60,
+            "def": 70,
+            "spatk": 85,
+            "spdef": 105,
+            "spe": 60
+        }
     },
     {
         "id": 594,
@@ -40470,7 +44621,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 165
+        "stats": {
+            "hp": 165,
+            "atk": 75,
+            "def": 80,
+            "spatk": 40,
+            "spdef": 45,
+            "spe": 65
+        }
     },
     {
         "id": 595,
@@ -40496,7 +44654,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 47,
+            "def": 50,
+            "spatk": 57,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 596,
@@ -40507,7 +44672,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 75,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 77,
+            "def": 60,
+            "spatk": 97,
+            "spdef": 60,
+            "spe": 108
+        }
     },
     {
         "id": 597,
@@ -40536,7 +44708,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 44
+        "stats": {
+            "hp": 44,
+            "atk": 50,
+            "def": 91,
+            "spatk": 24,
+            "spdef": 86,
+            "spe": 10
+        }
     },
     {
         "id": 598,
@@ -40550,7 +44729,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 90,
-        "hp": 74
+        "stats": {
+            "hp": 74,
+            "atk": 94,
+            "def": 131,
+            "spatk": 54,
+            "spdef": 116,
+            "spe": 20
+        }
     },
     {
         "id": 599,
@@ -40583,7 +44769,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 130,
-        "hp": 40
+        "stats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 70,
+            "spatk": 45,
+            "spdef": 60,
+            "spe": 30
+        }
     },
     {
         "id": 600,
@@ -40594,7 +44787,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 60,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 95,
+            "spatk": 70,
+            "spdef": 85,
+            "spe": 50
+        }
     },
     {
         "id": 601,
@@ -40605,7 +44805,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 30,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 100,
+            "def": 115,
+            "spatk": 70,
+            "spdef": 85,
+            "spe": 90
+        }
     },
     {
         "id": 602,
@@ -40631,7 +44838,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 35
+        "stats": {
+            "hp": 35,
+            "atk": 55,
+            "def": 40,
+            "spatk": 45,
+            "spdef": 40,
+            "spe": 60
+        }
     },
     {
         "id": 603,
@@ -40642,7 +44856,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 60,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 85,
+            "def": 70,
+            "spatk": 75,
+            "spdef": 70,
+            "spe": 40
+        }
     },
     {
         "id": 604,
@@ -40653,7 +44874,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 30,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 115,
+            "def": 80,
+            "spatk": 105,
+            "spdef": 80,
+            "spe": 50
+        }
     },
     {
         "id": 605,
@@ -40679,7 +44907,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 255,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 55,
+            "def": 55,
+            "spatk": 85,
+            "spdef": 55,
+            "spe": 30
+        }
     },
     {
         "id": 606,
@@ -40712,7 +44947,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 75
+        "stats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 75,
+            "spatk": 125,
+            "spdef": 95,
+            "spe": 40
+        }
     },
     {
         "id": 607,
@@ -40740,7 +44982,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 30,
+            "def": 55,
+            "spatk": 65,
+            "spdef": 55,
+            "spe": 20
+        }
     },
     {
         "id": 608,
@@ -40753,7 +45002,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 90,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 60,
+            "spatk": 95,
+            "spdef": 60,
+            "spe": 55
+        }
     },
     {
         "id": 609,
@@ -40764,7 +45020,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 60
+        "stats": {
+            "hp": 60,
+            "atk": 55,
+            "def": 90,
+            "spatk": 145,
+            "spdef": 90,
+            "spe": 80
+        }
     },
     {
         "id": 610,
@@ -40798,7 +45061,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 46
+        "stats": {
+            "hp": 46,
+            "atk": 87,
+            "def": 60,
+            "spatk": 30,
+            "spdef": 40,
+            "spe": 57
+        }
     },
     {
         "id": 611,
@@ -40825,7 +45095,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 66
+        "stats": {
+            "hp": 66,
+            "atk": 117,
+            "def": 70,
+            "spatk": 40,
+            "spdef": 50,
+            "spe": 67
+        }
     },
     {
         "id": 612,
@@ -40837,7 +45114,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 76
+        "stats": {
+            "hp": 76,
+            "atk": 147,
+            "def": 90,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 97
+        }
     },
     {
         "id": 613,
@@ -40900,7 +45184,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 70,
+            "def": 40,
+            "spatk": 60,
+            "spdef": 40,
+            "spe": 40
+        }
     },
     {
         "id": 614,
@@ -40928,7 +45219,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 130,
+            "def": 80,
+            "spatk": 70,
+            "spdef": 80,
+            "spe": 50
+        }
     },
     {
         "id": 615,
@@ -40963,7 +45261,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 25,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 50,
+            "def": 50,
+            "spatk": 95,
+            "spdef": 135,
+            "spe": 105
+        }
     },
     {
         "id": 616,
@@ -41031,7 +45336,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 200,
-        "hp": 50
+        "stats": {
+            "hp": 50,
+            "atk": 40,
+            "def": 85,
+            "spatk": 40,
+            "spdef": 65,
+            "spe": 25
+        }
     },
     {
         "id": 617,
@@ -41042,7 +45354,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 75,
-        "hp": 80
+        "stats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 40,
+            "spatk": 100,
+            "spdef": 60,
+            "spe": 145
+        }
     },
     {
         "id": 618,
@@ -41169,7 +45488,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 75,
-        "hp": 109
+        "stats": {
+            "hp": 109,
+            "atk": 66,
+            "def": 84,
+            "spatk": 81,
+            "spdef": 99,
+            "spe": 32
+        }
     },
     {
         "id": 619,
@@ -41252,7 +45578,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 180,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 85,
+            "def": 50,
+            "spatk": 55,
+            "spdef": 50,
+            "spe": 65
+        }
     },
     {
         "id": 620,
@@ -41279,7 +45612,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 125,
+            "def": 60,
+            "spatk": 95,
+            "spdef": 60,
+            "spe": 105
+        }
     },
     {
         "id": 621,
@@ -41329,7 +45669,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 77
+        "stats": {
+            "hp": 77,
+            "atk": 120,
+            "def": 90,
+            "spatk": 60,
+            "spdef": 90,
+            "spe": 48
+        }
     },
     {
         "id": 622,
@@ -41357,7 +45704,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 59
+        "stats": {
+            "hp": 59,
+            "atk": 74,
+            "def": 50,
+            "spatk": 35,
+            "spdef": 50,
+            "spe": 35
+        }
     },
     {
         "id": 623,
@@ -41370,7 +45724,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 90,
-        "hp": 89
+        "stats": {
+            "hp": 89,
+            "atk": 124,
+            "def": 80,
+            "spatk": 55,
+            "spdef": 80,
+            "spe": 55
+        }
     },
     {
         "id": 624,
@@ -41403,7 +45764,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 120,
-        "hp": 45
+        "stats": {
+            "hp": 45,
+            "atk": 85,
+            "def": 70,
+            "spatk": 40,
+            "spdef": 40,
+            "spe": 60
+        }
     },
     {
         "id": 625,
@@ -41422,7 +45790,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 65
+        "stats": {
+            "hp": 65,
+            "atk": 125,
+            "def": 100,
+            "spatk": 60,
+            "spdef": 70,
+            "spe": 70
+        }
     },
     {
         "id": 626,
@@ -41455,7 +45830,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 95
+        "stats": {
+            "hp": 95,
+            "atk": 110,
+            "def": 95,
+            "spatk": 40,
+            "spdef": 95,
+            "spe": 55
+        }
     },
     {
         "id": 627,
@@ -41565,7 +45947,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 83,
+            "def": 50,
+            "spatk": 37,
+            "spdef": 50,
+            "spe": 60
+        }
     },
     {
         "id": 628,
@@ -41598,7 +45987,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 123,
+            "def": 75,
+            "spatk": 57,
+            "spdef": 75,
+            "spe": 80
+        }
     },
     {
         "id": 629,
@@ -41708,7 +46104,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 190,
-        "hp": 70
+        "stats": {
+            "hp": 70,
+            "atk": 55,
+            "def": 75,
+            "spatk": 45,
+            "spdef": 65,
+            "spe": 60
+        }
     },
     {
         "id": 630,
@@ -41741,7 +46144,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 60,
-        "hp": 110
+        "stats": {
+            "hp": 110,
+            "atk": 65,
+            "def": 105,
+            "spatk": 55,
+            "spdef": 95,
+            "spe": 80
+        }
     },
     {
         "id": 631,
@@ -41769,7 +46179,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 97,
+            "def": 66,
+            "spatk": 105,
+            "spdef": 66,
+            "spe": 65
+        }
     },
     {
         "id": 632,
@@ -41809,7 +46226,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 90,
-        "hp": 58
+        "stats": {
+            "hp": 58,
+            "atk": 109,
+            "def": 112,
+            "spatk": 48,
+            "spdef": 48,
+            "spe": 109
+        }
     },
     {
         "id": 633,
@@ -41835,7 +46259,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 52
+        "stats": {
+            "hp": 52,
+            "atk": 65,
+            "def": 50,
+            "spatk": 45,
+            "spdef": 50,
+            "spe": 38
+        }
     },
     {
         "id": 634,
@@ -41846,7 +46277,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 45,
-        "hp": 72
+        "stats": {
+            "hp": 72,
+            "atk": 85,
+            "def": 70,
+            "spatk": 65,
+            "spdef": 70,
+            "spe": 58
+        }
     },
     {
         "id": 635,
@@ -41865,7 +46303,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 92
+        "stats": {
+            "hp": 92,
+            "atk": 105,
+            "def": 90,
+            "spatk": 125,
+            "spdef": 90,
+            "spe": 98
+        }
     },
     {
         "id": 636,
@@ -41884,7 +46329,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 45,
-        "hp": 55
+        "stats": {
+            "hp": 55,
+            "atk": 85,
+            "def": 55,
+            "spatk": 50,
+            "spdef": 55,
+            "spe": 60
+        }
     },
     {
         "id": 637,
@@ -41905,7 +46357,14 @@ export const pokedex = [
             }
         ],
         "catchRate": 15,
-        "hp": 85
+        "stats": {
+            "hp": 85,
+            "atk": 60,
+            "def": 65,
+            "spatk": 135,
+            "spdef": 105,
+            "spe": 100
+        }
     },
     {
         "id": 638,
@@ -41916,7 +46375,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 90,
+            "def": 129,
+            "spatk": 90,
+            "spdef": 72,
+            "spe": 108
+        }
     },
     {
         "id": 639,
@@ -41927,7 +46393,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 129,
+            "def": 90,
+            "spatk": 72,
+            "spdef": 90,
+            "spe": 108
+        }
     },
     {
         "id": 640,
@@ -41938,7 +46411,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 90,
+            "def": 72,
+            "spatk": 90,
+            "spdef": 129,
+            "spe": 108
+        }
     },
     {
         "id": 641,
@@ -41949,7 +46429,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 79
+        "stats": {
+            "hp": 79,
+            "atk": 115,
+            "def": 70,
+            "spatk": 125,
+            "spdef": 80,
+            "spe": 111
+        }
     },
     {
         "id": 642,
@@ -41960,7 +46447,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 79
+        "stats": {
+            "hp": 79,
+            "atk": 115,
+            "def": 70,
+            "spatk": 125,
+            "spdef": 80,
+            "spe": 111
+        }
     },
     {
         "id": 643,
@@ -41971,7 +46465,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 120,
+            "def": 100,
+            "spatk": 150,
+            "spdef": 120,
+            "spe": 90
+        }
     },
     {
         "id": 644,
@@ -41982,7 +46483,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 150,
+            "def": 120,
+            "spatk": 120,
+            "spdef": 100,
+            "spe": 90
+        }
     },
     {
         "id": 645,
@@ -41993,7 +46501,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 89
+        "stats": {
+            "hp": 89,
+            "atk": 125,
+            "def": 90,
+            "spatk": 115,
+            "spdef": 80,
+            "spe": 101
+        }
     },
     {
         "id": 646,
@@ -42004,7 +46519,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 125
+        "stats": {
+            "hp": 125,
+            "atk": 130,
+            "def": 90,
+            "spatk": 130,
+            "spdef": 90,
+            "spe": 95
+        }
     },
     {
         "id": 647,
@@ -42015,7 +46537,14 @@ export const pokedex = [
         "held": [],
         "locations": [],
         "catchRate": 3,
-        "hp": 91
+        "stats": {
+            "hp": 91,
+            "atk": 72,
+            "def": 90,
+            "spatk": 129,
+            "spdef": 90,
+            "spe": 108
+        }
     },
     {
         "id": 648,
@@ -42028,7 +46557,14 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 77,
+            "def": 77,
+            "spatk": 128,
+            "spdef": 128,
+            "spe": 90
+        }
     },
     {
         "id": 648,
@@ -42041,6 +46577,13 @@ export const pokedex = [
         ],
         "locations": [],
         "catchRate": 3,
-        "hp": 100
+        "stats": {
+            "hp": 100,
+            "atk": 77,
+            "def": 77,
+            "spatk": 128,
+            "spdef": 128,
+            "spe": 90
+        }
     }
 ]
