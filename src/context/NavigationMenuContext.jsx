@@ -55,7 +55,29 @@ const POSTS = [
         title: "Making money with Pickup in PokeMMO",
         excerpt: "When you defeat a wild Pokémon and you have a Pokémon with pickup in the first slot of the party, you get a small percentage of grab an item from a pool. The pool of items is not random but it's based on the current route.",
         url: "https://forums.pokemmo.com/index.php?/topic/106742-money-guide-community-pickup-guide-2nd-edition/",
-        category: 'guide'
+        category: 'guide',
+        credits: 'Bestfriends & KaynineXL'
+    },
+    {
+        title: "Optimal PvE Pickup Teddiursa, Munchlax, and Meowth",
+        excerpt: "The best moves spread and setup for some useful PvE pokemons with Pickup ability. ",
+        url: "https://forums.pokemmo.com/index.php?/topic/146969-optimal-pve-pickup-teddiursa-munchlax-and-meowth/",
+        category: 'builds',
+        credits: 'DragoTamer'
+    },
+    {
+        title: "Optimal HM Friends (AKA Slaves)",
+        excerpt: "This guide thoroughly explains HMs and offers some insight about HM friends, specifically for players who cannot afford—or do not want—to buy Move Ocarinas. It really boils down to a matter of preference.",
+        url: "https://forums.pokemmo.com/index.php?/topic/149243-optimal-hm-friends/",
+        category: 'builds',
+        credits: 'Deomi'
+    },
+    {
+        title: "EV Training Spots guide",
+        excerpt: "The best place for farming EVs or Exp. It is recommended that you have full access in all regions. ",
+        url: "https://forums.pokemmo.com/index.php?/topic/77490-simple-ev-training-leveling-guide-using-horde/",
+        category: 'guide',
+        credits: 'Akshit'
     }
 ]
 
