@@ -24,8 +24,8 @@ export const PokemonLocations = ({ locations }) => {
                         locations
                             .filter(location => {
                                 if (!filters) return true;
-                                if (filters.region && filters.region !== location.region) return false;
-                                if (filters.route && filters.route !== location.route) return false;
+                                if (filters.region && !location.region.includes(filters.region)) return false;
+                                if (filters.route && !location.route.includes(filters.route)) return false;
                                 if (filters.hasHorde && location.rarity !== 'horde') return false
                                 return true
                             })

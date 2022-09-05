@@ -11,6 +11,7 @@ const POKEMON_PER_PAGE = 50;
 const filterPokedex = (pokedex, filters) => {
     return pokedex
         .filter(pokemon => {
+            let found = false;
             if (!filters) return true;
             if (filters.name) {
                 if (!pokemon.name.toLowerCase().includes(filters.name.toLowerCase().replace(' ', ''))) return false;
@@ -26,9 +27,9 @@ const filterPokedex = (pokedex, filters) => {
             }
             if (filters.route) {
                 if (!pokemon.locations.find(loc => {
-                    if (!filters.hasHorde) return loc.route === filters.route
+                    if (!filters.hasHorde) return loc.route.includes(filters.route)
 
-                    return loc.route === filters.route && loc.rarity === 'horde'
+                    return loc.route.includes(filters.route) && loc.rarity === 'horde'
                 })) {
                     return false;
                 }

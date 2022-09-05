@@ -85,8 +85,18 @@ export const PokedexFilters = () => {
             <div className="d-flex" style={{ gap: '.5rem' }}>
                 <ActionToggler
                     size="md"
-                    title="all locations"
+                    title="locations"
                     onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.LOCATION ? TABS.LOCATION : false }))}
+                />
+                <ActionToggler
+                    size="md"
+                    title="catch rates"
+                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.CATCH_RATE ? TABS.CATCH_RATE : false }))}
+                />
+                <ActionToggler
+                    size="md"
+                    title="stats"
+                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.STATS ? TABS.STATS : false }))}
                 />
                 <Button variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
             </div>
