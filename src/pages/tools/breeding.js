@@ -139,7 +139,7 @@ const Breeding = () => {
                 </div>
             </Form>
             <Card body className="my-3">
-                For this Pokémon you will spend <Typography highlight>{expectedPrice}$</Typography> and you may need <Typography highlight>{totalPokemonReq}</Typography> Pokémons.
+                For this Pokémon you will spend <Typography highlight>{expectedPrice}$</Typography> and you may need <Typography highlight>{totalPokemonReq}</Typography> Pokémon.
             </Card>
             <div className='d-flex' style={{ gap: '1rem' }}>
                 <Button onClick={startBreeding}>Start breeding</Button>
