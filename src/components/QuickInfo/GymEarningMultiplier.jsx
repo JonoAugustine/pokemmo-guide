@@ -50,13 +50,13 @@ export const GymEarningMultiplier = () => {
                     Multiplier: <Typography as="b">{multiply}%</Typography>
                 </li>
                 <li>
-                    Gain from Amulet x Gym: <Typography as="b">{earnings.stonks}$</Typography>
+                    Gain x Gym: <Typography as="b">{earnings.each}$</Typography>
                 </li>
                 <li>
                     Amulet costs covered in: <Typography as="b">{earnings.itemCovered}</Typography> gyms.
                 </li>
                 <li>
-                    Expected gain in 15 gym: <Typography as="b">{earnings.stonks * 15 - costs}$</Typography>
+                    Expected gain in 15 gym: <Typography as="b">{earnings.each * 15}$ (${earnings.stonks * 15} from Amulet coin.)</Typography>
                 </li>
             </ul>
         </Card>
