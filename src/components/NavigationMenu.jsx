@@ -12,12 +12,6 @@ export function NavigationMenu({ show, handleClose }) {
             </Offcanvas.Header>
             <Offcanvas.Body>
                 <Nav variant='pills' className="flex-column" onSelect={handleClose}>
-                    <Nav.Item className='mb-2'>Guides</Nav.Item>
-                    {
-                        NAVIGATION_MENU_ITEMS.GUIDES.map(({ label, url }, index) => (
-                            <NavLink onClick={handleClose} key={index} to={url}>{label}</NavLink>
-                        ))
-                    }
                     <Nav.Item className='mt-3 mb-2'>Utility Pokemon</Nav.Item>
                     <Nav.Item className="mt-3 mb-2">Tools</Nav.Item>
                     {

@@ -4,7 +4,7 @@ import { pokedex } from '../../data/pokedex'
 import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
-import { Card, Typography } from '../Atoms';
+import { Card } from '../Atoms';
 
 const POKEMON_PER_PAGE = 50;
 

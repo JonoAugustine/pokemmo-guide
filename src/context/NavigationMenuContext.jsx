@@ -10,12 +10,6 @@ const NavigationMenuContext = createContext({
 })
 
 const NAVIGATION_MENU_ITEMS = {
-    GUIDES: [
-        {
-            label: 'Pickup',
-            url: '/guides/make-money-with-pickup'
-        }
-    ],
     TOOLS: [
         {
             label: 'Pokedex',

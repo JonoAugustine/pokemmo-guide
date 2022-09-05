@@ -38,7 +38,7 @@ export const PokedexFilters = () => {
 
     return (
         <div className='mb-5'>
-            <Form className="mb-2 d-flex" style={{ gap: '1rem' }}>
+            <Form className="mb-2 d-flex" style={{ gap: '1rem' }} onSubmit={e => e.preventDefault()}>
                 <Form.Group controlId='region'>
                     <Form.Text>
                         Name

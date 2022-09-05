@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ButtonGroup, CardGroup, Nav } from 'react-bootstrap';
+import { CardGroup } from 'react-bootstrap';
 import { Post } from '../components/Post';
 import { useNavigationMenu } from '../context/NavigationMenuContext';
 import { Button } from './Atoms';

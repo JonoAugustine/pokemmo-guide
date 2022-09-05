@@ -15,12 +15,24 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-advanced-sitemap`,
+        "gatsby-plugin-image",
+        "gatsby-plugin-sitemap",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                "name": "assets",
+                "path": "./src/assets/"
+            },
+            __key: "assets"
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `PokeMMO Guide`,
                 short_name: `PokeMMO Guide`,
-                start_url: `/`,
+                start_url: '/',
                 background_color: `#f7f0eb`,
                 theme_color: `#343a40`,
                 display: `standalone`,
@@ -70,57 +82,5 @@ module.exports = {
                 },
             }
         },
-        "gatsby-plugin-image",
-        "gatsby-plugin-sitemap",
-        {
-            resolve: 'gatsby-plugin-manifest',
-            options: {
-                "icon": "src/images/logo.png"
-            }
-        },
-        "gatsby-plugin-sharp",
-        "gatsby-transformer-sharp",
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                "name": "images",
-                "path": "./src/images/"
-            },
-            __key: "images"
-        },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                "name": "assets",
-                "path": "./src/assets/"
-            },
-            __key: "assets"
-        },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                "name": "pages",
-                "path": "./src/pages/"
-            },
-            __key: "pages"
-        },
-        {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-                tableOfContents: {
-                    heading: null,
-                    maxDepth: 3
-                },
-                plugins: [
-                    {
-                        resolve: "gatsby-remark-external-links",
-                        options: {
-                            target: "_blank",
-                            rel: "nofollow norel"
-                        }
-                    }
-                ]
-            }
-        }
     ]
 };
