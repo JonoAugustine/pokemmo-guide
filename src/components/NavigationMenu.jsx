@@ -1,13 +1,15 @@
 import React from 'react';
 import { Nav, Offcanvas } from 'react-bootstrap';
+import { useDarkMode } from '../context/DarkModeContext';
 import { useNavigationMenu } from '../context/NavigationMenuContext';
 import { NavLink } from './NavLink';
 
 export function NavigationMenu({ show, handleClose }) {
     const { NAVIGATION_MENU_ITEMS } = useNavigationMenu();
+    const { theme } = useDarkMode()
     return (
         <Offcanvas show={show} onHide={handleClose}>
-            <Offcanvas.Header closeButton>
+            <Offcanvas.Header closeButton closeVariant={theme === 'dark' ? 'white' : false}>
                 <Offcanvas.Title>Pokemmo Guides</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
