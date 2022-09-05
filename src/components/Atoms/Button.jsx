@@ -14,7 +14,7 @@ export const Button = ({ children, className, style, variant = 'primary', ...pro
                         : variant
             }
             className={`${className} d-inline-flex align-items-center`}
-            style={{ ...style, gap: '.25rem' }}
+            style={{ gap: '.25rem', ...style }}
             {...props}
         >
             {children}

@@ -1,5 +1,6 @@
 .breedingItem {
     position: relative;
+    text-align: center;
 }
 
 .breedingRows:nth-last-child(1) .breedingTournamentRow{
