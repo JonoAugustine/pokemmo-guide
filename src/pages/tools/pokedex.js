@@ -36,6 +36,7 @@ export const query = graphql`
   }
 `
 
-export const Head = () => <Seo title="Pokedex"></Seo>
+const description = "Check every Pokemon in PokeMMO. Group them by route or by egg group. Find in a second which hordes are available. "
+export const Head = () => <Seo title="Pokedex" description={description}></Seo>
 
 export default Pokedex

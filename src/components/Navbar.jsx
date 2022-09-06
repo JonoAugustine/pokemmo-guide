@@ -6,6 +6,7 @@ import { Lunatone, Solrock } from '../assets/icons'
 import { useDarkMode } from '../context/DarkModeContext'
 import { useNavigationMenu } from '../context/NavigationMenuContext'
 import logo from '../images/logo.png'
+import logoLight from '../images/logo-light.png'
 import { Button } from './Atoms'
 
 export function Navbar() {
@@ -19,7 +20,7 @@ export function Navbar() {
                     <GiHamburger size="1.4em" />
                 </Button>
                 <Link to="/" className='fs-3 mb-0'>
-                    <img style={{ width: '2em' }} src={logo} alt="Logo di PokeMMO Guides - Grazie a Joe Kotlan" />
+                    <Image style={{ width: '2em' }} src={isDark ? logoLight : logo} alt="Logo di PokeMMO Guides - Grazie a Joe Kotlan" />
                 </Link>
                 <Button className="p-0" onClick={toggleDarkMode} variant={isDark ? 'light' : 'dark'}>
                     {

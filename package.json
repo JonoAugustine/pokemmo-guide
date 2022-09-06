@@ -2,10 +2,14 @@
   "name": "poke-mmo-guide",
   "version": "1.0.0",
   "private": true,
-  "description": "poke-mmo-guide",
+  "description": "pokemmo-guide",
   "author": "Marco Giannini",
+  "homepage": "https://pokemmo.netlify.app",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "pokemmo",
+    "pokemmo guide",
+    "react"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -17,7 +21,6 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "gatsby": "^4.20.0",
-    "gatsby-plugin-advanced-sitemap": "^2.1.0",
     "gatsby-plugin-google-gtag": "^4.21.0",
     "gatsby-plugin-image": "^2.20.0",
     "gatsby-plugin-manifest": "^4.22.0",

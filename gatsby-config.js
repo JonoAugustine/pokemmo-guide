@@ -14,7 +14,6 @@ module.exports = {
         description: `A website for everything about PokeMMO`
     },
     plugins: [
-        `gatsby-plugin-advanced-sitemap`,
         "gatsby-plugin-image",
         "gatsby-plugin-sitemap",
         "gatsby-plugin-sharp",

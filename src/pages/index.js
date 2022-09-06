@@ -27,6 +27,7 @@ const IndexPage = () => {
     )
 }
 
-export const Head = () => <Seo></Seo>
+const description = "A website for every tools, guides and informations about PokeMMO. Read the best way to make money and how to make competitive pokemon easy. "
+export const Head = () => <Seo title="Homepage" description={description}></Seo>
 
 export default IndexPage

@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
+import { Footer } from '../components/Footer';
 import { Navbar } from "../components/Navbar";
 import { NavigationMenu } from '../components/NavigationMenu';
 
@@ -87,9 +88,12 @@ export function NavigationMenuProvider({ children }) {
 
     return (
         <NavigationMenuContext.Provider value={{ toggleNav, pageName, setPageName, NAVIGATION_MENU_ITEMS, POSTS }}>
-            <NavigationMenu show={isOpen} handleClose={toggleNav} />
-            <Navbar />
-            {children}
+            <div className='webapp'>
+                <NavigationMenu show={isOpen} handleClose={toggleNav} />
+                <Navbar />
+                {children}
+                <Footer />
+            </div>
         </NavigationMenuContext.Provider>
     )
 }

@@ -157,4 +157,5 @@ const Breeding = () => {
 
 export default Breeding
 
-export const Head = () => <Seo title="Breeding Simulator"></Seo>
+const description = "Get help with breeding in PokeMMO. Select how many IVs you want and if you want nature. Follow the graph and you'll have your competitive Pokemon. "
+export const Head = () => <Seo title="Breeding Simulator" description={description}></Seo>
