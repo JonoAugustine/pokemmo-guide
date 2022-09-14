@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react'
-import { Form } from 'react-bootstrap'
+import { useEffect } from 'react'
+import { ButtonGroup, Form } from 'react-bootstrap'
 import { usePokedex } from '../../context/PokedexContext'
 import { pokedex } from '../../data/pokedex'
-import { Button } from '../Atoms'
+import { Button, Typography } from '../Atoms'
 import { ActionToggler } from './ActionToggler'
 
 
@@ -34,6 +35,10 @@ export const PokedexFilters = () => {
     const { regions, eggGroups } = useMemo(() => getAllFilterableValues(), [])
     const { filters, setFilters, resetFilters, TABS } = usePokedex()
 
+    useEffect(() => {
+        setFilters(prev => ({ ...prev, route: false }))
+    }, [filters.region])
+
     if (!filters) return;
 
     return (
@@ -55,7 +60,7 @@ export const PokedexFilters = () => {
                     </Form.Select>
                 </Form.Group>
                 {
-                    typeof filters.region !== "undefined"
+                    filters.region
                         ? <Form.Group controlId="routes">
                             <Form.Text>Routes</Form.Text>
                             <Form.Select value={filters.route} onChange={({ target }) => setFilters(prev => ({ ...prev, route: target.value !== 'false' ? target.value : false }))}>
@@ -82,23 +87,29 @@ export const PokedexFilters = () => {
                     />
                 </Form.Group>
             </Form>
-            <div className="d-flex" style={{ gap: '.5rem' }}>
-                <ActionToggler
-                    size="md"
-                    title="locations"
-                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.LOCATION ? TABS.LOCATION : false }))}
-                />
-                <ActionToggler
-                    size="md"
-                    title="catch rates"
-                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.CATCH_RATE ? TABS.CATCH_RATE : false }))}
-                />
-                <ActionToggler
-                    size="md"
-                    title="stats"
-                    onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.STATS ? TABS.STATS : false }))}
-                />
-                <Button variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
+            <div className="d-flex mt-3" style={{ gap: '.5rem' }}>
+                <Typography className='mb-0 mt-auto'>Toggle all:</Typography>
+                <ButtonGroup>
+                    <ActionToggler
+                        size="md"
+                        title="locations"
+                        disabled={filters.activeTab === TABS.LOCATION}
+                        onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.LOCATION ? TABS.LOCATION : false }))}
+                    />
+                    <ActionToggler
+                        size="md"
+                        title="catch rates"
+                        disabled={filters.activeTab === TABS.CATCH_RATE}
+                        onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.CATCH_RATE ? TABS.CATCH_RATE : false }))}
+                    />
+                    <ActionToggler
+                        size="md"
+                        title="stats"
+                        disabled={filters.activeTab === TABS.STATS}
+                        onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.STATS ? TABS.STATS : false }))}
+                    />
+                </ButtonGroup>
+                <Button className='ms-5' variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
             </div>
         </div>
     )

@@ -77,20 +77,22 @@ export const PokemonItem = (pokemon) => {
                                 locations={locations}
                             />
                         </PokemonSection>
-                        <PokemonSection show={activeTab === TABS.CATCH_RATE ? true : false} title="Catch rate">
-                            <CatchResults
-                                results={catchResults}
-                            />
-                        </PokemonSection>
                     </>
                     : false
             }
             {
-                <PokemonSection
-                    show={activeTab === TABS.STATS ? true : false}
-                    title="Base Stats">
-                    <PokemonBaseStats {...stats} />
-                </PokemonSection>
+                <>
+                    <PokemonSection show={activeTab === TABS.CATCH_RATE ? true : false} title="Catch rate">
+                        <CatchResults
+                            results={catchResults}
+                        />
+                    </PokemonSection>
+                    <PokemonSection
+                        show={activeTab === TABS.STATS ? true : false}
+                        title="Base Stats">
+                        <PokemonBaseStats {...stats} />
+                    </PokemonSection>
+                </>
             }
         </Card>
     )

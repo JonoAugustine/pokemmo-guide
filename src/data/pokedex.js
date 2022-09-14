@@ -34507,6 +34507,33 @@ export const pokedex = [
         }
     },
     {
+        "id": 387,
+        "name": "Turtwig",
+        "group": [
+            "Monster",
+            "Plant"
+        ],
+        "held": [],
+        "locations": [
+            {
+                "type": "grass",
+                "region": "sinnoh",
+                "route": "route 212",
+                "level": "24",
+                "rarity": "rare"
+            }
+        ],
+        "catchRate": 45,
+        "stats": {
+            "hp": 55,
+            "atk": 68,
+            "def": 64,
+            "spatk": 45,
+            "spdef": 55,
+            "spe": 31
+        }
+    },
+    {
         "id": 388,
         "name": "Grotle",
         "group": [
@@ -35842,6 +35869,26 @@ export const pokedex = [
             "spatk": 79,
             "spdef": 105,
             "spe": 36
+        }
+    },
+    {
+        "id": 414,
+        "name": "Mothim",
+        "group": [
+            "Bug"
+        ],
+        "held": [
+            "Silver Powder"
+        ],
+        "locations": [],
+        "catchRate": 45,
+        "stats": {
+            "hp": 70,
+            "atk": 94,
+            "def": 50,
+            "spatk": 94,
+            "spdef": 50,
+            "spe": 66
         }
     },
     {
@@ -42533,6 +42580,62 @@ export const pokedex = [
         }
     },
     {
+        "id": 551,
+        "name": "Sandile",
+        "group": [
+            "Field"
+        ],
+        "held": [
+            "Black Glasses"
+        ],
+        "locations": [
+            {
+                "type": "grass",
+                "region": "unova",
+                "route": "desert resort",
+                "level": "19-22",
+                "rarity": "very common"
+            },
+            {
+                "type": "grass",
+                "region": "unova",
+                "route": "desert resort",
+                "level": "17-19",
+                "rarity": "horde"
+            },
+            {
+                "type": "cave",
+                "region": "unova",
+                "route": "relic castle",
+                "level": "19-22",
+                "rarity": "rare"
+            },
+            {
+                "type": "cave",
+                "region": "unova",
+                "route": "relic castle",
+                "level": "18-19",
+                "rarity": "horde"
+            },
+            {
+                "type": "grass",
+                "region": "unova",
+                "route": "route 4",
+                "level": "15-18",
+                "rarity": "very common"
+            }
+        ],
+        "catchRate": 180,
+        "stats": {
+            "hp": 50,
+            "atk": 72,
+            "def": 35,
+            "spatk": 35,
+            "spdef": 35,
+            "spe": 65
+        }
+    },
+    {
         "id": 552,
         "name": "Krokorok",
         "group": [
@@ -42687,6 +42790,41 @@ export const pokedex = [
             "spatk": 30,
             "spdef": 55,
             "spe": 95
+        }
+    },
+    {
+        "id": 556,
+        "name": "Maractus",
+        "group": [
+            "Plant"
+        ],
+        "held": [
+            "Miracle Seed"
+        ],
+        "locations": [
+            {
+                "type": "grass",
+                "region": "unova",
+                "route": "desert resort",
+                "level": "20",
+                "rarity": "common"
+            },
+            {
+                "type": "grass",
+                "region": "unova",
+                "route": "desert resort(night)",
+                "level": "17-19",
+                "rarity": "horde"
+            }
+        ],
+        "catchRate": 255,
+        "stats": {
+            "hp": 75,
+            "atk": 86,
+            "def": 67,
+            "spatk": 106,
+            "spdef": 67,
+            "spe": 60
         }
     },
     {

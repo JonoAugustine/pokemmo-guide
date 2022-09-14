@@ -9,26 +9,26 @@ export const PokemonActionBar = ({ locations, actions, active, onClick }) => {
         <div className="d-flex" style={{ gap: ".5rem" }}>
             {
                 locations.length
-                    ? <>
-                        <ActionToggler
-                            active={active === TABS.LOCATION ? true : false}
-                            onClick={() => onClick(TABS.LOCATION)}
-                            icon={<TbLocation />}
-                        />
-                        <ActionToggler
-                            active={active === TABS.CATCH_RATE ? true : false}
-                            onClick={() => onClick(TABS.CATCH_RATE)}
-                            icon={<TbPokeball />}
-                        />
-                    </>
+                    ? <ActionToggler
+                        active={active === TABS.LOCATION ? true : false}
+                        onClick={() => onClick(TABS.LOCATION)}
+                        icon={<TbLocation />}
+                    />
                     : false
             }
             {
-                <ActionToggler
-                    active={active === TABS.STATS ? true : false}
-                    onClick={() => onClick(TABS.STATS)}
-                    icon={<TbChartBar />}
-                />
+                <>
+                    <ActionToggler
+                        active={active === TABS.CATCH_RATE ? true : false}
+                        onClick={() => onClick(TABS.CATCH_RATE)}
+                        icon={<TbPokeball />}
+                    />
+                    <ActionToggler
+                        active={active === TABS.STATS ? true : false}
+                        onClick={() => onClick(TABS.STATS)}
+                        icon={<TbChartBar />}
+                    />
+                </>
             }
         </div>
 
