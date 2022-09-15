@@ -104,8 +104,7 @@ export const PokedexFilters = () => {
                     />
                 </Form.Group>
             </Form>
-            <div className="d-flex mt-3" style={{ gap: '.5rem' }}>
-                <Typography className='mb-0 mt-auto'>Toggle all:</Typography>
+            <div className="d-flex mt-3 flex-wrap" style={{ gap: '.5rem' }}>
                 <ActionToggler
                     size="md"
                     title="locations"
@@ -121,7 +120,7 @@ export const PokedexFilters = () => {
                     title="stats"
                     onClick={() => setFilters(prev => ({ ...prev, activeTab: prev.activeTab !== TABS.STATS ? TABS.STATS : false }))}
                 />
-                <Button className='ms-5' variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
+                <Button variant="outline-danger" onClick={resetFilters}>Clear filters</Button>
             </div>
         </div>
     )
