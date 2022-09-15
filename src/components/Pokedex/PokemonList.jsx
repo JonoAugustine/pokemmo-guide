@@ -54,7 +54,7 @@ const filterByLocation = (region, route, pokemon) => {
     })
 }
 
-const filterByEggGroup = (eggGroup, pokemon) => pokemon.group.includes(eggGroup)
+const filterByEggGroup = (eggGroup, pokemon) => pokemon.group.includes(eggGroup) && pokemon.locations.length
 const filterByHorde = (pokemon) => pokemon.locations.find(loc => loc.rarity === 'horde')
 
 const filterPokedex = (pokedex, filters) => {
