@@ -7,7 +7,8 @@ const DEFAULT_FILTERS = {
     name: '',
     eggGroup: false,
     hasHorde: false,
-    allLocations: false
+    allLocations: false,
+    isPheno: false
 }
 
 const TABS = {

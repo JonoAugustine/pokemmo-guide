@@ -5,37 +5,10 @@ import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
 import { Card } from '../Atoms';
+import { useEffect } from 'react';
+import { useMemo } from 'react';
 
 const POKEMON_PER_PAGE = 50;
-
-/* const filterPokedex = (pokedex, filters) => {
-    return pokedex
-        .filter(pokemon => {
-            if (filters.name) {
-                isResult = pokemon.name.toLowerCase().includes(filters.name.toLowerCase().replace(' ', ''))
-            }
-            if (filters.region) {
-                isResult = pokemon.locations.find(loc => {
-                    if (!filters.hasHorde) return loc.region === filters.region
-                    return loc.region === filters.region && loc.rarity === 'horde'
-                })
-            }
-            if (filters.route) {
-                isResult = pokemon.locations.find(loc => {
-                    if (!filters.hasHorde) return loc.route === filters.route
-
-                    return loc.route === filters.route && loc.rarity === 'horde'
-                })
-            }
-            if (filters.eggGroup) {
-                isResult = pokemon.group.includes(filters.eggGroup)
-            }
-            if (filters.hasHorde) {
-                isResult = pokemon.locations.find(loc => loc.rarity === 'horde')
-            }
-            return isResult;
-        })
-} */
 
 const filterByName = (name, pokemon) => {
     return pokemon.name.toLowerCase().includes(name.toLowerCase().replace(' ', ''));
@@ -55,7 +28,7 @@ const filterByLocation = (region, route, pokemon) => {
 }
 
 const filterByEggGroup = (eggGroup, pokemon) => pokemon.group.includes(eggGroup) && pokemon.locations.length
-const filterByHorde = (pokemon) => pokemon.locations.find(loc => loc.rarity === 'horde')
+const filterByEncounterType = (pokemon, isPheno) => pokemon.locations.find(loc => isPheno ? loc.rarity === 'special' : loc.rarity === 'horde')
 
 const filterPokedex = (pokedex, filters) => {
     return pokedex
@@ -69,14 +42,14 @@ const filterPokedex = (pokedex, filters) => {
             return filters.eggGroup ? filterByEggGroup(filters.eggGroup, pokemon) : true
         })
         .filter(pokemon => {
-            return filters.hasHorde ? filterByHorde(pokemon) : true
+            return filters.hasHorde || filters.isPheno ? filterByEncounterType(pokemon, filters.isPheno) : true
         })
 }
 
 export const PokemonList = ({ sprites }) => {
     const [maxCount, setMaxCount] = useState(POKEMON_PER_PAGE);
     const { filters } = usePokedex()
-    const pokemonList = filterPokedex(pokedex, filters)
+    const pokemonList = useMemo(() => filterPokedex(pokedex, filters), [filters])
 
     const hasMore = maxCount < pokemonList.length
 
