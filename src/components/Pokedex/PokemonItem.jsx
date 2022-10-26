@@ -26,6 +26,7 @@ export const PokemonItem = (pokemon) => {
     const { id, name, held, group, locations, sprite, catchRate, stats } = pokemon;
     const { filters, TABS } = usePokedex()
     const [activeTab, setActiveTab] = useState(filters.allLocations)
+    const catchResults = useCatchRate(catchRate, stats.hp);
 
     const toggleTab = tabId => setActiveTab(prev => prev !== tabId ? tabId : '')
 
@@ -34,7 +35,6 @@ export const PokemonItem = (pokemon) => {
         setActiveTab(filters.activeTab)
     }, [filters])
     const [isLVU, setIsLVU] = useState(0)
-    const catchResults = useCatchRate(catchRate, stats.hp);
 
     const lvu = () => parseInt(id) === 16 ? setIsLVU(prev => prev + 1) : null
 

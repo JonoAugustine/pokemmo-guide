@@ -3,19 +3,33 @@ import { useEffect, useState } from 'react'
 const BALLS = [
     {
         name: 'pokeball',
-        rate: 1
+        rate: 1,
+        status: true,
+        health: true
     },
     {
         name: 'megaball',
-        rate: 1.5
+        rate: 1.5,
+        status: true,
+        health: true
     },
     {
         name: 'ultraball',
-        rate: 2
+        rate: 2,
+        status: true,
+        health: true
     },
     {
         name: 'bisball',
-        rate: 2.5
+        rate: 2.5,
+        status: true,
+        health: true
+    },
+    {
+        name: 'veloxball',
+        rate: 5,
+        status: true,
+        health: false
     }
 ]
 
@@ -44,7 +58,9 @@ export const useCatchRate = (pkmn_rate, max_hp) => {
     useEffect(() => {
         BALLS.forEach(ball => {
             STATUSES.forEach(status => {
+                if (!ball.status && status !== null) return;
                 setResults(prev => [...prev, calculateCatchRate(pkmn_rate, max_hp, max_hp, ball, status)])
+                if (!ball.health) return;
                 setResults(prev => [...prev, calculateCatchRate(pkmn_rate, max_hp, 1, ball, status)])
             })
         });

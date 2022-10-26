@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Image, Stack } from 'react-bootstrap'
 
 import { TbArrowsRightLeft } from 'react-icons/tb'
-import { BisBall, BisBallSleep, MegaBall, MegaBallSleep, PokeBall, PokeBallSleep, UltraBall, UltraBallSleep } from '../../assets/icons'
+import { BisBall, BisBallSleep, MegaBall, MegaBallSleep, PokeBall, PokeBallSleep, UltraBall, UltraBallSleep, VeloxBall, VeloxBallSleep } from '../../assets/icons'
 import { Button } from '../Atoms'
 
 
@@ -22,6 +22,10 @@ const ASSETS = {
     bisball: {
         sleep: <Image src={BisBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
         healthy: <Image src={BisBall} style={{ height: "2rem", aspectRatio: '1' }} />
+    },
+    veloxball: {
+        sleep: <Image src={VeloxBallSleep} style={{ height: "2rem", aspectRatio: '1' }} />,
+        healthy: <Image src={VeloxBall} style={{ height: "2rem", aspectRatio: '1' }} />
     }
 }
 
@@ -29,7 +33,8 @@ const BALLS = [
     'pokeball',
     'megaball',
     'ultraball',
-    'bisball'
+    'bisball',
+    'veloxball'
 ]
 
 export const CatchResults = ({ results }) => {

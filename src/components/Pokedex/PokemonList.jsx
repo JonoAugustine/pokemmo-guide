@@ -5,7 +5,6 @@ import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
 import { Card } from '../Atoms';
-import { useEffect } from 'react';
 import { useMemo } from 'react';
 
 const POKEMON_PER_PAGE = 50;
