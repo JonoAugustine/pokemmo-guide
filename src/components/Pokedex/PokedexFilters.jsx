@@ -107,6 +107,7 @@ export const PokedexFilters = () => {
                             type='radio'
                             id="all"
                             label="All"
+                            checked={!filters.hasHorde && !filters.isPheno}
                             onChange={({ target }) => setFilters(prev => ({ ...prev, hasHorde: false, isPheno: false }))}
                         />
                         <Form.Check
@@ -115,6 +116,7 @@ export const PokedexFilters = () => {
                             type='radio'
                             id="hasHorde"
                             label="Horde"
+                            checked={filters.hasHorde}
                             onChange={({ target }) => setFilters(prev => ({ ...prev, hasHorde: true, isPheno: false }))}
                         />
                         <Form.Check
@@ -123,6 +125,7 @@ export const PokedexFilters = () => {
                             type='radio'
                             id="isPheno"
                             label="Phenomena"
+                            checked={filters.isPheno}
                             onChange={({ target }) => setFilters(prev => ({ ...prev, hasHorde: false, isPheno: true }))}
                         />
                     </Form.Group>

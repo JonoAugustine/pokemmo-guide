@@ -5,7 +5,6 @@ import InfiniteScroll from 'react-infinite-scroller'
 import { Spinner } from 'react-bootstrap';
 import { usePokedex } from '../../context/PokedexContext';
 import { Card } from '../Atoms';
-import { useMemo } from 'react';
 
 const POKEMON_PER_PAGE = 50;
 
@@ -26,8 +25,12 @@ const filterByLocation = (region, route, pokemon) => {
     })
 }
 
-const filterByEggGroup = (eggGroup, pokemon) => pokemon.group.includes(eggGroup) && pokemon.locations.length
-const filterByEncounterType = (pokemon, isPheno) => pokemon.locations.find(loc => isPheno ? loc.rarity === 'special' : loc.rarity === 'horde')
+const filterByEggGroup = (eggGroup, pokemon) => {
+    return pokemon.group.includes(eggGroup) && pokemon.locations.length
+}
+const filterByEncounterType = (pokemon, isPheno) => {
+    return pokemon.locations.find(loc => isPheno ? loc.rarity === 'special' : loc.rarity === 'horde')
+}
 
 const filterPokedex = (pokedex, filters) => {
     return pokedex
@@ -48,7 +51,7 @@ const filterPokedex = (pokedex, filters) => {
 export const PokemonList = ({ sprites }) => {
     const [maxCount, setMaxCount] = useState(POKEMON_PER_PAGE);
     const { filters } = usePokedex()
-    const pokemonList = useMemo(() => filterPokedex(pokedex, filters), [filters])
+    const pokemonList = filterPokedex(pokedex, filters);
 
     const hasMore = maxCount < pokemonList.length
 
