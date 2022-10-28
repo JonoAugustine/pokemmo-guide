@@ -7102,7 +7102,7 @@ export const pokedex = [
     },
     {
         "id": 63,
-        "name": "abra",
+        "name": "Abra",
         "group": [
             "Humanoid"
         ],
@@ -32823,15 +32823,12 @@ export const pokedex = [
         }
     },
     {
-        "id": 351,
-        "name": "Castform - Sunny Form",
+        "id": 352,
+        "name": "Kecleon",
         "group": [
-            "Fairy",
-            "Chaos"
+            "Field"
         ],
-        "held": [
-            "Mystic Water"
-        ],
+        "held": [],
         "locations": [
             {
                 "type": "grass",
@@ -32869,14 +32866,14 @@ export const pokedex = [
                 "rarity": "rare"
             }
         ],
-        "catchRate": 45,
+        "catchRate": 200,
         "stats": {
-            "hp": 70,
-            "atk": 70,
+            "hp": 60,
+            "atk": 90,
             "def": 70,
-            "spatk": 70,
-            "spdef": 70,
-            "spe": 70
+            "spatk": 60,
+            "spdef": 120,
+            "spe": 40
         }
     },
     {
@@ -41993,7 +41990,7 @@ export const pokedex = [
     },
     {
         "id": 550,
-        "name": "Basculin - Red-Striped Form",
+        "name": "Basculin",
         "group": [
             "Water B"
         ],
@@ -42741,7 +42738,7 @@ export const pokedex = [
     },
     {
         "id": 555,
-        "name": "Darmanitan - Standard Mode",
+        "name": "Darmanitan",
         "group": [
             "Field"
         ],

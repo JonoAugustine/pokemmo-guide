@@ -14,7 +14,12 @@ const TOOLS = [
         label: 'Pokedex',
         url: '/tools/pokedex',
         icon: PokedexIcon
-    }
+    },
+    /* {
+        label: 'Egg Moves Calculator',
+        url: '/tools/egg-moves-calculator',
+        icon: EggIcon
+    } */
 ]
 
 export const ToolsListing = () => {
