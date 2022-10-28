@@ -31,12 +31,12 @@ export const GymEarningMultiplier = () => {
     const earnings = getAverageEarnings(AM_COINS[selected])
     return (
         <Card className="p-3">
-            <div class="d-flex" style={{ gap: '.5rem' }}>
+            <div class="d-flex align-items-center mb-3" style={{ gap: '.5rem' }}>
                 <Typography as="b" className='mb-0'>Amulet coin multiplier: </Typography>
                 {
                     AM_COINS.map((item, index) => (
                         <Button
-                            disabled={selected === index}
+                            active={selected === index}
                             key={index}
                             size="sm"
                             onClick={() => setSelected(index)}>

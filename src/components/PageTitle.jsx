@@ -7,7 +7,7 @@ export function PageTitle({ credits, children }) {
             <Typography as="h1">{children}</Typography>
             {
                 credits
-                    ? <Typography className='text-muted'>Guide made by: {credits}</Typography>
+                    ? <Typography className='text-muted'>{credits}</Typography>
                     : false
             }
 

@@ -1,17 +1,18 @@
 import React from 'react'
 import { Card as CardBS } from 'react-bootstrap'
-import { Button, Card, Typography } from './Atoms'
+import { Badge, Button, Card, Typography } from './Atoms'
 
-export function Post({ title, excerpt, url, credits }) {
+export function Post({ title, excerpt, url, credits, category }) {
     return (
         <Card className="rounded" style={{ border: 0, flex: '1 1 280px' }}>
             <CardBS.Body className="d-flex flex-column align-items-start">
+                <Badge className="mb-2 text-capitalize" bg="warning" text="dark">{category}</Badge>
                 <CardBS.Title>{title}</CardBS.Title>
                 <CardBS.Text>
                     {excerpt}
                 </CardBS.Text>
-                <div className="mt-auto d-flex align-items-end justify-content-between" style={{ width: '100%' }}>
-                    <Button target="_blank" href={url}>Read more</Button>
+                <div className="mt-auto d-flex align-items-center justify-content-between" style={{ width: '100%' }}>
+                    <Button className='flex-shrink-0' target="_blank" href={url}>Read more</Button>
                     {
                         credits
                             ? <Typography className='text-muted mb-0 text-end'>By: {credits}</Typography>

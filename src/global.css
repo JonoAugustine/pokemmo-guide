@@ -30,3 +30,19 @@ form{
 form > *  {
     flex-grow: 1;
 }
+
+.fake-background{
+    position: relative;
+}
+
+.fake-background::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color: #FFE083;
+}

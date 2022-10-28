@@ -9,19 +9,18 @@ import { Seo } from '../../components/SEO'
 import { eggMoves } from '../../data/eggMoves'
 
 const EggMoves = ({ data }) => {
-  console.log(eggMoves)
   const sprites = data.allFile.edges
   const [pkmnID, setPkmnID] = useState(0);
   const eggMove = pkmnID ? eggMoves.find(({ id }) => id === pkmnID) : false;
 
   return (
     <Page>
-      <PageTitle>Egg Moves Calculator</PageTitle>
+      <PageTitle credits="Thanks to YIBU for releasing the file with every egg moves path. ">Egg Moves Calculator</PageTitle>
       <EggMovesFilters sprites={sprites} data={eggMoves} onFilter={setPkmnID} />
       <div className="mt-3" style={{ zIndex: 0 }}>
         {
           eggMove
-            ? <EggMovesResults sprites={sprites} eggMove={eggMove} />
+            ? <EggMovesResults selectedPokemon={pkmnID} sprites={sprites} eggMove={eggMove} />
             : false
         }
       </div>

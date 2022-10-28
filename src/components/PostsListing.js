@@ -4,7 +4,7 @@ import { Post } from '../components/Post';
 import { useNavigationMenu } from '../context/NavigationMenuContext';
 import { Button } from './Atoms';
 
-const DEFAULT_PER_PAGE = 3;
+const DEFAULT_PER_PAGE = 10;
 
 export default function PostsListing() {
     const { POSTS } = useNavigationMenu();
@@ -16,11 +16,11 @@ export default function PostsListing() {
         <>
             <div className="d-flex mb-3" style={{ gap: '.75rem' }}>
                 <Button
-                    disabled={!selectedCategory}
+                    active={!selectedCategory}
                     onClick={() => setSelectedCategory(false)}>All</Button>
                 {
                     categories.map(cat => <Button
-                        disabled={cat === selectedCategory}
+                        active={cat === selectedCategory}
                         className="text-capitalize"
                         onClick={() => setSelectedCategory(cat)}>{cat}</Button>)
                 }

@@ -21,11 +21,11 @@ export const QuickInfoListing = () => {
 
     return (
         <div>
-            <div className="d-flex mb-3" style={{ gap: '1rem' }}>
+            <div className="d-flex mb-3 flex-wrap" style={{ gap: '1rem' }}>
                 {
                     QUICK_INFO_LISTS.map(({ label, id }, index) => {
                         return (
-                            <Button active={quickInfo === id ? true : false} key={index} onClick={() => setQuickInfo(prev => prev === id ? false : id)} className="d-inline-flex align-items-center" style={{ gap: '.3rem' }} variant="warning">
+                            <Button active={quickInfo === id} key={index} onClick={() => setQuickInfo(prev => prev === id ? false : id)} className="d-inline-flex align-items-center" style={{ gap: '.3rem' }} variant="warning">
                                 {label}
                             </Button>
                         )

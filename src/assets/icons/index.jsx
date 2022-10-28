@@ -13,5 +13,7 @@ import BisBallSleep from './balls/bisballsleep.png'
 import VeloxBall from './balls/veloxball.png';
 import VeloxBallSleep from './balls/veloxballsleep.png';
 import PokedexIcon from './pokedex.png'
+import RealEggIcon from './realEgg.png'
 
-export { EggIcon, Solrock, Lunatone, ShinyIcon, PokeBall, PokeBallSleep, MegaBall, MegaBallSleep, UltraBall, UltraBallSleep, BisBall, BisBallSleep, PokedexIcon, VeloxBall, VeloxBallSleep }
+
+export { EggIcon, Solrock, Lunatone, ShinyIcon, PokeBall, PokeBallSleep, MegaBall, MegaBallSleep, UltraBall, UltraBallSleep, BisBall, BisBallSleep, PokedexIcon, VeloxBall, VeloxBallSleep, RealEggIcon }

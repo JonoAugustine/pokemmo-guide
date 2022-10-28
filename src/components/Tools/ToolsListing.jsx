@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import { EggIcon, PokedexIcon } from '../../assets/icons'
+import { EggIcon, RealEggIcon, PokedexIcon } from '../../assets/icons'
 import { Button } from '../Atoms'
 
 const TOOLS = [
@@ -15,16 +15,16 @@ const TOOLS = [
         url: '/tools/pokedex',
         icon: PokedexIcon
     },
-    /* {
+    {
         label: 'Egg Moves Calculator',
         url: '/tools/egg-moves-calculator',
-        icon: EggIcon
-    } */
+        icon: RealEggIcon
+    }
 ]
 
 export const ToolsListing = () => {
     return (
-        <div className="d-flex" style={{ gap: '1rem' }}>
+        <div className="d-flex  flex-wrap" style={{ gap: '1rem' }}>
             {
                 TOOLS.map(({ label, url, icon }) => {
                     return (
