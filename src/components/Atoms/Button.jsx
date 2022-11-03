@@ -16,7 +16,7 @@ export const Button = ({ children, className = '', style, variant = 'primary', a
             className={`${className} d-inline-flex align-items-center ${variant === 'link' ? theme === 'dark' ? 'text-light' : 'text-dark' : ''}`}
             style={{
                 gap: '.25rem',
-                transform: `scale(${active ? .85 : 1})`,
+                transform: `scale(${active ? .9 : 1})`,
                 transition: '.2s',
                 ...style
             }}

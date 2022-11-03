@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useBreeding } from '../../context/BreedingContext'
+import { useDarkMode } from '../../context/DarkModeContext'
 import { breedingTable } from '../../data/breedingTable'
 import { IV_COLORS } from '../../data/ivs'
 import { Button } from '../Atoms'
@@ -7,6 +8,7 @@ import { Button } from '../Atoms'
 import * as breedingStyle from "./breeding.module.css"
 
 export function BreedingItem({ row, index, maxItems, maxRows }) {
+    const { isDark } = useDarkMode()
     const { breds, setAsBred, removeBred, breedingConfig } = useBreeding()
     const [isBred, setIsBred] = useState(false)
 
@@ -41,7 +43,7 @@ export function BreedingItem({ row, index, maxItems, maxRows }) {
                     borderRadius: '10rem',
                     overflow: 'hidden',
                     padding: 0,
-                    border: isBred ? '3px solid black' : 'none',
+                    border: isBred ? `${(row + 1) * 2}px solid ${isDark ? '#a2f79f' : 'black'}` : 'none',
                     gap: 0
                 }}>
                 {
@@ -63,7 +65,9 @@ export function BreedingItem({ row, index, maxItems, maxRows }) {
                     ></div>
                     : <div
                         className={breedingStyle.breedingTournamentCol}
-                        style={{ left: '-.35rem' }}
+                        style={{
+                            left: '-.35rem'
+                        }}
                     ></div>
             }
         </div>

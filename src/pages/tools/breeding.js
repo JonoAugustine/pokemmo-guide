@@ -103,10 +103,10 @@ const Breeding = () => {
                     <div className='d-flex flex-column' style={{ gap: '.3rem' }}>
                         <Form.Text className="text-muted">How many IVs do you want?</Form.Text>
                         <ButtonGroup aria-label="Basic example">
-                            <Button active={breedingConfig.ivsCount === 2} onClick={() => updateIVsCount(2)}>2</Button>
-                            <Button active={breedingConfig.ivsCount === 3} onClick={() => updateIVsCount(3)}>3</Button>
-                            <Button active={breedingConfig.ivsCount === 4} onClick={() => updateIVsCount(4)}>4</Button>
-                            <Button active={breedingConfig.ivsCount === 5} onClick={() => updateIVsCount(5)}>5</Button>
+                            <Button disabled={breedingConfig.ivsCount === 2} onClick={() => updateIVsCount(2)}>2</Button>
+                            <Button disabled={breedingConfig.ivsCount === 3} onClick={() => updateIVsCount(3)}>3</Button>
+                            <Button disabled={breedingConfig.ivsCount === 4} onClick={() => updateIVsCount(4)}>4</Button>
+                            <Button disabled={breedingConfig.ivsCount === 5} onClick={() => updateIVsCount(5)}>5</Button>
                         </ButtonGroup>
                     </div>
                     <div className="d-flex flex-column" style={{ gap: '.3rem' }}>
@@ -139,7 +139,10 @@ const Breeding = () => {
                 </div>
             </Form>
             <Card body className="my-3">
-                For this Pokémon you will spend <Typography highlight>{expectedPrice}$</Typography> and you may need <Typography highlight>{totalPokemonReq}</Typography> Pokémon.
+                For this Pokémon you will spend <Typography highlight>{expectedPrice}$</Typography> and you may need <Typography highlight>{totalPokemonReq}</Typography> Pokémon. 
+                <Typography className='mb-0'>
+                    Price calculations are based only on the breeding items cost, sex choice and everstone. Keep in consideration that some Pokémon has a higher cost for sex choices.
+                </Typography>
             </Card>
             <div className='d-flex' style={{ gap: '1rem' }}>
                 <Button onClick={startBreeding}>Start breeding</Button>

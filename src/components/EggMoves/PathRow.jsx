@@ -6,7 +6,7 @@ import { RealEggIcon } from '../../assets/icons'
 
 export const PathRow = ({ sprites, path, choosenPkmnSprite }) => {
     return (
-        <Stack direction="horizontal" className="mb-2 overflow-scroll" style={{ gap: '.5rem' }}>
+        <Stack direction="horizontal" className="mb-4 overflow-scroll" style={{ gap: '.5rem' }}>
             {
                 path.map((item) => (
                     <>
