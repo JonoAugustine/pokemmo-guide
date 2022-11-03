@@ -1,6 +1,6 @@
 import { GatsbyImage } from 'gatsby-plugin-image'
 import React from 'react'
-import { getPokemonName } from '../../utils/getPokemonName'
+import { getPokemonName } from '../../utils/pokemon'
 import { Badge } from '../Atoms'
 
 export const PathItem = ({ pokemon, sprites }) => {

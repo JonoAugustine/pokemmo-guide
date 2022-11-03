@@ -2,7 +2,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { Stack } from 'react-bootstrap'
-import { getPokemonName } from '../../utils/getPokemonName'
+import { getPokemonName } from '../../utils/pokemon'
 import { Button, Card, Typography } from '../Atoms'
 import { PathResult } from './PathResult'
 

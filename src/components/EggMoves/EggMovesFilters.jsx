@@ -1,6 +1,6 @@
 import { GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react'
-import { getPokemonName } from '../../utils/getPokemonName'
+import { getPokemonName, getPokemonEvolutions } from '../../utils/pokemon'
 import { Search, Typography } from '../Atoms';
 
 const formatResult = (item) => {
@@ -13,21 +13,32 @@ const formatResult = (item) => {
 }
 
 export const EggMovesFilters = ({ sprites, data, onFilter }) => {
+
     return (
         <div>
             <Typography className='mb-0' style={{ fontSize: '.95rem' }}>Choose your Pokemon</Typography>
             <Search
                 items={
-                    data.map(item => (
-                        {
+                    data.reduce((prev, item) => {
+                        console.log(item);
+                        const nextEvolutions = getPokemonEvolutions(item.id)
+                        const el = {
                             id: item.id,
                             name: getPokemonName(item.id),
                             sprite: sprites.find(({ node }) => parseInt(node.name) === item.id)
-                        }
-                    ))
+                        };
+                        if (!nextEvolutions.future.length) return [...prev, el];
+                        const evolutions = nextEvolutions.future.map(({ id }) => ({
+                            id: id,
+                            name: getPokemonName(id),
+                            sprite: sprites.find(({ node }) => parseInt(node.name) === id),
+                            baseId: item.id
+                        }))
+                        return [...prev, el, ...evolutions];
+                    }, [])
                 }
                 formatResult={formatResult}
-                onSelect={item => onFilter(item.id)}
+                onSelect={item => onFilter(item.baseId ? item.baseId : item.id)}
             />
         </div>
         //data.map(item => getPokemonName(item.id))
