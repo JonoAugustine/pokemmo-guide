@@ -35,17 +35,19 @@ export const PokemonItem = (pokemon) => {
         setActiveTab(filters.activeTab)
     }, [filters])
     const [isLVU, setIsLVU] = useState(0)
+    const [isFs1, setIsFs1] = useState(0)
 
     const lvu = () => parseInt(id) === 16 ? setIsLVU(prev => prev + 1) : null
+    const fs1 = () => parseInt(id) === 420 ? setIsFs1(prev => prev + 1) : null
 
     return (
         <Card className="mb-3 rounded">
             <Stack direction="horizontal" gap={3} className="p-2">
-                {id === 16
+                {id === 16 || id === 420
                     ? <Button
                         style={{ padding: 0, border: 0 }}
                         variant="link"
-                        onClick={() => lvu()}
+                        onClick={() => id === 16 ? lvu() : fs1()}
                     >
                         <GatsbyImage style={{ maxWidth: '80px' }} image={sprite.node.childImageSharp.gatsbyImageData} alt={name} />
                     </Button>
@@ -53,7 +55,13 @@ export const PokemonItem = (pokemon) => {
                 <Stack gap={1} style={{ justifyContent: 'center' }}>
                     <Stack gap={2}>
                         <Stack gap={4} direction="horizontal" className='align-items-center'>
-                            <Typography as="h4" className="mb-0">{isLVU > 16 ? '16/07/11 ❤️' : name}</Typography>
+                            <Typography as="h4" className="mb-0">{
+                                isLVU > 16
+                                    ? '16/07/11 ❤️'
+                                    : isFs1 > 5
+                                        ? 'FS1 Beppe'
+                                        : name
+                            }</Typography>
                             <PokemonActionBar
                                 onClick={tabId => toggleTab(tabId)}
                                 active={activeTab}
