@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
+import { Button, Typography } from '../../components/Atoms'
+import { AvatarList } from '../../components/Cosmetics/AvatarList'
+import { CosmeticsFilter } from '../../components/Cosmetics/CosmeticsFilter'
 import { Page } from '../../components/Page'
 import { PageTitle } from '../../components/PageTitle'
 import { Seo } from '../../components/SEO'
-import { cosmetics, cosmeticsArrays } from '../../data/cosmetics'
+import { cosmeticsArrays } from '../../data/cosmetics'
 import { DEFAULT_CLOTHES, getCosmeticSetupImage } from '../../utils/items'
-import { CosmeticsFilter } from '../../components/Cosmetics/CosmeticsFilter'
-import { Button, Typography } from '../../components/Atoms'
-import { AvatarList } from '../../components/Cosmetics/AvatarList'
 
 const Cosmetics = () => {
     const [clothes, setClothes] = useState(DEFAULT_CLOTHES)

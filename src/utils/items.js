@@ -44,5 +44,5 @@ export const getCosmeticSetupImage = (cosmetics) => {
 }
 
 export const getItemInfo = id => {
-    return items.find(item => item.id === id)
+    return items.find(item => parseInt(item.id) === parseInt(id))
 }

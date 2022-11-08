@@ -74,3 +74,7 @@ form > *  {
     top: 0;
     transform: translateY(35%) rotate(180deg);
 }
+
+.github-picker{
+    gap: .2rem;
+}
