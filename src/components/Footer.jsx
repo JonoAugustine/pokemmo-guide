@@ -4,7 +4,7 @@ import { Button, Typography } from './Atoms'
 
 export const Footer = () => {
     return (
-        <Container className="mt-auto border-top pt-2">
+        <Container className="mt-auto border-top py-2">
             <div className='d-flex flex-wrap align-items-center justify-content-between' style={{ gap: '.5rem' }}>
                 <Typography className="mb-0 me-1">
                     Made with ❤️ in Livorno, Italy <br></br>

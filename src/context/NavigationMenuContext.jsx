@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState } from 'react';
 import { Footer } from '../components/Footer';
 import { Navbar } from "../components/Navbar";
 import { NavigationMenu } from '../components/NavigationMenu';
+import { RandomPokemonEasterEgg } from '../components/RandomPokemonEasterEgg';
 import { Posts } from '../data/posts';
 
 const NavigationMenuContext = createContext({
@@ -64,6 +65,7 @@ export function NavigationMenuProvider({ children }) {
                 {children}
                 <Footer />
             </div>
+            <RandomPokemonEasterEgg></RandomPokemonEasterEgg>
         </NavigationMenuContext.Provider>
     )
 }
