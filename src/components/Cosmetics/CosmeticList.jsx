@@ -29,7 +29,7 @@ export const CosmeticList = ({ selectedClothes, onCosmeticSelect, slotId }) => {
                     size="sm"
                     style={{ width: 'auto' }}
                     onChange={({ target }) => updateClothes(parseInt(target.value))}
-                    defaultValue={selectedClothes[slotId]}
+                    value={selectedClothes[slotId]}
                 >
                     <option value={0}>---</option>
                     {
