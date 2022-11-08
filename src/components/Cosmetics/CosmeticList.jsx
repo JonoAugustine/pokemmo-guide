@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { Form } from 'react-bootstrap';
 import { cosmeticsArrays } from '../../data/cosmetics';
@@ -8,12 +9,22 @@ import { Typography } from '../Atoms';
 import { SwatchColorPicker } from './SwatchColorPicker';
 
 export const CosmeticList = ({ selectedClothes, onCosmeticSelect, slotId }) => {
-    const [clothes, setClothes] = useState(false);
+
+    const getCosmeticInfo = (cosmeticId) => {
+        return cosmeticsArrays[slotId].find(({ item_id }) => parseInt(item_id) === parseInt(cosmeticId))
+    }
+
+    const [clothes, setClothes] = useState(getCosmeticInfo(selectedClothes));
+
+    useEffect(() => {
+        setClothes(getCosmeticInfo(selectedClothes))
+    }, [selectedClothes])
+
     const getSlotName = (slotId) => InterfaceItems.slot[slotId]
 
     const updateClothes = (cosmeticId) => {
         onCosmeticSelect(slotId, cosmeticId)
-        const cosmeticInfo = cosmeticsArrays[slotId].find(({ item_id }) => item_id === cosmeticId)
+        const cosmeticInfo = getCosmeticInfo(cosmeticId)
         setClothes(cosmeticInfo);
     }
 
@@ -29,7 +40,7 @@ export const CosmeticList = ({ selectedClothes, onCosmeticSelect, slotId }) => {
                     size="sm"
                     style={{ width: 'auto' }}
                     onChange={({ target }) => updateClothes(parseInt(target.value))}
-                    value={selectedClothes[slotId]}
+                    value={selectedClothes ? selectedClothes.toString().split('-')[0] : selectedClothes}
                 >
                     <option value={0}>---</option>
                     {
@@ -40,7 +51,11 @@ export const CosmeticList = ({ selectedClothes, onCosmeticSelect, slotId }) => {
                             })
                     }
                 </Form.Select>
-                {clothes && clothes.attribute === 8 ? <SwatchColorPicker onUpdateClothesColor={updateClothesColor} /> : null}
+                {
+                    clothes && clothes.attribute === 8
+                        ? <SwatchColorPicker onUpdateClothesColor={updateClothesColor} />
+                        : null
+                }
             </div>
         </div>
     )

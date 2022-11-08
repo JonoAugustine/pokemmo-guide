@@ -12,7 +12,7 @@ export const CosmeticsFilter = ({ selectedClothes, onCosmeticSelect }) => {
                         .map(slotId => {
                             return (
                                 cosmeticsArrays[slotId]
-                                    ? <CosmeticList slotId={slotId} onCosmeticSelect={onCosmeticSelect} selectedClothes={selectedClothes} />
+                                    ? <CosmeticList slotId={slotId} onCosmeticSelect={onCosmeticSelect} selectedClothes={selectedClothes[slotId]} />
                                     : null
 
                             )

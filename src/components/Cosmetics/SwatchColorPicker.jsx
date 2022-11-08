@@ -20,7 +20,7 @@ export const SwatchColorPicker = ({ onUpdateClothesColor }) => {
     const getSelectedColor = rgb => dyeColors.find(color => color.rgb.join() === rgb.join());
 
     return (
-        <Button className="position-relative p-0" variant="link" onClick={() => setTogglePicker(!togglePicker)} style={{ zIndex: 9 }}>
+        <Button className="position-relative p-0" variant="link" onClick={() => setTogglePicker(!togglePicker)} style={{ zIndex: togglePicker ? 9 : 1 }}>
             <div style={{ backgroundColor: color, width: '1.8rem', height: '1.8rem', borderRadius: '5px', border: '3px solid white' }}></div>
             {
                 togglePicker
