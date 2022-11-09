@@ -1,3 +1,5 @@
+import { getItemInfo } from "../utils/items";
+
 export const cosmetics = [
   {
     "attribute": 0,
@@ -4258,9 +4260,19 @@ export const cosmetics = [
   }
 ];
 
-export const cosmeticsArrays = cosmetics.reduce((prev, curr) => {
-  return {
-    ...prev,
-    [curr.slot]: (prev[curr.slot] || []).concat(curr)
-  }
-}, {});
+export const cosmeticsArrays = cosmetics
+    .map(item => {
+        const { en_name } = getItemInfo(item.item_id)
+        return { ...item, en_name }
+    })
+    .sort((a, b) => {
+        console.log(a.en_name, b.en_name)
+        return a.en_name.toLowerCase() < b.en_name.toLowerCase() ? -1 : 1
+    })
+    .reduce((prev, curr) => {
+        return {
+            ...prev,
+            [curr.slot]: (prev[curr.slot] || []).concat(curr)
+        }
+    }, {}
+    );

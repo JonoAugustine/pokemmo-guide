@@ -45,8 +45,7 @@ export const CosmeticList = ({ selectedClothes, onCosmeticSelect, slotId }) => {
                     <option value={0}>---</option>
                     {
                         cosmeticsArrays[slotId]
-                            .map(({ item_id }) => {
-                                const { en_name } = getItemInfo(item_id)
+                            .map(({ item_id, en_name }) => {
                                 return <option value={item_id} key={item_id}>{en_name}</option>
                             })
                     }
