@@ -40,6 +40,13 @@ const postsList = [
         url: "https://forums.pokemmo.com/index.php?/topic/76529-storyline-guide-kanto-hoenn-sinnoh-unova-complete-walkthrough-all-items-hidden-items/",
         category: 'guide',
         credits: 'MightyBoxer'
+    },
+    {
+        title: " Pokemon Experience Type Level Index (PokeMMO Version)  ",
+        excerpt: "You will learn all the leveling mechanics as well as each pokemon's level rate. Some pokemon level quickly, while others level very slowly. There is also a graph included for all the level rates. ",
+        url: "https://forums.pokemmo.com/index.php?/topic/150467-pokemon-experience-type-level-index-pokemmo-version/",
+        category: 'guide',
+        credits: 'Bestfriends'
     }
 ]
 
