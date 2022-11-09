@@ -21,6 +21,14 @@ const NAVIGATION_MENU_ITEMS = {
         {
             label: 'Breeding Simulator',
             url: '/tools/breeding'
+        },
+        {
+            label: 'Egg Moves Calculator',
+            url: '/tools/egg-moves-calculator'
+        },
+        {
+            label: 'Cosmetics Helper',
+            url: '/tools/cosmetics'
         }
     ],
     EXTERNAL_RESOURCES: [
