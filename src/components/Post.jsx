@@ -2,11 +2,16 @@ import React from 'react'
 import { Card as CardBS } from 'react-bootstrap'
 import { Badge, Button, Card, Typography } from './Atoms'
 
-export function Post({ title, excerpt, url, credits, category }) {
+export function Post({ title, excerpt, url, credits, category, isNew }) {
     return (
         <Card className="rounded" style={{ border: 0, flex: '1 1 280px' }}>
             <CardBS.Body className="d-flex flex-column align-items-start">
-                <Badge className="mb-2 text-capitalize" bg="warning" text="dark">{category}</Badge>
+                <div className='mb-2 d-flex' style={{ gap: '.5rem' }}>
+                    <Badge className="text-capitalize" bg="warning" text="dark">{category}</Badge>
+                    {
+                        isNew ? <Badge bg="info" text="dark">New</Badge> : null
+                    }
+                </div>
                 <CardBS.Title>{title}</CardBS.Title>
                 <CardBS.Text>
                     {excerpt}

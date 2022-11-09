@@ -42,11 +42,12 @@ const postsList = [
         credits: 'MightyBoxer'
     },
     {
-        title: " Pokemon Experience Type Level Index (PokeMMO Version)  ",
+        title: "Pokemon Experience Type Level Index (PokeMMO Version)  ",
         excerpt: "You will learn all the leveling mechanics as well as each pokemon's level rate. Some pokemon level quickly, while others level very slowly. There is also a graph included for all the level rates. ",
         url: "https://forums.pokemmo.com/index.php?/topic/150467-pokemon-experience-type-level-index-pokemmo-version/",
         category: 'guide',
-        credits: 'Bestfriends'
+        credits: 'Bestfriends',
+        isNew: true
     }
 ]
 
