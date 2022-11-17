@@ -31,7 +31,11 @@ export const CosmeticsFilter = ({ selectedClothes, onCosmeticSelect }) => {
                         >
                             <option value="">---</option>
                             {
-                                pokedex.map(({ name }) => (
+                                pokedex
+                                    .sort((a, b) => {
+                                        return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1
+                                    })
+                                    .map(({ name }) => (
                                     <option value={name}>{name}</option>
                                 ))
                             }
