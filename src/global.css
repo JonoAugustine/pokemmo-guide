@@ -78,3 +78,15 @@ form > *  {
 .github-picker{
     gap: .2rem;
 }
+
+.follower-container{
+    position: absolute;
+    top: 17px;
+    right: -15px;
+}
+
+.follower-item{
+    height: 45px;
+    width: 45px;
+    background-size: 185px;
+}

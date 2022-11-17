@@ -4265,8 +4265,7 @@ export const cosmeticsArrays = cosmetics
         const { en_name } = getItemInfo(item.item_id)
         return { ...item, en_name }
     })
-    .sort((a, b) => {
-        console.log(a.en_name, b.en_name)
+  .sort((a, b) => {
         return a.en_name.toLowerCase() < b.en_name.toLowerCase() ? -1 : 1
     })
     .reduce((prev, curr) => {
