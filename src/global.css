@@ -78,3 +78,38 @@ form > *  {
 .github-picker{
     gap: .2rem;
 }
+
+.follower-container{
+    position: absolute;
+    top: 30px;
+    right: -5px;
+    animation: .5s infinite alternate jump;
+}
+
+.follower-item{
+    height: 30px;
+    width: 30px;
+    background-size: 210px;
+}
+
+.item-front{
+    background-position: 40px -24px;
+}
+
+.item-back{
+    background-position: 40px -180px;
+}
+
+.item-side{
+    background-position: 40px 137px;
+}
+
+@keyframes jump {
+  from {
+    top: 30px;
+  }
+
+  to {
+    top: 28px;
+  }
+}

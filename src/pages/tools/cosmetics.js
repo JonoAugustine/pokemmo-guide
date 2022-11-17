@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby'
 import React, { useState } from 'react'
 import { Button, Typography } from '../../components/Atoms'
 import { AvatarList } from '../../components/Cosmetics/AvatarList'
@@ -10,9 +11,15 @@ import { DEFAULT_CLOTHES, getCosmeticSetupImage } from '../../utils/items'
 
 const Cosmetics = () => {
     const [clothes, setClothes] = useState(DEFAULT_CLOTHES)
+    const [follower, setFollower] = useState('');
+    const [shiny, setShiny] = useState('');
     const pgImages = getCosmeticSetupImage(clothes)
 
     const changeClothes = (slot, value) => {
+        if (slot === 'shiny')
+            return setShiny(value)
+        if (slot === 'follower')
+            return setFollower(value)
         setClothes(prev => ({ ...prev, [slot]: value }))
     }
 
@@ -35,7 +42,7 @@ const Cosmetics = () => {
                     <Button className='mt-3' variant="warning" onClick={randomizeCharacter}>Randomize your character</Button>
                 </div>
                 <div className='order-1 order-sm-2'>
-                    <AvatarList images={pgImages}></AvatarList>
+                    <AvatarList images={pgImages} follower={follower} isShiny={shiny}></AvatarList>
                 </div>
             </div>
         </Page>
