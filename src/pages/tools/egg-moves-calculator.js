@@ -46,7 +46,7 @@ export const query = graphql`
   }
 `
 
-const description = "Find how to pass egg moves to your Pokemon in PokeMMO easily. "
-export const Head = () => <Seo title="Egg Moves" description={description}></Seo>
+const description = "A guide for Egg Moves in PokeMMO. How to pass egg moves in PokeMMO? Select the Pokemon and the Egg move you want to get."
+export const Head = () => <Seo title="Egg Moves Helper" description={description}></Seo>
 
 export default EggMoves
