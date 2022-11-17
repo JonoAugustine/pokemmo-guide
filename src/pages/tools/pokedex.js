@@ -36,7 +36,7 @@ export const query = graphql`
   }
 `
 
-const description = "Check every Pokemon in PokeMMO. Group them by route or by egg group. Find in a second which hordes are available. "
+const description = "A guide for every Pokemon in PokeMMO. Pokemon are listed by regions, routes and egg group. You can also filter them. Catch percentages are also available."
 export const Head = () => <Seo title="Pokedex" description={description}></Seo>
 
 export default Pokedex

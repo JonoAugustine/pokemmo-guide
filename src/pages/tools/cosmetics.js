@@ -49,7 +49,7 @@ const Cosmetics = () => {
     )
 }
 
-const description = "Find all the cosmetics in PokeMMO. Test what's the best cosmetic for you! Try new combinations."
-export const Head = () => <Seo title="Cosmetics Helper" description={description}></Seo>
+const description = "A list of the cosmetics in PokeMMO. Here you can find all the cosmetics in PokeMMO and try them all. You can also match cosmetics with your preferred Pokemon"
+export const Head = () => <Seo title="Cosmetics Compendium" description={description}></Seo>
 
 export default Cosmetics
